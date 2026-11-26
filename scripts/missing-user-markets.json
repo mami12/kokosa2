@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Full Time first valueUP",
+    "orders": [
+      506,
+      1230
+    ],
+    "supported": false
+  },
+  {
+    "title": "H2H - (teams) value",
+    "orders": [
+      511
+    ],
+    "supported": false
+  },
+  {
+    "title": "H2H - value",
+    "orders": [
+      512
+    ],
+    "supported": false
+  },
+  {
+    "title": "Money Line (OT)",
+    "orders": [
+      738
+    ],
+    "supported": false
+  },
+  {
+    "title": "Next first value scoring play",
+    "orders": [
+      742
+    ],
+    "supported": false
+  },
+  {
+    "title": "Next Away Goal Time",
+    "orders": [
+      743
+    ],
+    "supported": false
+  },
+  {
+    "title": "Next Home Goal Time",
+    "orders": [
+      753
+    ],
+    "supported": false
+  },
+  {
+    "title": "Result of range hit",
+    "orders": [
+      823,
+      824
+    ],
+    "supported": false
+  },
+  {
+    "title": "Round advantage",
+    "orders": [
+      827
+    ],
+    "supported": false
+  },
+  {
+    "title": "Top second value",
+    "orders": [
+      846
+    ],
+    "supported": false
+  },
+  {
+    "title": "Top 3 (teams)",
+    "orders": [
+      847
+    ],
+    "supported": false
+  },
+  {
+    "title": "When will the match be decided",
+    "orders": [
+      931,
+      932
+    ],
+    "supported": false
+  },
+  {
+    "title": "Will the value penalty be scored",
+    "orders": [
+      976
+    ],
+    "supported": false
+  },
+  {
+    "title": "Winning method",
+    "orders": [
+      1013,
+      1014,
+      1333
+    ],
+    "supported": false
+  },
+  {
+    "title": "-",
+    "orders": [
+      1016
+    ],
+    "supported": false
+  },
+  {
+    "title": "2nd place in the tournament:",
+    "orders": [
+      1143
+    ],
+    "supported": false
+  },
+  {
+    "title": "Free text market",
+    "orders": [
+      1228
+    ],
+    "supported": false
+  },
+  {
+    "title": "scores № second value goal & correct score",
+    "orders": [
+      1304
+    ],
+    "supported": false
+  },
+  {
+    "title": "Short term free text market",
+    "orders": [
+      1305
+    ],
+    "supported": false
+  },
+  {
+    "title": "Which team will win the final",
+    "orders": [
+      1329
+    ],
+    "supported": false
+  },
+  {
+    "title": "Full Time 1UP",
+    "orders": [
+      1526
+    ],
+    "supported": false
+  },
+  {
+    "title": "Full Time 2UP",
+    "orders": [
+      1527
+    ],
+    "supported": false
+  },
+  {
+    "title": "Full Time 3UP",
+    "orders": [
+      1528
+    ],
+    "supported": false
+  },
+  {
+    "title": "scores № 1 goal & correct score",
+    "orders": [
+      1623
+    ],
+    "supported": false
+  },
+  {
+    "title": "Sending off?",
+    "orders": [
+      1624
+    ],
+    "supported": false
+  }
+]

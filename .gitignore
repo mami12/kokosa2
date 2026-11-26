@@ -1,0 +1,42 @@
+node_modules/
+.env
+.env.local
+.env.*
+!.env.example
+!.env.windows.example
+!.env.local-db.example
+/data/
+backups/
+*.log
+*.tmp
+.runtime/
+
+# the React app: dependencies live at the repo root, the build output is served by the backend
+web/node_modules/
+web/dist/
+
+# raw provider asset archives (Play'n GO scrape, ~14 MB, third-party licensed)
+assets-source/
+
+# test artifacts
+tmp/
+test-artifacts/
+transfers/
+# Private database transfer files are placed beside start.bat only for restore.
+/database-transfer.tgz
+/DATABASE-TRANSFER.json
+/faqja-private-database.zip
+# Raw provider capture can include expiring launch/session data.
+fortuntelle/
+
+# Archive and backup files
+*.zip
+*.rar
+faqja-main*/
+npm-cache/
+*-log.txt
+toolchain-check.txt
+.github/
+
+
+

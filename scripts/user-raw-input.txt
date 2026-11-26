@@ -1,0 +1,13866 @@
+<USER_REQUEST>
+
+1
+Live · range first value goalscorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+2
+Live · range goalscorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+3
+Live · value goal & result
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+4
+Live · value goal & winner (Inc. OT & Pen.)
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+5
+Live · value Goalscorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+6
+Live · player Anytime goalscorer & correct score
+Players · Combos · Results · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+7
+Live · player Anytime goalscorer & result
+Players · Combos · Results · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+8
+Live · player assists
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+9
+Live · player fouls conceded
+Fouls · Players
+Hidden by: Fouls, Players
+Matches
+
+Hidden
+
+Order
+10
+Live · player fouls won
+Fouls · Players
+Hidden by: Fouls, Players
+Matches
+
+Hidden
+
+Order
+11
+Live · player saves
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+12
+Live · player scores range goal & correct score
+Players · Combos · Results · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+13
+Live · player scores range goal & result
+Players · Combos · Results · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+14
+Live · player Shot from second value:00 to value min
+Shots · Players
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+15
+Live · player Shot on target from second value:00 to value min
+Shots · Players
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+16
+Live · player Shots
+Shots · Players
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+17
+Live · player shots on target
+Shots · Players
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+18
+Live · player shots on target from outside of the box
+Shots · Players
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+19
+Live · player to be yellow carded from second value:00 to value min
+Cards · Players
+Hidden by: Cards, Players
+Matches
+
+Hidden
+
+Order
+20
+Live · player to score (incl. extra time)
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+21
+Live · player to score (sure sub)
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+22
+Live · player to score or assist
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+23
+Live · player Total Passes (incl. extra time)
+Totals · Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+24
+Live · player total player performance
+Totals · Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+25
+Live · player Total Shots (incl. extra time)
+Totals · Shots · Players
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+26
+Live · player Total Shots On Goal (incl. extra time)
+Totals · Shots · Players · Goals
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+27
+Live · player Total Tackles (incl. extra time)
+Totals · Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+28
+Live · * Any player to score a 180 in leg range for tenth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+29
+Live · * Player 1 to score a 180 in leg range for eighth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+30
+Live · * Player 1 to score a 180 in leg range for eleventh set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+31
+Live · * Player 1 to score a 180 in leg range for fifth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+32
+Live · * Player 1 to score a 180 in leg range for first set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+33
+Live · * Player 1 to score a 180 in leg range for fourth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+34
+Live · * Player 1 to score a 180 in leg range for ninth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+35
+Live · * Player 1 to score a 180 in leg range for second set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+36
+Live · * Player 1 to score a 180 in leg range for seventh set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+37
+Live · * Player 1 to score a 180 in leg range for sixth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+38
+Live · * Player 1 to score a 180 in leg range for tenth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+39
+Live · * Player 1 to score a 180 in leg range for third set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+40
+Live · * Player 1 to score a 180 in leg range for thirteenth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+41
+Live · * Player 1 to score a 180 in leg range for twelfth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+42
+Live · * Player 2 to score a 180 in leg range for eighth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+43
+Live · * Player 2 to score a 180 in leg range for eleventh set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+44
+Live · * Player 2 to score a 180 in leg range for fifth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+45
+Live · * Player 2 to score a 180 in leg range for first set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+46
+Live · * Player 2 to score a 180 in leg range for fourth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+47
+Live · * Player 2 to score a 180 in leg range for ninth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+48
+Live · * Player 2 to score a 180 in leg range for second set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+49
+Live · * Player 2 to score a 180 in leg range for seventh set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+50
+Live · * Player 2 to score a 180 in leg range for sixth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+51
+Live · * Player 2 to score a 180 in leg range for tenth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+52
+Live · * Player 2 to score a 180 in leg range for third set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+53
+Live · * Player 2 to score a 180 in leg range for thirteenth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+54
+Live · * Player 2 to score a 180 in leg range for twelfth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+55
+Live · * When will next goal be scored
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+56
+Live · * When will next goal be scored in 10 minutes interval
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+57
+Live · 1 minute - Total cards from first value:00 to value min
+Totals · Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+58
+Live · 1 minute - Total corners from first value:00 to value min
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+59
+Live · 1 minute - Total goals from first value:00 to value min
+Totals · Intervals · Goals
+Matches
+
+Enabled
+
+Order
+60
+Live · 1 minute - Total offsides from first value:00 to value min
+Totals · Intervals
+Matches
+
+Enabled
+
+Order
+61
+Live · 1 minute - Total penalties first value:00 to value min
+Totals · Intervals
+Matches
+
+Enabled
+
+Order
+62
+Live · 10 minutes - 1st corner from first value:00 - second value min
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+63
+Live · 10 minutes - Awayteam red card from first value:00 - second value min
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+64
+Live · 10 minutes - Awayteam total corners from first value - second value:00 min
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+65
+Live · 10 minutes - Card result from first value to second value:00 min
+Intervals · Cards · Results
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+66
+Live · 10 minutes - Corner handicap from first value:00 - second value min
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+67
+Live · 10 minutes - Corner result from first value - second value:00 min
+Intervals · Corners · Results
+Matches
+
+Enabled
+
+Order
+68
+Live · 10 minutes - Hometeam red card from first value - second value min
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+69
+Live · 10 minutes - Hometeam total corners from first value - second value:00 min
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+70
+Live · 10 minutes - № value goal from first value to second value:00
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+71
+Live · 10 minutes - odd/even corners from first value:00 - second value min
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+72
+Live · 10 minutes - Red card from first value to second value:00 min
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+73
+Live · 10 minutes - Result first value to second value:00 min
+Intervals · Results
+Matches
+
+Enabled
+
+Order
+74
+Live · 10 minutes - Total cards from first value - second value min
+Totals · Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+75
+Live · 10 minutes - Total corners from first value - second value:00 min
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+76
+Live · 10 minutes - Total goal from first value to second value:00
+Totals · Intervals · Goals
+Matches
+
+Enabled
+
+Order
+77
+Live · 15 minutes - 1st corner from first value:00 - second value min
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+78
+Live · 15 minutes - Awayteam red card from first value - second value min
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+79
+Live · 15 minutes - Awayteam total corners from first value - second value:00 min
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+80
+Live · 15 minutes - Card result from first value to second value:00 min
+Intervals · Cards · Results
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+81
+Live · 15 minutes - Corner handicap from first value:00 - second value min
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+82
+Live · 15 minutes - Corner result from first value to second value:00 min
+Intervals · Corners · Results
+Matches
+
+Enabled
+
+Order
+83
+Live · 15 minutes - Hometeam red card from first value:00 - second value min
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+84
+Live · 15 minutes - Hometeam total corners from first value - second value:00 min
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+85
+Live · 15 minutes - № value goal from first value - second value:00 min
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+86
+Live · 15 minutes - odd/even corners from first value:00 - second value min
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+87
+Live · 15 minutes - Red card from first value to second value:00 min
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+88
+Live · 15 minutes - Result from first value to second value:00 min
+Intervals · Results
+Matches
+
+Enabled
+
+Order
+89
+Live · 15 minutes - Total first value to second value:00
+Totals · Intervals
+Matches
+
+Enabled
+
+Order
+90
+Live · 15 minutes - Total cards from first value - second value min
+Totals · Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+91
+Live · 15 minutes - Total corners from first value - second value:00 min
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+92
+Live · 1st half - Awayteam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+93
+Live · 1st half - Awayteam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+94
+Live · 1st half - Awayteam exact corners
+Corners
+Matches
+
+Enabled
+
+Order
+95
+Live · 1st half - Awayteam exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+96
+Live · 1st half - Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+97
+Live · 1st half - Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+98
+Live · 1st half - Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+99
+Live · 1st half - Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+100
+Live · 1st half - Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+101
+Live · 1st half - Awayteam total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+102
+Live · 1st half - Awayteam total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+103
+Live · 1st half - Awayteam total range
+Totals
+Matches
+
+Enabled
+
+Order
+104
+Live · 1st half - Awayteam total tries
+Totals
+Matches
+
+Enabled
+
+Order
+105
+Live · 1st half - Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+106
+Live · 1st half - Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+107
+Live · 1st half - Corner handicap
+Corners
+Matches
+
+Enabled
+
+Order
+108
+Live · 1st half - Corner range
+Corners
+Matches
+
+Enabled
+
+Order
+109
+Live · 1st half - Corners odd/even
+Corners
+Matches
+
+Enabled
+
+Order
+110
+Live · 1st half - Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+111
+Live · 1st half - Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+112
+Live · 1st half - Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+113
+Live · 1st half - Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+114
+Live · 1st half - Correct score rest of half value
+Results · Goals
+Matches
+
+Enabled
+
+Order
+115
+Live · 1st half - Correct score rest of the match value
+Results · Goals
+Matches
+
+Enabled
+
+Order
+116
+Live · 1st half - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+117
+Live · 1st half - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+118
+Live · 1st half - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+119
+Live · 1st half - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+120
+Live · 1st half - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+121
+Live · 1st Half - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+122
+Live · 1st half - Double chance tries
+Results
+Matches
+
+Enabled
+
+Order
+123
+Live · 1st half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+124
+Live · 1st half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+125
+Live · 1st half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+126
+Live · 1st half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+127
+Live · 1st half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+128
+Live · 1st half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+129
+Live · 1st half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+130
+Live · 1st half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+131
+Live · 1st half - Draw no bet tries
+Results
+Matches
+
+Enabled
+
+Order
+132
+Live · 1st half - Exact cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+133
+Live · 1st half - Exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+134
+Live · 1st half - Exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+135
+Live · 1st half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+136
+Live · 1st half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+137
+Live · 1st half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+138
+Live · 1st half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+139
+Live · 1st half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+140
+Live · 1st half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+141
+Live · 1st half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+142
+Live · 1st half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+143
+Live · 1st half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+144
+Live · 1st half - Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+145
+Live · 1st half - Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+146
+Live · 1st half - Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+147
+Live · 1st half - Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+148
+Live · 1st half - Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+149
+Live · 1st half - Handicap tries
+Other
+Matches
+
+Enabled
+
+Order
+150
+Live · 1st half - Handicap tries (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+151
+Live · 1st half - Hometeam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+152
+Live · 1st half - Hometeam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+153
+Live · 1st half - Hometeam exact corners
+Corners
+Matches
+
+Enabled
+
+Order
+154
+Live · 1st half - Hometeam exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+155
+Live · 1st half - Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+156
+Live · 1st half - Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+157
+Live · 1st half - Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+158
+Live · 1st half - Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+159
+Live · 1st half - Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+160
+Live · 1st half - Hometeam total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+161
+Live · 1st half - Hometeam total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+162
+Live · 1st half - Hometeam total range
+Totals
+Matches
+
+Enabled
+
+Order
+163
+Live · 1st half - Hometeam total tries
+Totals
+Matches
+
+Enabled
+
+Order
+164
+Live · 1st half - Most corners
+Corners
+Matches
+
+Enabled
+
+Order
+165
+Live · 1st half - Most tries
+Other
+Matches
+
+Enabled
+
+Order
+166
+Live · 1st half - Next goal value
+Goals
+Matches
+
+Enabled
+
+Order
+167
+Live · 1st Half - Next goal value
+Goals
+Matches
+
+Enabled
+
+Order
+168
+Live · 1st half - Next goal value
+Goals
+Matches
+
+Enabled
+
+Order
+169
+Live · 1st half - Odd / Even
+Other
+Matches
+
+Enabled
+
+Order
+170
+Live · 1st half - Odd/Even
+Other
+Matches
+
+Enabled
+
+Order
+171
+Live · 1st half - Odd/Even
+Other
+Matches
+
+Enabled
+
+Order
+172
+Live · 1st half - Odd/Even
+Other
+Matches
+
+Enabled
+
+Order
+173
+Live · 1st half - Odd/Even goals
+Goals
+Matches
+
+Enabled
+
+Order
+174
+Live · 1st half - Race to value corners
+Corners
+Matches
+
+Enabled
+
+Order
+175
+Live · 1st half - Race to 10 goals
+Goals
+Matches
+
+Enabled
+
+Order
+176
+Live · 1st half - Race to 15 goals
+Goals
+Matches
+
+Enabled
+
+Order
+177
+Live · 1st half - Race to 20 goals
+Goals
+Matches
+
+Enabled
+
+Order
+178
+Live · 1st half - Race to 5 goals
+Goals
+Matches
+
+Enabled
+
+Order
+179
+Live · 1st half - Rest of the half value
+Other
+Matches
+
+Enabled
+
+Order
+180
+Live · 1st half - Result
+Results
+Matches
+
+Enabled
+
+Order
+181
+Live · 1st half - Result
+Results
+Matches
+
+Enabled
+
+Order
+182
+Live · 1st half - Result
+Results
+Matches
+
+Enabled
+
+Order
+183
+Live · 1st half - Result
+Results
+Matches
+
+Enabled
+
+Order
+184
+Live · 1st half - Result
+Results
+Matches
+
+Enabled
+
+Order
+185
+Live · 1st half - Result
+Results
+Matches
+
+Enabled
+
+Order
+186
+Live · 1st half - Result
+Results
+Matches
+
+Enabled
+
+Order
+187
+Live · 1st half - Result
+Results
+Matches
+
+Enabled
+
+Order
+188
+Live · 1st half - Result
+Results
+Matches
+
+Enabled
+
+Order
+189
+Live · 1st Half - Result
+Results
+Matches
+
+Enabled
+
+Order
+190
+Live · 1st Half - Result (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+191
+Live · 1st half - Result & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+192
+Live · 1st half - Result & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+193
+Live · 1st half - Result & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+194
+Live · 1st half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+195
+Live · 1st half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+196
+Live · 1st half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+197
+Live · 1st half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+198
+Live · 1st half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+199
+Live · 1st half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+200
+Live · 1st half - Total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+201
+Live · 1st half - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+202
+Live · 1st half - Total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+203
+Live · 1st half - Total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+204
+Live · 1st half - Total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+205
+Live · 1st half - Total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+206
+Live · 1st half - Total range
+Totals
+Matches
+
+Enabled
+
+Order
+207
+Live · 1st half - Total range
+Totals
+Matches
+
+Enabled
+
+Order
+208
+Live · 1st half - Total tries
+Totals
+Matches
+
+Enabled
+
+Order
+209
+Live · 1st half - Tries odd/even
+Other
+Matches
+
+Enabled
+
+Order
+210
+Live · 1st half - Which team wins the rest value
+Other
+Matches
+
+Enabled
+
+Order
+211
+Live · 1st half - Who takes the value corner
+Corners
+Matches
+
+Enabled
+
+Order
+212
+Live · 1st half - Winning margin
+Other
+Matches
+
+Enabled
+
+Order
+213
+Live · 1st half - Winning margin
+Other
+Matches
+
+Enabled
+
+Order
+214
+Live · 1st half - Winning margins
+Other
+Matches
+
+Enabled
+
+Order
+215
+Live · 1st half – Exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+216
+Live · 1st half- Rest of the half value
+Other
+Matches
+
+Enabled
+
+Order
+217
+Live · 1st half- Rest of the half value
+Other
+Matches
+
+Enabled
+
+Order
+218
+Live · 2nd half - Awayteam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+219
+Live · 2nd half - Awayteam to score
+Goals
+Matches
+
+Enabled
+
+Order
+220
+Live · 2nd half - Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+221
+Live · 2nd half - Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+222
+Live · 2nd half - Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+223
+Live · 2nd half - Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+224
+Live · 2nd half - Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+225
+Live · 2nd half - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+226
+Live · 2nd Half - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+227
+Live · 2nd half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+228
+Live · 2nd half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+229
+Live · 2nd half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+230
+Live · 2nd half - Draw no bet (incl. overtime)
+Results
+Matches
+
+Enabled
+
+Order
+231
+Live · 2nd half - Draw no bet (incl. overtime)
+Results
+Matches
+
+Enabled
+
+Order
+232
+Live · 2nd half - Exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+233
+Live · 2nd half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+234
+Live · 2nd half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+235
+Live · 2nd half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+236
+Live · 2nd half - Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+237
+Live · 2nd half - Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+238
+Live · 2nd half - Handicap (incl. overtime)
+Other
+Matches
+
+Enabled
+
+Order
+239
+Live · 2nd half - Handicap (incl. overtime)
+Other
+Matches
+
+Enabled
+
+Order
+240
+Live · 2nd half - Hometeam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+241
+Live · 2nd half - Hometeam to score
+Goals
+Matches
+
+Enabled
+
+Order
+242
+Live · 2nd half - Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+243
+Live · 2nd half - Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+244
+Live · 2nd Half - Odd/Even (incl. overtime)
+Other
+Matches
+
+Enabled
+
+Order
+245
+Live · 2nd half - Odd/Even goals
+Goals
+Matches
+
+Enabled
+
+Order
+246
+Live · 2nd half - Race to 10 goals
+Goals
+Matches
+
+Enabled
+
+Order
+247
+Live · 2nd half - Race to 15 goals
+Goals
+Matches
+
+Enabled
+
+Order
+248
+Live · 2nd half - Race to 20 goals
+Goals
+Matches
+
+Enabled
+
+Order
+249
+Live · 2nd half - Race to 5 goals
+Goals
+Matches
+
+Enabled
+
+Order
+250
+Live · 2nd half - Result
+Results
+Matches
+
+Enabled
+
+Order
+251
+Live · 2nd half - Result
+Results
+Matches
+
+Enabled
+
+Order
+252
+Live · 2nd half - Result
+Results
+Matches
+
+Enabled
+
+Order
+253
+Live · 2nd half - Result
+Results
+Matches
+
+Enabled
+
+Order
+254
+Live · 2nd half - Result (incl. overtime)
+Results
+Matches
+
+Enabled
+
+Order
+255
+Live · 2nd half - Result (incl. overtime)
+Results
+Matches
+
+Enabled
+
+Order
+256
+Live · 2nd half - Result & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+257
+Live · 2nd half - Result & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+258
+Live · 2nd half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+259
+Live · 2nd half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+260
+Live · 2nd Half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+261
+Live · 2nd half - Total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+262
+Live · 2nd half - Winner
+Results
+Matches
+
+Enabled
+
+Order
+263
+Live · 3rd place winner
+Results
+Matches
+
+Enabled
+
+Order
+264
+Live · 3rd place winner
+Results
+Matches
+
+Enabled
+
+Order
+265
+Live · 5 minutes - 1st corner from first value:00 - second value min
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+266
+Live · 5 minutes - Awayteam red card from first value:00- second value min
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+267
+Live · 5 minutes - Awayteam total corners from first value - second value:00 min
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+268
+Live · 5 minutes - Card result from first value to second value:00 min
+Intervals · Cards · Results
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+269
+Live · 5 minutes - Corner handicap from first value - second value min
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+270
+Live · 5 minutes - Corner result from first value to second value:00 min
+Intervals · Corners · Results
+Matches
+
+Enabled
+
+Order
+271
+Live · 5 minutes - Hometeam red card from first value - second value:00 min
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+272
+Live · 5 minutes - Hometeam total corners from first value - second value:00 min
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+273
+Live · 5 minutes - № value goal from first value to second value:00
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+274
+Live · 5 minutes - odd/even corners from first value:00 - second value min
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+275
+Live · 5 minutes - Red card from first value to second value:00 min
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+276
+Live · 5 minutes - Result from first value to second value:00 min
+Intervals · Results
+Matches
+
+Enabled
+
+Order
+277
+Live · 5 minutes - Total cards from first value - second value:00 min
+Totals · Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+278
+Live · 5 minutes - Total corners from first value - second value:00 min
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+279
+Live · 5 minutes - Total from first value to second value:00
+Totals · Intervals
+Matches
+
+Enabled
+
+Order
+280
+Live · All periods over value
+Other
+Matches
+
+Enabled
+
+Order
+281
+Live · All periods under value
+Other
+Matches
+
+Enabled
+
+Order
+282
+Live · Any player to score range
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+283
+Live · Any player to score a 180 in leg range for eighth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+284
+Live · Any player to score a 180 in leg range for eleventh set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+285
+Live · Any player to score a 180 in leg range for fifth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+286
+Live · Any player to score a 180 in leg range for first set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+287
+Live · Any player to score a 180 in leg range for fourth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+288
+Live · Any player to score a 180 in leg range for ninth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+289
+Live · Any player to score a 180 in leg range for second set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+290
+Live · Any player to score a 180 in leg range for seventh set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+291
+Live · Any player to score a 180 in leg range for sixth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+292
+Live · Any player to score a 180 in leg range for third set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+293
+Live · Any player to score a 180 in leg range for twelfth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+294
+Live · Any player to score a 180 in leg range leg for thirteenth set
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+295
+Live · Any set to nil 6:0 or 0:6
+Goals
+Matches
+
+Enabled
+
+Order
+296
+Live · Any team to win
+Other
+Matches
+
+Enabled
+
+Order
+297
+Live · Anytime Goal scorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+298
+Live · Anytime goalscorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+299
+Live · Anytime goalscorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+300
+Live · Anytime goalscorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+301
+Live · Away Team To Score In Both Halves
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+302
+Live · Awayteam range goalscorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+303
+Live · Awayteam value Goalscorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+304
+Live · Awayteam / Hometeam supremacy
+Other
+Matches
+
+Enabled
+
+Order
+305
+Live · Awayteam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+306
+Live · Awayteam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+307
+Live · Awayteam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+308
+Live · Awayteam clean sheet (Inc. OT & Pen.)
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+309
+Live · Awayteam corner range
+Corners
+Matches
+
+Enabled
+
+Order
+310
+Live · Awayteam exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+311
+Live · Awayteam exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+312
+Live · Awayteam exact goals (Inc. OT & Pen.)
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+313
+Live · Awayteam goal range
+Goals
+Matches
+
+Enabled
+
+Order
+314
+Live · Awayteam highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+315
+Live · Awayteam highest scoring period
+Other
+Matches
+
+Enabled
+
+Order
+316
+Live · Awayteam no bet
+Other
+Matches
+
+Enabled
+
+Order
+317
+Live · Awayteam shots on target
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+318
+Live · Awayteam to score
+Goals
+Matches
+
+Enabled
+
+Order
+319
+Live · Awayteam to win
+Other
+Matches
+
+Enabled
+
+Order
+320
+Live · Awayteam to win all periods
+Other
+Matches
+
+Enabled
+
+Order
+321
+Live · Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+322
+Live · Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+323
+Live · Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+324
+Live · Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+325
+Live · Awayteam total (incl. OT & pen.)
+Totals · Combos
+Matches
+
+Enabled
+
+Order
+326
+Live · Awayteam total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+327
+Live · Awayteam total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+328
+Live · Awayteam total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+329
+Live · Awayteam total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+330
+Live · Awayteam total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+331
+Live · Awayteam total range
+Totals
+Matches
+
+Enabled
+
+Order
+332
+Live · Awayteam total runs
+Totals
+Matches
+
+Enabled
+
+Order
+333
+Live · Awayteam total runs in next over - Over 0.5
+Totals
+Matches
+
+Enabled
+
+Order
+334
+Live · Awayteam total runs in next over - Over 1.5
+Totals
+Matches
+
+Enabled
+
+Order
+335
+Live · Awayteam total runs in next over - Over 10.5
+Totals
+Matches
+
+Enabled
+
+Order
+336
+Live · Awayteam total runs in next over - Over 11.5
+Totals
+Matches
+
+Enabled
+
+Order
+337
+Live · Awayteam total runs in next over - Over 12.5
+Totals
+Matches
+
+Enabled
+
+Order
+338
+Live · Awayteam total runs in next over - Over 13.5
+Totals
+Matches
+
+Enabled
+
+Order
+339
+Live · Awayteam total runs in next over - Over 14.5
+Totals
+Matches
+
+Enabled
+
+Order
+340
+Live · Awayteam total runs in next over - Over 15.5
+Totals
+Matches
+
+Enabled
+
+Order
+341
+Live · Awayteam total runs in next over - Over 16.5
+Totals
+Matches
+
+Enabled
+
+Order
+342
+Live · Awayteam total runs in next over - Over 2.5
+Totals
+Matches
+
+Enabled
+
+Order
+343
+Live · Awayteam total runs in next over - Over 3.5
+Totals
+Matches
+
+Enabled
+
+Order
+344
+Live · Awayteam total runs in next over - Over 4.5
+Totals
+Matches
+
+Enabled
+
+Order
+345
+Live · Awayteam total runs in next over - Over 5.5
+Totals
+Matches
+
+Enabled
+
+Order
+346
+Live · Awayteam total runs in next over - Over 6.5
+Totals
+Matches
+
+Enabled
+
+Order
+347
+Live · Awayteam total runs in next over - Over 7.5
+Totals
+Matches
+
+Enabled
+
+Order
+348
+Live · Awayteam total runs in next over - Over 8.5
+Totals
+Matches
+
+Enabled
+
+Order
+349
+Live · Awayteam total runs in next over - Over 9.5
+Totals
+Matches
+
+Enabled
+
+Order
+350
+Live · Awayteam total runs odd/even
+Totals
+Matches
+
+Enabled
+
+Order
+351
+Live · Awayteam total shots
+Totals · Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+352
+Live · Awayteam total tries
+Totals
+Matches
+
+Enabled
+
+Order
+353
+Live · Awayteam win either period
+Other
+Matches
+
+Enabled
+
+Order
+354
+Live · Awayteam windex
+Other
+Matches
+
+Enabled
+
+Order
+355
+Live · Awayteam wins to nil
+Goals
+Matches
+
+Enabled
+
+Order
+356
+Live · Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+357
+Live · Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+358
+Live · Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+359
+Live · Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+360
+Live · Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+361
+Live · Both teams to score first value
+Goals
+Matches
+
+Enabled
+
+Order
+362
+Live · Cards handicap
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+363
+Live · Clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+364
+Live · Corner handicap
+Corners
+Matches
+
+Enabled
+
+Order
+365
+Live · Corner handicap (1X2)
+Corners · Results
+Matches
+
+Enabled
+
+Order
+366
+Live · Corner range
+Corners
+Matches
+
+Enabled
+
+Order
+367
+Live · Corners odd/even
+Corners
+Matches
+
+Enabled
+
+Order
+368
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+369
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+370
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+371
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+372
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+373
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+374
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+375
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+376
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+377
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+378
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+379
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+380
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+381
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+382
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+383
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+384
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+385
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+386
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+387
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+388
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+389
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+390
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+391
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+392
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+393
+Live · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+394
+Live · Correct Score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+395
+Live · Correct score (best of 11 sets)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+396
+Live · Correct score (best of 13 sets)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+397
+Live · Correct score (best of 2)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+398
+Live · Correct score (best of 3 sets)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+399
+Live · Correct score (best of 3 sets)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+400
+Live · Correct score (best of 3 sets)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+401
+Live · Correct score (best of 3)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+402
+Live · Correct score (best of 3)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+403
+Live · Correct score (best of 3)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+404
+Live · Correct score (best of 5 sets)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+405
+Live · Correct score (best of 5 sets)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+406
+Live · Correct score (best of 5 sets)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+407
+Live · Correct score (best of 5 sets)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+408
+Live · Correct score (best of 5 sets)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+409
+Live · Correct score (best of 5)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+410
+Live · Correct score (best of 5)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+411
+Live · Correct score (best of 5)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+412
+Live · Correct score (best of 5)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+413
+Live · Correct score (best of 7 sets)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+414
+Live · Correct score (best of 7)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+415
+Live · Correct score (best of 7)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+416
+Live · Correct score (best of 7)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+417
+Live · Correct score (best of 9 sets)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+418
+Live · Correct score (Inc. OT & Pen.)
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+419
+Live · Correct score (Regular time)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+420
+Live · Correct score flex
+Results · Goals
+Matches
+
+Enabled
+
+Order
+421
+Live · Correct score in legs in set range
+Results · Goals
+Matches
+
+Enabled
+
+Order
+422
+Live · Correct score in sets value
+Results · Goals
+Matches
+
+Enabled
+
+Order
+423
+Live · Correct score rest of the match value
+Results · Goals
+Matches
+
+Enabled
+
+Order
+424
+Live · Correct score rest of the match value
+Results · Goals
+Matches
+
+Enabled
+
+Order
+425
+Live · Correct score rest of the match value
+Results · Goals
+Matches
+
+Enabled
+
+Order
+426
+Live · Correct Score Snooker
+Results · Goals
+Matches
+
+Enabled
+
+Order
+427
+Live · Day 1 - Session 1 - Total runs
+Totals
+Matches
+
+Enabled
+
+Order
+428
+Live · Day 1 - Session 2 - Total runs
+Totals
+Matches
+
+Enabled
+
+Order
+429
+Live · Day 2 - Session 1 - Total runs
+Totals
+Matches
+
+Enabled
+
+Order
+430
+Live · Day 2 - Session 2 - Total runs
+Totals
+Matches
+
+Enabled
+
+Order
+431
+Live · Day 3 - Session 1 - Total runs
+Totals
+Matches
+
+Enabled
+
+Order
+432
+Live · Day 3 - Session 2 - Total runs
+Totals
+Matches
+
+Enabled
+
+Order
+433
+Live · Day 4 - Session 2 - Total runs
+Totals
+Matches
+
+Enabled
+
+Order
+434
+Live · Day 4 - Session 1 - Total runs
+Totals
+Matches
+
+Enabled
+
+Order
+435
+Live · Day 5 - Session 2 - Total runs
+Totals
+Matches
+
+Enabled
+
+Order
+436
+Live · Day 5 - Session 1 - Total runs
+Totals
+Matches
+
+Enabled
+
+Order
+437
+Live · Destroy first Tower
+Other
+Matches
+
+Enabled
+
+Order
+438
+Live · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+439
+Live · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+440
+Live · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+441
+Live · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+442
+Live · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+443
+Live · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+444
+Live · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+445
+Live · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+446
+Live · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+447
+Live · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+448
+Live · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+449
+Live · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+450
+Live · Double chance & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+451
+Live · Double chance & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+452
+Live · Double chance & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+453
+Live · Double chance tries
+Results
+Matches
+
+Enabled
+
+Order
+454
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+455
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+456
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+457
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+458
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+459
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+460
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+461
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+462
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+463
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+464
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+465
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+466
+Live · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+467
+Live · Draw no bet (4 Day)
+Results
+Matches
+
+Enabled
+
+Order
+468
+Live · Draw no bet (5 Day)
+Results
+Matches
+
+Enabled
+
+Order
+469
+Live · Draw No Bet for first period
+Results
+Matches
+
+Enabled
+
+Order
+470
+Live · Draw no Bet for second period
+Results
+Matches
+
+Enabled
+
+Order
+471
+Live · Draw No Bet for third period
+Results
+Matches
+
+Enabled
+
+Order
+472
+Live · Draw no bet tries
+Results
+Matches
+
+Enabled
+
+Order
+473
+Live · Exact cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+474
+Live · Exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+475
+Live · Exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+476
+Live · Exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+477
+Live · Exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+478
+Live · Exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+479
+Live · Exact goals (incl. OT & pen.)
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+480
+Live · Exact number of sets (best of 3)
+Other
+Matches
+
+Enabled
+
+Order
+481
+Live · Exact number of sets (best of 5)
+Other
+Matches
+
+Enabled
+
+Order
+482
+Live · Exact number of sets (best of 7)
+Other
+Matches
+
+Enabled
+
+Order
+483
+Live · Exact sets (best of 3)
+Other
+Matches
+
+Enabled
+
+Order
+484
+Live · Exact sets (best of 3)
+Other
+Matches
+
+Enabled
+
+Order
+485
+Live · Exact sets (best of 3)
+Other
+Matches
+
+Enabled
+
+Order
+486
+Live · Exact sets (best of 5)
+Other
+Matches
+
+Enabled
+
+Order
+487
+Live · Exact sets (best of 5)
+Other
+Matches
+
+Enabled
+
+Order
+488
+Live · Exact sets (best of 5)
+Other
+Matches
+
+Enabled
+
+Order
+489
+Live · Exact sets (best of 5)
+Other
+Matches
+
+Enabled
+
+Order
+490
+Live · Exact sets (best of 5)
+Other
+Matches
+
+Enabled
+
+Order
+491
+Live · Exact sets (best of 7)
+Other
+Matches
+
+Enabled
+
+Order
+492
+Live · Extra time - 1st half correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+493
+Live · Extra time - 1st half handicap
+Other
+Matches
+
+Enabled
+
+Order
+494
+Live · Extra time - 1st half result
+Results
+Matches
+
+Enabled
+
+Order
+495
+Live · Extra time - 1st half Total
+Totals
+Matches
+
+Enabled
+
+Order
+496
+Live · Extra time - Correct score rest of match value
+Results · Goals
+Matches
+
+Enabled
+
+Order
+497
+Live · Extra time - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+498
+Live · Extra time - Result
+Results
+Matches
+
+Enabled
+
+Order
+499
+Live · Extra time - Result
+Results
+Matches
+
+Enabled
+
+Order
+500
+Live · Extra time - Total
+Totals
+Matches
+
+Enabled
+
+Order
+501
+Live · Extra time - Which team wins the rest value
+Other
+Matches
+
+Enabled
+
+Order
+502
+Live · Extra Time Correct score value
+Results · Goals
+Matches
+
+Enabled
+
+Order
+503
+Live · Extratime - Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+504
+Live · Extratime - Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+505
+Live · Final Result
+Results
+Matches
+
+Enabled
+
+Order
+506
+Live · Full Time first valueUP
+Other
+Matches
+
+Enabled
+
+Order
+507
+Live · Game handicap
+Other
+Matches
+
+Enabled
+
+Order
+508
+Live · Game handicap
+Other
+Matches
+
+Enabled
+
+Order
+509
+Live · Game winner set/game value
+Results
+Matches
+
+Enabled
+
+Order
+510
+Live · Grid position range of the winner
+Results
+Matches
+
+Enabled
+
+Order
+511
+Live · H2H - (teams) value
+Other
+Matches
+
+Enabled
+
+Order
+512
+Live · H2H - value
+Other
+Matches
+
+Enabled
+
+Order
+513
+Live · Halftime/fulltime
+Other
+Matches
+
+Enabled
+
+Order
+514
+Live · Halftime/Fulltime
+Other
+Matches
+
+Enabled
+
+Order
+515
+Live · Halftime/Fulltime
+Other
+Matches
+
+Enabled
+
+Order
+516
+Live · Halftime/Fulltime
+Other
+Matches
+
+Enabled
+
+Order
+517
+Live · Halftime/Fulltime
+Other
+Matches
+
+Enabled
+
+Order
+518
+Live · Halftime/Fulltime
+Other
+Matches
+
+Enabled
+
+Order
+519
+Live · Halftime/Fulltime
+Other
+Matches
+
+Enabled
+
+Order
+520
+Live · Halftime/Fulltime
+Other
+Matches
+
+Enabled
+
+Order
+521
+Live · Halftime/Fulltime
+Other
+Matches
+
+Enabled
+
+Order
+522
+Live · Halftime/Fulltime (incl. overtime)
+Other
+Matches
+
+Enabled
+
+Order
+523
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+524
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+525
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+526
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+527
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+528
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+529
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+530
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+531
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+532
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+533
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+534
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+535
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+536
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+537
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+538
+Live · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+539
+Live · Handicap (1 X 2)
+Other
+Matches
+
+Enabled
+
+Order
+540
+Live · Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+541
+Live · Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+542
+Live · Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+543
+Live · Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+544
+Live · Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+545
+Live · Handicap (1X2) (incl. OT & pen.)
+Combos · Results
+Matches
+
+Enabled
+
+Order
+546
+Live · Handicap (1X2) (incl. overtime)
+Results
+Matches
+
+Enabled
+
+Order
+547
+Live · Handicap (incl. OT & pen.)
+Combos
+Matches
+
+Enabled
+
+Order
+548
+Live · Handicap (incl. overtime)
+Other
+Matches
+
+Enabled
+
+Order
+549
+Live · Handicap (incl. overtime)
+Other
+Matches
+
+Enabled
+
+Order
+550
+Live · Handicap (incl. overtime)
+Other
+Matches
+
+Enabled
+
+Order
+551
+Live · Handicap (incl. overtime)
+Other
+Matches
+
+Enabled
+
+Order
+552
+Live · Handicap 00:00 - 04:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+553
+Live · Handicap 00:00 - 09:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+554
+Live · Handicap 00:00 - 14:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+555
+Live · Handicap 00:00 - 19:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+556
+Live · Handicap 00:00 - 24:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+557
+Live · Handicap 00:00 - 29:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+558
+Live · Handicap 00:00 - 34:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+559
+Live · Handicap 00:00 - 39:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+560
+Live · Handicap 00:00 - 49:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+561
+Live · Handicap 00:00 - 54:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+562
+Live · Handicap 00:00 - 59:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+563
+Live · Handicap 00:00 - 64:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+564
+Live · Handicap 00:00 - 69:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+565
+Live · Handicap 00:00 - 74:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+566
+Live · Handicap 00:00 - 79:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+567
+Live · Handicap 00:00 - 84:59 min.
+Other
+Matches
+
+Enabled
+
+Order
+568
+Live · Handicap tries
+Other
+Matches
+
+Enabled
+
+Order
+569
+Live · Handicap tries (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+570
+Live · Highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+571
+Live · Highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+572
+Live · Highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+573
+Live · Highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+574
+Live · Highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+575
+Live · Highest scoring period
+Other
+Matches
+
+Enabled
+
+Order
+576
+Live · Highest scoring team in either half
+Other
+Matches
+
+Enabled
+
+Order
+577
+Live · Hit on range pitch
+Other
+Matches
+
+Enabled
+
+Order
+578
+Live · Hit on range pitch
+Other
+Matches
+
+Enabled
+
+Order
+579
+Live · Home Team To Score In Both Halves
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+580
+Live · Hometeam range goalscorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+581
+Live · Hometeam value Goalscorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+582
+Live · Hometeam / Awayteam supremacy
+Other
+Matches
+
+Enabled
+
+Order
+583
+Live · Hometeam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+584
+Live · Hometeam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+585
+Live · Hometeam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+586
+Live · Hometeam clean sheet (Inc. OT & Pen.)
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+587
+Live · Hometeam corner range
+Corners
+Matches
+
+Enabled
+
+Order
+588
+Live · Hometeam exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+589
+Live · Hometeam exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+590
+Live · Hometeam exact goals (Inc. OT & Pen.)
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+591
+Live · Hometeam goal range
+Goals
+Matches
+
+Enabled
+
+Order
+592
+Live · Hometeam highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+593
+Live · Hometeam highest scoring period
+Other
+Matches
+
+Enabled
+
+Order
+594
+Live · Hometeam no bet
+Other
+Matches
+
+Enabled
+
+Order
+595
+Live · Hometeam no bet
+Other
+Matches
+
+Enabled
+
+Order
+596
+Live · Hometeam shots on target
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+597
+Live · Hometeam to score
+Goals
+Matches
+
+Enabled
+
+Order
+598
+Live · Hometeam to win
+Other
+Matches
+
+Enabled
+
+Order
+599
+Live · Hometeam to win all periods
+Other
+Matches
+
+Enabled
+
+Order
+600
+Live · Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+601
+Live · Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+602
+Live · Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+603
+Live · Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+604
+Live · Hometeam total (incl. OT & pen.)
+Totals · Combos
+Matches
+
+Enabled
+
+Order
+605
+Live · Hometeam total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+606
+Live · Hometeam total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+607
+Live · Hometeam total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+608
+Live · Hometeam total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+609
+Live · Hometeam total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+610
+Live · Hometeam total range
+Totals
+Matches
+
+Enabled
+
+Order
+611
+Live · Hometeam total runs
+Totals
+Matches
+
+Enabled
+
+Order
+612
+Live · Hometeam total runs in next over - Over 0.5
+Totals
+Matches
+
+Enabled
+
+Order
+613
+Live · Hometeam total runs in next over - Over 1.5
+Totals
+Matches
+
+Enabled
+
+Order
+614
+Live · Hometeam total runs in next over - Over 10.5
+Totals
+Matches
+
+Enabled
+
+Order
+615
+Live · Hometeam total runs in next over - Over 11.5
+Totals
+Matches
+
+Enabled
+
+Order
+616
+Live · Hometeam total runs in next over - Over 12.5
+Totals
+Matches
+
+Enabled
+
+Order
+617
+Live · Hometeam total runs in next over - Over 13.5
+Totals
+Matches
+
+Enabled
+
+Order
+618
+Live · Hometeam total runs in next over - Over 14.5
+Totals
+Matches
+
+Enabled
+
+Order
+619
+Live · Hometeam total runs in next over - Over 15.5
+Totals
+Matches
+
+Enabled
+
+Order
+620
+Live · Hometeam total runs in next over - Over 16.5
+Totals
+Matches
+
+Enabled
+
+Order
+621
+Live · Hometeam total runs in next over - Over 2.5
+Totals
+Matches
+
+Enabled
+
+Order
+622
+Live · Hometeam total runs in next over - Over 3.5
+Totals
+Matches
+
+Enabled
+
+Order
+623
+Live · Hometeam total runs in next over - Over 4.5
+Totals
+Matches
+
+Enabled
+
+Order
+624
+Live · Hometeam total runs in next over - Over 5.5
+Totals
+Matches
+
+Enabled
+
+Order
+625
+Live · Hometeam total runs in next over - Over 6.5
+Totals
+Matches
+
+Enabled
+
+Order
+626
+Live · Hometeam total runs in next over - Over 7.5
+Totals
+Matches
+
+Enabled
+
+Order
+627
+Live · Hometeam total runs in next over - Over 8.5
+Totals
+Matches
+
+Enabled
+
+Order
+628
+Live · Hometeam total runs in next over - Over 9.5
+Totals
+Matches
+
+Enabled
+
+Order
+629
+Live · Hometeam total runs odd/even
+Totals
+Matches
+
+Enabled
+
+Order
+630
+Live · Hometeam total shots
+Totals · Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+631
+Live · Hometeam total tries
+Totals
+Matches
+
+Enabled
+
+Order
+632
+Live · Hometeam win either period
+Other
+Matches
+
+Enabled
+
+Order
+633
+Live · Hometeam win to nil
+Goals
+Matches
+
+Enabled
+
+Order
+634
+Live · Hometeam windex
+Other
+Matches
+
+Enabled
+
+Order
+635
+Live · How many sets will exceed score limit
+Goals
+Matches
+
+Enabled
+
+Order
+636
+Live · How many sets will exceed score limit (best of 5)
+Goals
+Matches
+
+Enabled
+
+Order
+637
+Live · How many sets will exceed score limit (best of 5)
+Goals
+Matches
+
+Enabled
+
+Order
+638
+Live · How many sets will exceed score limit (best of 7)
+Goals
+Matches
+
+Enabled
+
+Order
+639
+Live · In which round fight ends
+Other
+Matches
+
+Enabled
+
+Order
+640
+Live · Last corner
+Corners
+Matches
+
+Enabled
+
+Order
+641
+Live · Last team to score
+Goals
+Matches
+
+Enabled
+
+Order
+642
+Live · Match Odds (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+643
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+644
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+645
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+646
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+647
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+648
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+649
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+650
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+651
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+652
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+653
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+654
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+655
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+656
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+657
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+658
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+659
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+660
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+661
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+662
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+663
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+664
+Live · Match result
+Results
+Matches
+
+Enabled
+
+Order
+665
+Live · Match Result
+Results
+Matches
+
+Enabled
+
+Order
+666
+Live · Match Result
+Results
+Matches
+
+Enabled
+
+Order
+667
+Live · Match result & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+668
+Live · Match result & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+669
+Live · Match result & both teams to score (Inc. OT & Pen.)
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+670
+Live · Match result & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+671
+Live · Match result & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+672
+Live · Match result & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+673
+Live · Match result & total (Inc. OT & Pen.)
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+674
+Live · Match result + Total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+675
+Live · Match result 00:00 - 04:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+676
+Live · Match result 00:00 - 09:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+677
+Live · Match result 00:00 - 14:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+678
+Live · Match result 00:00 - 19:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+679
+Live · Match result 00:00 - 24:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+680
+Live · Match result 00:00 - 29:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+681
+Live · Match result 00:00 - 34:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+682
+Live · Match result 00:00 - 39:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+683
+Live · Match result 00:00 - 49:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+684
+Live · Match result 00:00 - 54:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+685
+Live · Match result 00:00 - 59:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+686
+Live · Match result 00:00 - 64:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+687
+Live · Match result 00:00 - 69:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+688
+Live · Match result 00:00 - 74:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+689
+Live · Match result 00:00 - 79:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+690
+Live · Match result 00:00 - 84:59 min.
+Results
+Matches
+
+Enabled
+
+Order
+691
+Live · Match result and both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+692
+Live · Match result and total goals
+Totals · Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+693
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+694
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+695
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+696
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+697
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+698
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+699
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+700
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+701
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+702
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+703
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+704
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+705
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+706
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+707
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+708
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+709
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+710
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+711
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+712
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+713
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+714
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+715
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+716
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+717
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+718
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+719
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+720
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+721
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+722
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+723
+Live · Match winner
+Results
+Matches
+
+Enabled
+
+Order
+724
+Live · Match winner (incl. overtime)
+Results
+Matches
+
+Enabled
+
+Order
+725
+Live · Match winner (First BO5)
+Results
+Matches
+
+Enabled
+
+Order
+726
+Live · Match winner (incl. OT & pen.)
+Combos · Results
+Matches
+
+Enabled
+
+Order
+727
+Live · Match winner (incl. overtime and penalties)
+Combos · Results
+Matches
+
+Enabled
+
+Order
+728
+Live · Match winner (incl. overtime)
+Results
+Matches
+
+Enabled
+
+Order
+729
+Live · Match winner (incl. overtime)
+Results
+Matches
+
+Enabled
+
+Order
+730
+Live · Match winner (incl. overtime)
+Results
+Matches
+
+Enabled
+
+Order
+731
+Live · Match winner (incl. super over)
+Results
+Matches
+
+Enabled
+
+Order
+732
+Live · Match winner (Second BO5)
+Results
+Matches
+
+Enabled
+
+Order
+733
+Live · Match winner & total (incl. overtime)
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+734
+Live · Matchbet and 1st goal
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+735
+Live · Matchbet and 1st goal, including overtime and penalties
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+736
+Live · Maximum consecutive runs by either team
+Other
+Matches
+
+Enabled
+
+Order
+737
+Live · Maximum consecutive runs by either team
+Other
+Matches
+
+Enabled
+
+Order
+738
+Live · Money Line (OT)
+Other
+Matches
+
+Enabled
+
+Order
+739
+Live · Most cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+740
+Live · Most corners
+Corners
+Matches
+
+Enabled
+
+Order
+741
+Live · Most tries
+Other
+Matches
+
+Enabled
+
+Order
+742
+Live · Next first value scoring play
+Other
+Matches
+
+Enabled
+
+Order
+743
+Live · Next Away Goal Time
+Goals
+Matches
+
+Enabled
+
+Order
+744
+Live · Next card value
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+745
+Live · Next corner value
+Corners
+Matches
+
+Enabled
+
+Order
+746
+Live · Next corner value
+Corners
+Matches
+
+Enabled
+
+Order
+747
+Live · Next goal (OT only!)
+Goals
+Matches
+
+Enabled
+
+Order
+748
+Live · Next goal value
+Goals
+Matches
+
+Enabled
+
+Order
+749
+Live · Next goal value
+Goals
+Matches
+
+Enabled
+
+Order
+750
+Live · Next goal value
+Goals
+Matches
+
+Enabled
+
+Order
+751
+Live · Next goal value (incl. OT & pen.)
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+752
+Live · Next goal value
+Goals
+Matches
+
+Enabled
+
+Order
+753
+Live · Next Home Goal Time
+Goals
+Matches
+
+Enabled
+
+Order
+754
+Live · Next over - Awayteam total runs odd/even
+Totals
+Matches
+
+Enabled
+
+Order
+755
+Live · Next over - Hometeam total runs
+Totals
+Matches
+
+Enabled
+
+Order
+756
+Live · Next over - Hometeam total runs odd/even
+Totals
+Matches
+
+Enabled
+
+Order
+757
+Live · № first value goal - Strike zone
+Goals
+Matches
+
+Enabled
+
+Order
+758
+Live · № first value goal scoring type
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+759
+Live · Number of sets (best of 5)
+Other
+Matches
+
+Enabled
+
+Order
+760
+Live · Number of sets (best of 5)
+Other
+Matches
+
+Enabled
+
+Order
+761
+Live · Number of sets (best of 7)
+Other
+Matches
+
+Enabled
+
+Order
+762
+Live · Odd/Even
+Other
+Matches
+
+Enabled
+
+Order
+763
+Live · Odd/Even
+Other
+Matches
+
+Enabled
+
+Order
+764
+Live · Odd/Even
+Other
+Matches
+
+Enabled
+
+Order
+765
+Live · Odd/Even
+Other
+Matches
+
+Enabled
+
+Order
+766
+Live · Odd/Even (incl. overtime)
+Other
+Matches
+
+Enabled
+
+Order
+767
+Live · Odd/Even (incl. overtime)
+Other
+Matches
+
+Enabled
+
+Order
+768
+Live · Odd/Even goals
+Goals
+Matches
+
+Enabled
+
+Order
+769
+Live · Odd/Even goals
+Goals
+Matches
+
+Enabled
+
+Order
+770
+Live · Odd/Even goals
+Goals
+Matches
+
+Enabled
+
+Order
+771
+Live · Odd/Even goals
+Goals
+Matches
+
+Enabled
+
+Order
+772
+Live · Odd/Even goals (Inc. OT & Pen.)
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+773
+Live · Odd/Even number of games
+Other
+Matches
+
+Enabled
+
+Order
+774
+Live · Odd/Even tries
+Other
+Matches
+
+Enabled
+
+Order
+775
+Live · Over/Exactly/Under
+Other
+Matches
+
+Enabled
+
+Order
+776
+Live · Overtime - Awayteam no bet
+Other
+Matches
+
+Enabled
+
+Order
+777
+Live · Overtime - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+778
+Live · Overtime - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+779
+Live · Overtime - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+780
+Live · Overtime - Hometeam no bet
+Other
+Matches
+
+Enabled
+
+Order
+781
+Live · Overtime - Result
+Results
+Matches
+
+Enabled
+
+Order
+782
+Live · Overtime - Result
+Results
+Matches
+
+Enabled
+
+Order
+783
+Live · Overtime - Total
+Totals
+Matches
+
+Enabled
+
+Order
+784
+Live · Overtime - Total Goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+785
+Live · Overtime - Total Goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+786
+Live · Overtime - Who wins the rest of the match value
+Other
+Matches
+
+Enabled
+
+Order
+787
+Live · Penalty shootout - value penalty scored
+Goals
+Matches
+
+Enabled
+
+Order
+788
+Live · Penalty shootout - Awayteam odd/even
+Other
+Matches
+
+Enabled
+
+Order
+789
+Live · Penalty shootout - Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+790
+Live · Penalty shootout - Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+791
+Live · Penalty shootout - Exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+792
+Live · Penalty shootout - Hometeam odd/even
+Other
+Matches
+
+Enabled
+
+Order
+793
+Live · Penalty shootout - Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+794
+Live · Penalty shootout - Odd/Even
+Other
+Matches
+
+Enabled
+
+Order
+795
+Live · Penalty shootout - Total
+Totals
+Matches
+
+Enabled
+
+Order
+796
+Live · Penalty shootout - Winner
+Results
+Matches
+
+Enabled
+
+Order
+797
+Live · Penalty shootout - Winner
+Results
+Matches
+
+Enabled
+
+Order
+798
+Live · Penalty shootout - Winner & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+799
+Live · Penalty shootout - Winning margin
+Other
+Matches
+
+Enabled
+
+Order
+800
+Live · Player 1 to win a set
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+801
+Live · Player 1 to win a set
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+802
+Live · Player 1 to win exactly 1 set
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+803
+Live · Player 1 to win exactly 2 sets
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+804
+Live · Player 1 total games
+Totals · Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+805
+Live · Player 1 total games
+Totals · Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+806
+Live · Player 2 to win a set
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+807
+Live · Player 2 to win a set
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+808
+Live · Player 2 to win exactly 1 set
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+809
+Live · Player 2 to win exactly 2 sets
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+810
+Live · Player 2 total games
+Totals · Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+811
+Live · Player 2 total games
+Totals · Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+812
+Live · Player to score 2+
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+813
+Live · Player to score 3+
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+814
+Live · Player to score a free kick
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+815
+Live · Race to value corners
+Corners
+Matches
+
+Enabled
+
+Order
+816
+Live · Race to value goals
+Goals
+Matches
+
+Enabled
+
+Order
+817
+Live · Race to 2 goals (Regular time)
+Goals
+Matches
+
+Enabled
+
+Order
+818
+Live · Race to 3 goals (Regular time)
+Goals
+Matches
+
+Enabled
+
+Order
+819
+Live · Race to 4 goals (Regular time)
+Goals
+Matches
+
+Enabled
+
+Order
+820
+Live · Red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+821
+Live · Rest of the match value
+Other
+Matches
+
+Enabled
+
+Order
+822
+Live · Rest of the match value
+Other
+Matches
+
+Enabled
+
+Order
+823
+Live · Result of range hit
+Results
+Matches
+
+Enabled
+
+Order
+824
+Live · Result of range hit
+Results
+Matches
+
+Enabled
+
+Order
+825
+Live · Result of range pitch
+Results
+Matches
+
+Enabled
+
+Order
+826
+Live · Result of range pitch
+Results
+Matches
+
+Enabled
+
+Order
+827
+Live · Round advantage
+Other
+Matches
+
+Enabled
+
+Order
+828
+Live · Rounds handicap
+Other
+Matches
+
+Enabled
+
+Order
+829
+Live · Rounds odd/even
+Other
+Matches
+
+Enabled
+
+Order
+830
+Live · Runs awayteam
+Other
+Matches
+
+Enabled
+
+Order
+831
+Live · Runs hometeam
+Other
+Matches
+
+Enabled
+
+Order
+832
+Live · Set handicap
+Other
+Matches
+
+Enabled
+
+Order
+833
+Live · Set handicap
+Other
+Matches
+
+Enabled
+
+Order
+834
+Live · Set handicap
+Other
+Matches
+
+Enabled
+
+Order
+835
+Live · Set handicap
+Other
+Matches
+
+Enabled
+
+Order
+836
+Live · Set handicap
+Other
+Matches
+
+Enabled
+
+Order
+837
+Live · Set handicap
+Other
+Matches
+
+Enabled
+
+Order
+838
+Live · Set handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+839
+Live · Set total
+Totals
+Matches
+
+Enabled
+
+Order
+840
+Live · Shots on target total
+Totals · Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+841
+Live · Team shot from first value:00 to value min
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+842
+Live · Team Shot on target from first value:00 to value min
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+843
+Live · Team with highest score at range dismissal
+Goals
+Matches
+
+Enabled
+
+Order
+844
+Live · To Qualify
+Other
+Matches
+
+Enabled
+
+Order
+845
+Live · To Qualify
+Other
+Matches
+
+Enabled
+
+Order
+846
+Live · Top second value
+Other
+Matches
+
+Enabled
+
+Order
+847
+Live · Top 3 (teams)
+Other
+Matches
+
+Enabled
+
+Order
+848
+Live · Total
+Totals
+Matches
+
+Enabled
+
+Order
+849
+Live · Total
+Totals
+Matches
+
+Enabled
+
+Order
+850
+Live · Total
+Totals
+Matches
+
+Enabled
+
+Order
+851
+Live · Total
+Totals
+Matches
+
+Enabled
+
+Order
+852
+Live · Total
+Totals
+Matches
+
+Enabled
+
+Order
+853
+Live · Total
+Totals
+Matches
+
+Enabled
+
+Order
+854
+Live · Total
+Totals
+Matches
+
+Enabled
+
+Order
+855
+Live · Total
+Totals
+Matches
+
+Enabled
+
+Order
+856
+Live · Total
+Totals
+Matches
+
+Enabled
+
+Order
+857
+Live · Total
+Totals
+Matches
+
+Enabled
+
+Order
+858
+Live · Total (incl. OT & pen.)
+Totals · Combos
+Matches
+
+Enabled
+
+Order
+859
+Live · Total (incl. OT & pen.)
+Totals · Combos
+Matches
+
+Enabled
+
+Order
+860
+Live · Total awayteam
+Totals
+Matches
+
+Enabled
+
+Order
+861
+Live · Total awayteam
+Totals
+Matches
+
+Enabled
+
+Order
+862
+Live · Total awayteam including overtime
+Totals
+Matches
+
+Enabled
+
+Order
+863
+Live · Total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+864
+Live · Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+865
+Live · Total corners (Over-Exactly-Under)
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+866
+Live · Total finishers
+Totals
+Matches
+
+Enabled
+
+Order
+867
+Live · Total for whole match, including overtime
+Totals
+Matches
+
+Enabled
+
+Order
+868
+Live · Total games
+Totals
+Matches
+
+Enabled
+
+Order
+869
+Live · Total games
+Totals
+Matches
+
+Enabled
+
+Order
+870
+Live · Total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+871
+Live · Total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+872
+Live · Total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+873
+Live · Total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+874
+Live · Total goals 00:00 - 04:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+875
+Live · Total goals 00:00 - 09:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+876
+Live · Total goals 00:00 - 14:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+877
+Live · Total goals 00:00 - 19:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+878
+Live · Total goals 00:00 - 24:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+879
+Live · Total goals 00:00 - 29:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+880
+Live · Total goals 00:00 - 34:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+881
+Live · Total goals 00:00 - 39:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+882
+Live · Total goals 00:00 - 49:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+883
+Live · Total goals 00:00 - 54:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+884
+Live · Total goals 00:00 - 59:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+885
+Live · Total goals 00:00 - 64:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+886
+Live · Total goals 00:00 - 69:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+887
+Live · Total goals 00:00 - 74:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+888
+Live · Total goals 00:00 - 79:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+889
+Live · Total goals 00:00 - 84:59 min.
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+890
+Live · Total hometeam
+Totals
+Matches
+
+Enabled
+
+Order
+891
+Live · Total hometeam
+Totals
+Matches
+
+Enabled
+
+Order
+892
+Live · Total hometeam including overtime
+Totals
+Matches
+
+Enabled
+
+Order
+893
+Live · Total in range
+Totals
+Matches
+
+Enabled
+
+Order
+894
+Live · Total legs
+Totals
+Matches
+
+Enabled
+
+Order
+895
+Live · Total legs for eighth set
+Totals
+Matches
+
+Enabled
+
+Order
+896
+Live · Total legs for eleventh set
+Totals
+Matches
+
+Enabled
+
+Order
+897
+Live · Total legs for fifth set
+Totals
+Matches
+
+Enabled
+
+Order
+898
+Live · Total legs for first set
+Totals
+Matches
+
+Enabled
+
+Order
+899
+Live · Total legs for fourth set
+Totals
+Matches
+
+Enabled
+
+Order
+900
+Live · Total legs for ninth set
+Totals
+Matches
+
+Enabled
+
+Order
+901
+Live · Total legs for second set
+Totals
+Matches
+
+Enabled
+
+Order
+902
+Live · Total legs for seventh set
+Totals
+Matches
+
+Enabled
+
+Order
+903
+Live · Total legs for sixth set
+Totals
+Matches
+
+Enabled
+
+Order
+904
+Live · Total legs for tenth set
+Totals
+Matches
+
+Enabled
+
+Order
+905
+Live · Total legs for third set
+Totals
+Matches
+
+Enabled
+
+Order
+906
+Live · Total legs for thirteenth set
+Totals
+Matches
+
+Enabled
+
+Order
+907
+Live · Total legs for twelfth set
+Totals
+Matches
+
+Enabled
+
+Order
+908
+Live · Total range
+Totals
+Matches
+
+Enabled
+
+Order
+909
+Live · Total range
+Totals
+Matches
+
+Enabled
+
+Order
+910
+Live · Total range
+Totals
+Matches
+
+Enabled
+
+Order
+911
+Live · Total rounds
+Totals
+Matches
+
+Enabled
+
+Order
+912
+Live · Total rounds
+Totals
+Matches
+
+Enabled
+
+Order
+913
+Live · Total rounds
+Totals
+Matches
+
+Enabled
+
+Order
+914
+Live · Total rounds
+Totals
+Matches
+
+Enabled
+
+Order
+915
+Live · Total rounds
+Totals
+Matches
+
+Enabled
+
+Order
+916
+Live · Total rounds (Match)
+Totals
+Matches
+
+Enabled
+
+Order
+917
+Live · Total runs
+Totals
+Matches
+
+Enabled
+
+Order
+918
+Live · Total runs odd/even
+Totals
+Matches
+
+Enabled
+
+Order
+919
+Live · Total sets
+Totals
+Matches
+
+Enabled
+
+Order
+920
+Live · Total sets
+Totals
+Matches
+
+Enabled
+
+Order
+921
+Live · Total sets
+Totals
+Matches
+
+Enabled
+
+Order
+922
+Live · Total sets
+Totals
+Matches
+
+Enabled
+
+Order
+923
+Live · Total sets
+Totals
+Matches
+
+Enabled
+
+Order
+924
+Live · Total sets
+Totals
+Matches
+
+Enabled
+
+Order
+925
+Live · Total sets odd/even
+Totals
+Matches
+
+Enabled
+
+Order
+926
+Live · Total shots
+Totals · Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+927
+Live · Total speed of range pitch
+Totals
+Matches
+
+Enabled
+
+Order
+928
+Live · Total time
+Totals
+Matches
+
+Enabled
+
+Order
+929
+Live · Total time
+Totals
+Matches
+
+Enabled
+
+Order
+930
+Live · Total tries
+Totals
+Matches
+
+Enabled
+
+Order
+931
+Live · When will the match be decided
+Intervals
+Matches
+
+Enabled
+
+Order
+932
+Live · When will the match be decided
+Intervals
+Matches
+
+Enabled
+
+Order
+933
+Live · Which player will win the set?
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+934
+Live · Which team to score
+Goals
+Matches
+
+Enabled
+
+Order
+935
+Live · Which team to score
+Goals
+Matches
+
+Enabled
+
+Order
+936
+Live · Which team to score
+Goals
+Matches
+
+Enabled
+
+Order
+937
+Live · Which team to score (Inc. OT & Pen.)
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+938
+Live · Which team will win the set?
+Other
+Matches
+
+Enabled
+
+Order
+939
+Live · Which team wins the jump ball
+Other
+Matches
+
+Enabled
+
+Order
+940
+Live · Which team wins the rest value
+Other
+Matches
+
+Enabled
+
+Order
+941
+Live · Which team wins the rest of the match value
+Other
+Matches
+
+Enabled
+
+Order
+942
+Live · Which team wins the rest of the match value
+Other
+Matches
+
+Enabled
+
+Order
+943
+Live · Which team wins the rest of the match value
+Other
+Matches
+
+Enabled
+
+Order
+944
+Live · Which team wins the rest of the match value
+Other
+Matches
+
+Enabled
+
+Order
+945
+Live · Who advances to the next round
+Other
+Matches
+
+Enabled
+
+Order
+946
+Live · Who scores value goal (incl. overtime)
+Goals
+Matches
+
+Enabled
+
+Order
+947
+Live · Who takes the value corner
+Corners
+Matches
+
+Enabled
+
+Order
+948
+Live · Who will score the 10th goal
+Goals
+Matches
+
+Enabled
+
+Order
+949
+Live · Who will score the 15th goal
+Goals
+Matches
+
+Enabled
+
+Order
+950
+Live · Who will score the 20th goal
+Goals
+Matches
+
+Enabled
+
+Order
+951
+Live · Who will score the 25th goal
+Goals
+Matches
+
+Enabled
+
+Order
+952
+Live · Who will score the 30th goal
+Goals
+Matches
+
+Enabled
+
+Order
+953
+Live · Who will score the 35th goal
+Goals
+Matches
+
+Enabled
+
+Order
+954
+Live · Who will score the 40th goal
+Goals
+Matches
+
+Enabled
+
+Order
+955
+Live · Who will score the 45th goal
+Goals
+Matches
+
+Enabled
+
+Order
+956
+Live · Who will score the 50th goal
+Goals
+Matches
+
+Enabled
+
+Order
+957
+Live · Who will score the 5th goal
+Goals
+Matches
+
+Enabled
+
+Order
+958
+Live · Who wins range th leg eighth set
+Other
+Matches
+
+Enabled
+
+Order
+959
+Live · Who wins range th leg eleventh set
+Other
+Matches
+
+Enabled
+
+Order
+960
+Live · Who wins range th leg fifth set
+Other
+Matches
+
+Enabled
+
+Order
+961
+Live · Who wins range th leg first set
+Other
+Matches
+
+Enabled
+
+Order
+962
+Live · Who wins range th leg fourth set
+Other
+Matches
+
+Enabled
+
+Order
+963
+Live · Who wins range th leg ninth set
+Other
+Matches
+
+Enabled
+
+Order
+964
+Live · Who wins range th leg second set
+Other
+Matches
+
+Enabled
+
+Order
+965
+Live · Who wins range th leg seventh set
+Other
+Matches
+
+Enabled
+
+Order
+966
+Live · Who wins range th leg sixth set
+Other
+Matches
+
+Enabled
+
+Order
+967
+Live · Who wins range th leg tenth set
+Other
+Matches
+
+Enabled
+
+Order
+968
+Live · Who wins range th leg third set
+Other
+Matches
+
+Enabled
+
+Order
+969
+Live · Who wins range th leg thirteenth set
+Other
+Matches
+
+Enabled
+
+Order
+970
+Live · Who wins range th leg twelfth set
+Other
+Matches
+
+Enabled
+
+Order
+971
+Live · Who wins the period?
+Other
+Matches
+
+Enabled
+
+Order
+972
+Live · Who wins the rest of the first period? value
+Other
+Matches
+
+Enabled
+
+Order
+973
+Live · Who wins the rest of the match (OT only!)? value
+Other
+Matches
+
+Enabled
+
+Order
+974
+Live · Who wins the rest of the match value
+Other
+Matches
+
+Enabled
+
+Order
+975
+Live · Who wins the rest of the second period? value
+Other
+Matches
+
+Enabled
+
+Order
+976
+Live · Will the value penalty be scored
+Goals
+Matches
+
+Enabled
+
+Order
+977
+Live · Will there be a super over
+Other
+Matches
+
+Enabled
+
+Order
+978
+Live · Will there be a tie
+Other
+Matches
+
+Enabled
+
+Order
+979
+Live · Will there be overtime
+Other
+Matches
+
+Enabled
+
+Order
+980
+Live · Will there be overtime
+Other
+Matches
+
+Enabled
+
+Order
+981
+Live · Will there be overtime
+Other
+Matches
+
+Enabled
+
+Order
+982
+Live · Win rest eighth set value
+Other
+Matches
+
+Enabled
+
+Order
+983
+Live · Win rest eleventh set value
+Other
+Matches
+
+Enabled
+
+Order
+984
+Live · Win rest fifth set value
+Other
+Matches
+
+Enabled
+
+Order
+985
+Live · Win rest first set value
+Other
+Matches
+
+Enabled
+
+Order
+986
+Live · Win rest fourth set value
+Other
+Matches
+
+Enabled
+
+Order
+987
+Live · Win rest ninth set value
+Other
+Matches
+
+Enabled
+
+Order
+988
+Live · Win rest second set value
+Other
+Matches
+
+Enabled
+
+Order
+989
+Live · Win rest seventh set value
+Other
+Matches
+
+Enabled
+
+Order
+990
+Live · Win rest sixth set value
+Other
+Matches
+
+Enabled
+
+Order
+991
+Live · Win rest tenth set value
+Other
+Matches
+
+Enabled
+
+Order
+992
+Live · Win rest third set value
+Other
+Matches
+
+Enabled
+
+Order
+993
+Live · Win rest thirteenth set value
+Other
+Matches
+
+Enabled
+
+Order
+994
+Live · Win rest twelfth set value
+Other
+Matches
+
+Enabled
+
+Order
+995
+Live · Winner
+Results
+Matches
+
+Enabled
+
+Order
+996
+Live · Winner (incl. super over)
+Results
+Matches
+
+Enabled
+
+Order
+997
+Live · Winner (teams)
+Results
+Matches
+
+Enabled
+
+Order
+998
+Live · Winner & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+999
+Live · Winner of group first value
+Results
+Matches
+
+Enabled
+
+Order
+1000
+Live · Winner of the final
+Results
+Matches
+
+Enabled
+
+Order
+1001
+Live · Winner of the Final
+Results
+Matches
+
+Enabled
+
+Order
+1002
+Live · Winning margin
+Other
+Matches
+
+Enabled
+
+Order
+1003
+Live · Winning margin
+Other
+Matches
+
+Enabled
+
+Order
+1004
+Live · Winning margin
+Other
+Matches
+
+Enabled
+
+Order
+1005
+Live · Winning margin
+Other
+Matches
+
+Enabled
+
+Order
+1006
+Live · Winning margin
+Other
+Matches
+
+Enabled
+
+Order
+1007
+Live · Winning margin
+Other
+Matches
+
+Enabled
+
+Order
+1008
+Live · Winning margin
+Other
+Matches
+
+Enabled
+
+Order
+1009
+Live · Winning margin (incl. overtime)
+Other
+Matches
+
+Enabled
+
+Order
+1010
+Live · Winning margin (incl. overtime)
+Other
+Matches
+
+Enabled
+
+Order
+1011
+Live · Winning margins
+Other
+Matches
+
+Enabled
+
+Order
+1012
+Live · Winning margins (incl. OT & pen.)
+Combos
+Matches
+
+Enabled
+
+Order
+1013
+Live · Winning method
+Other
+Matches
+
+Enabled
+
+Order
+1014
+Live · Winning method
+Other
+Matches
+
+Enabled
+
+Order
+1015
+Live · Еxtra time 1st half - Correct score rest of the half value
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1016
+Pre-match · -
+Other
+Matches
+
+Enabled
+
+Order
+1017
+Pre-match · player - Assists (incl. extra time)
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1018
+Pre-match · player - Goals (incl. extra time)
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1019
+Pre-match · player - Shots (incl. extra time)
+Shots · Players
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+1020
+Pre-match · player - Shots on goal (incl. extra time)
+Shots · Players · Goals
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+1021
+Pre-match · player - Tackles (incl. extra time)
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1022
+Pre-match · player Anytime goalscorer & result
+Players · Combos · Results · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1023
+Pre-match · player assists
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1024
+Pre-match · player fouls conceded
+Fouls · Players
+Hidden by: Fouls, Players
+Matches
+
+Hidden
+
+Order
+1025
+Pre-match · player fouls won
+Fouls · Players
+Hidden by: Fouls, Players
+Matches
+
+Hidden
+
+Order
+1026
+Pre-match · player left foot shots on target
+Shots · Players
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+1027
+Pre-match · player offsides
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1028
+Pre-match · player right foot shots on target
+Shots · Players
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+1029
+Pre-match · player saves
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1030
+Pre-match · player scores № second value goal & result (incl. extra time)
+Players · Combos · Results · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1031
+Pre-match · player Shots
+Shots · Players
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+1032
+Pre-match · player shots on target
+Shots · Players
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+1033
+Pre-match · player shots on target from outside of the box
+Shots · Players
+Hidden by: Shots, Players
+Matches
+
+Hidden
+
+Order
+1034
+Pre-match · player to be carded
+Cards · Players
+Hidden by: Cards, Players
+Matches
+
+Hidden
+
+Order
+1035
+Pre-match · player to be carded (incl. extra time)
+Cards · Players
+Hidden by: Cards, Players
+Matches
+
+Hidden
+
+Order
+1036
+Pre-match · player To Be Carded (sure Sub)
+Cards · Players
+Hidden by: Cards, Players
+Matches
+
+Hidden
+
+Order
+1037
+Pre-match · player to be sent off
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1038
+Pre-match · player to be sent off (sure sub)
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1039
+Pre-match · player to be yellow carded
+Cards · Players
+Hidden by: Cards, Players
+Matches
+
+Hidden
+
+Order
+1040
+Pre-match · player to score (incl. extra time)
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1041
+Pre-match · player to score (sure sub)
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1042
+Pre-match · player to score a free kick
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1043
+Pre-match · player to score a header
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1044
+Pre-match · player to score and assist
+Players · Combos · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1045
+Pre-match · player to score from outside of the box
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1046
+Pre-match · player to score in 1st half
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1047
+Pre-match · player to score or assist
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1048
+Pre-match · player to score or assist (sure sub)
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1049
+Pre-match · player to score with left foot
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1050
+Pre-match · player to score with right foot
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1051
+Pre-match · % of passes completed by the awayteam
+Other
+Matches
+
+Enabled
+
+Order
+1052
+Pre-match · % of passes completed by the hometeam
+Other
+Matches
+
+Enabled
+
+Order
+1053
+Pre-match · 00:00 - 09:59 min. - Result
+Results
+Matches
+
+Enabled
+
+Order
+1054
+Pre-match · 00:00 - 14:59 min. - Result
+Results
+Matches
+
+Enabled
+
+Order
+1055
+Pre-match · 00:00 - 14:59 min. - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1056
+Pre-match · 1 - 14:59 min. - Goal
+Goals
+Matches
+
+Enabled
+
+Order
+1057
+Pre-match · 1 - 14:59 min. - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+1058
+Pre-match · 1 - 14:59 min. - Total
+Totals
+Matches
+
+Enabled
+
+Order
+1059
+Pre-match · 1 - 29:59 min. - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+1060
+Pre-match · 1 - 29:59 min. - Result
+Results
+Matches
+
+Enabled
+
+Order
+1061
+Pre-match · 1 - 29:59 min. - Total
+Totals
+Matches
+
+Enabled
+
+Order
+1062
+Pre-match · 1 - 59:59 min. - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+1063
+Pre-match · 1 - 59:59 min. - Result
+Results
+Matches
+
+Enabled
+
+Order
+1064
+Pre-match · 1 - 59:59 min. - Total
+Totals
+Matches
+
+Enabled
+
+Order
+1065
+Pre-match · 1 - 74:59 min. - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+1066
+Pre-match · 1 - 74:59 min. - Result
+Results
+Matches
+
+Enabled
+
+Order
+1067
+Pre-match · 1 - 74:59 min. - Total
+Totals
+Matches
+
+Enabled
+
+Order
+1068
+Pre-match · 15:00 - 29:59 min. - Goal
+Goals
+Matches
+
+Enabled
+
+Order
+1069
+Pre-match · 15:00 - 29:59 min. - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1070
+Pre-match · 1st / 2nd half both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1071
+Pre-match · 1st half - Awayteam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1072
+Pre-match · 1st half - Awayteam exact cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1073
+Pre-match · 1st half - Awayteam exact corners
+Corners
+Matches
+
+Enabled
+
+Order
+1074
+Pre-match · 1st half - Awayteam red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1075
+Pre-match · 1st half - Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+1076
+Pre-match · 1st half - Awayteam total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1077
+Pre-match · 1st half - Awayteam total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1078
+Pre-match · 1st half - Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1079
+Pre-match · 1st half - Corner handicap
+Corners
+Matches
+
+Enabled
+
+Order
+1080
+Pre-match · 1st half - Corner range
+Corners
+Matches
+
+Enabled
+
+Order
+1081
+Pre-match · 1st half - Corners odd/even
+Corners
+Matches
+
+Enabled
+
+Order
+1082
+Pre-match · 1st half - Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1083
+Pre-match · 1st half - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+1084
+Pre-match · 1st half - Double chance & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1085
+Pre-match · 1st half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+1086
+Pre-match · 1st half - Exact cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1087
+Pre-match · 1st half - Exact goals 2+
+Goals
+Matches
+
+Enabled
+
+Order
+1088
+Pre-match · 1st half - Exact Goals 3+
+Goals
+Matches
+
+Enabled
+
+Order
+1089
+Pre-match · 1st half - First card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1090
+Pre-match · 1st half - First corner
+Corners
+Matches
+
+Enabled
+
+Order
+1091
+Pre-match · 1st half - First team to score
+Goals
+Matches
+
+Enabled
+
+Order
+1092
+Pre-match · 1st half - Goal
+Goals
+Matches
+
+Enabled
+
+Order
+1093
+Pre-match · 1st half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+1094
+Pre-match · 1st half - Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+1095
+Pre-match · 1st half - Hometeam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1096
+Pre-match · 1st half - Hometeam exact cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1097
+Pre-match · 1st half - Hometeam exact corners
+Corners
+Matches
+
+Enabled
+
+Order
+1098
+Pre-match · 1st half - Hometeam red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1099
+Pre-match · 1st half - Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+1100
+Pre-match · 1st half - Hometeam total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1101
+Pre-match · 1st half - Hometeam total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1102
+Pre-match · 1st half - Last corner
+Corners
+Matches
+
+Enabled
+
+Order
+1103
+Pre-match · 1st half - Most cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1104
+Pre-match · 1st half - Most corners
+Corners
+Matches
+
+Enabled
+
+Order
+1105
+Pre-match · 1st half - Multigoals
+Goals
+Matches
+
+Enabled
+
+Order
+1106
+Pre-match · 1st half - Odd/Even goals
+Goals
+Matches
+
+Enabled
+
+Order
+1107
+Pre-match · 1st half - Red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1108
+Pre-match · 1st half - Result
+Results
+Matches
+
+Enabled
+
+Order
+1109
+Pre-match · 1st half - Result & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1110
+Pre-match · 1st half - Result & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+1111
+Pre-match · 1st half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+1112
+Pre-match · 1st half - Total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1113
+Pre-match · 1st half - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1114
+Pre-match · 2nd half - Awayteam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1115
+Pre-match · 2nd half - Awayteam total
+Totals
+Matches
+
+Enabled
+
+Order
+1116
+Pre-match · 2nd half - Awayteam total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1117
+Pre-match · 2nd half - Awayteam total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1118
+Pre-match · 2nd half - Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1119
+Pre-match · 2nd half - Corners handicap
+Corners
+Matches
+
+Enabled
+
+Order
+1120
+Pre-match · 2nd half - Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1121
+Pre-match · 2nd half - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+1122
+Pre-match · 2nd half - Double chance & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1123
+Pre-match · 2nd half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+1124
+Pre-match · 2nd half - Exact goals 2+
+Goals
+Matches
+
+Enabled
+
+Order
+1125
+Pre-match · 2nd half - First team to score
+Goals
+Matches
+
+Enabled
+
+Order
+1126
+Pre-match · 2nd half - Goal
+Goals
+Matches
+
+Enabled
+
+Order
+1127
+Pre-match · 2nd half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+1128
+Pre-match · 2nd half - Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+1129
+Pre-match · 2nd half - Hometeam clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1130
+Pre-match · 2nd half - Hometeam total
+Totals
+Matches
+
+Enabled
+
+Order
+1131
+Pre-match · 2nd half - Hometeam total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1132
+Pre-match · 2nd half - Hometeam total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1133
+Pre-match · 2nd half - Most cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1134
+Pre-match · 2nd half - Most corners
+Corners
+Matches
+
+Enabled
+
+Order
+1135
+Pre-match · 2nd half - Multigoals
+Goals
+Matches
+
+Enabled
+
+Order
+1136
+Pre-match · 2nd half - Odd/Even goals
+Goals
+Matches
+
+Enabled
+
+Order
+1137
+Pre-match · 2nd half - Result
+Results
+Matches
+
+Enabled
+
+Order
+1138
+Pre-match · 2nd half - Result & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1139
+Pre-match · 2nd half - Result & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+1140
+Pre-match · 2nd Half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+1141
+Pre-match · 2nd half - Total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1142
+Pre-match · 2nd half - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1143
+Pre-match · 2nd place in the tournament:
+Other
+Matches
+
+Enabled
+
+Order
+1144
+Pre-match · 30:00 - 45+ min. - Goal
+Goals
+Matches
+
+Enabled
+
+Order
+1145
+Pre-match · 30:00 - 45+ min. - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1146
+Pre-match · 45:00 - 59:59 min. - Goal
+Goals
+Matches
+
+Enabled
+
+Order
+1147
+Pre-match · 45:00 - 59:59 min. - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1148
+Pre-match · 60:00 - 74:59 min. - Goal
+Goals
+Matches
+
+Enabled
+
+Order
+1149
+Pre-match · 60:00 - 74:59 min. - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1150
+Pre-match · 75:00 - 90+ min. - Goal
+Goals
+Matches
+
+Enabled
+
+Order
+1151
+Pre-match · 75:00 - 90+ min. - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1152
+Pre-match · Any team to win
+Other
+Matches
+
+Enabled
+
+Order
+1153
+Pre-match · Anytime goalscorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1154
+Pre-match · Anytime goalscorer & correct score
+Players · Combos · Results · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1155
+Pre-match · Awayteam 1st goal
+Goals
+Matches
+
+Enabled
+
+Order
+1156
+Pre-match · Awayteam 1st player to score player
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1157
+Pre-match · Awayteam corner range
+Corners
+Matches
+
+Enabled
+
+Order
+1158
+Pre-match · Awayteam exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+1159
+Pre-match · Awayteam exact goals 3+
+Goals
+Matches
+
+Enabled
+
+Order
+1160
+Pre-match · Awayteam highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+1161
+Pre-match · Awayteam not to lose & total over
+Totals · Combos
+Matches
+
+Enabled
+
+Order
+1162
+Pre-match · Awayteam not to lose & total under
+Totals · Combos
+Matches
+
+Enabled
+
+Order
+1163
+Pre-match · Awayteam odd/even
+Other
+Matches
+
+Enabled
+
+Order
+1164
+Pre-match · Awayteam red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1165
+Pre-match · Awayteam shots on target
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1166
+Pre-match · Awayteam throw-in
+Other
+Matches
+
+Enabled
+
+Order
+1167
+Pre-match · Awayteam to win
+Other
+Matches
+
+Enabled
+
+Order
+1168
+Pre-match · Awayteam total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1169
+Pre-match · Awayteam total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1170
+Pre-match · Awayteam total fouls
+Totals · Fouls
+Hidden by: Fouls
+Matches
+
+Hidden
+
+Order
+1171
+Pre-match · Awayteam total goal kicks
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1172
+Pre-match · Awayteam total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1173
+Pre-match · Awayteam total offsides
+Totals
+Matches
+
+Enabled
+
+Order
+1174
+Pre-match · Awayteam total saves
+Totals
+Matches
+
+Enabled
+
+Order
+1175
+Pre-match · Awayteam total shots
+Totals · Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1176
+Pre-match · Awayteam win or any clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1177
+Pre-match · Awayteam wins any of the halves
+Other
+Matches
+
+Enabled
+
+Order
+1178
+Pre-match · Awayteam wins both halves
+Combos
+Matches
+
+Enabled
+
+Order
+1179
+Pre-match · Awayteam wins or both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1180
+Pre-match · Awayteam wins or total over
+Totals
+Matches
+
+Enabled
+
+Order
+1181
+Pre-match · Awayteam wins or total under
+Totals
+Matches
+
+Enabled
+
+Order
+1182
+Pre-match · Awayteam wins to nil
+Goals
+Matches
+
+Enabled
+
+Order
+1183
+Pre-match · Both half goals over 1.5
+Goals
+Matches
+
+Enabled
+
+Order
+1184
+Pre-match · Both half goals under 1.5
+Goals
+Matches
+
+Enabled
+
+Order
+1185
+Pre-match · Both teams to receive cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1186
+Pre-match · Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1187
+Pre-match · Both teams to score and total under
+Totals · Combos · Goals
+Matches
+
+Enabled
+
+Order
+1188
+Pre-match · Both teams to score and Тotal Over
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+1189
+Pre-match · Card in first 10 min. (00:00 - 09:59)
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1190
+Pre-match · Card shown in both halves
+Cards · Combos
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1191
+Pre-match · Cards handicap
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1192
+Pre-match · Clean sheet awayteam
+Goals
+Matches
+
+Enabled
+
+Order
+1193
+Pre-match · Clean sheet hometeam
+Goals
+Matches
+
+Enabled
+
+Order
+1194
+Pre-match · Corner handicap
+Corners
+Matches
+
+Enabled
+
+Order
+1195
+Pre-match · Corner in first 10 min. (00:00 - 09:59)
+Corners
+Matches
+
+Enabled
+
+Order
+1196
+Pre-match · Corner in first 5 min. (00:00 - 04:59)
+Corners
+Matches
+
+Enabled
+
+Order
+1197
+Pre-match · Corner range
+Corners
+Matches
+
+Enabled
+
+Order
+1198
+Pre-match · Corners Halftime/Fulltime
+Corners
+Matches
+
+Enabled
+
+Order
+1199
+Pre-match · Corners odd/even
+Corners
+Matches
+
+Enabled
+
+Order
+1200
+Pre-match · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1201
+Pre-match · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1202
+Pre-match · Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1203
+Pre-match · Correct Score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1204
+Pre-match · Double chance
+Results
+Matches
+
+Enabled
+
+Order
+1205
+Pre-match · Double chance & 1st half both teams score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1206
+Pre-match · Double chance & 2nd half both teams score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1207
+Pre-match · Double chance & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1208
+Pre-match · Double chance & total goals
+Totals · Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1209
+Pre-match · Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+1210
+Pre-match · Draw or any clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1211
+Pre-match · Draw or both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1212
+Pre-match · Draw or total goals over
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1213
+Pre-match · Draw or total goals under
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1214
+Pre-match · Exact cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1215
+Pre-match · Exact goals 5+
+Goals
+Matches
+
+Enabled
+
+Order
+1216
+Pre-match · Exact goals 6+
+Goals
+Matches
+
+Enabled
+
+Order
+1217
+Pre-match · Exact goals 9+
+Goals
+Matches
+
+Enabled
+
+Order
+1218
+Pre-match · Extratime and goal
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+1219
+Pre-match · First card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1220
+Pre-match · First corner
+Corners
+Matches
+
+Enabled
+
+Order
+1221
+Pre-match · First goal & match result
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1222
+Pre-match · First goal interval
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1223
+Pre-match · First goal interval
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1224
+Pre-match · First offside
+Other
+Matches
+
+Enabled
+
+Order
+1225
+Pre-match · First team to score
+Goals
+Matches
+
+Enabled
+
+Order
+1226
+Pre-match · Fouls handicap
+Fouls
+Hidden by: Fouls
+Matches
+
+Hidden
+
+Order
+1227
+Pre-match · Fouls odd/even
+Fouls
+Hidden by: Fouls
+Matches
+
+Hidden
+
+Order
+1228
+Pre-match · Free text market
+Other
+Matches
+
+Enabled
+
+Order
+1229
+Pre-match · Free text multiwinner market
+Results
+Matches
+
+Enabled
+
+Order
+1230
+Pre-match · Full Time first valueUP
+Other
+Matches
+
+Enabled
+
+Order
+1231
+Pre-match · Goal in first 10 min. (00:00 - 09:59)
+Goals
+Matches
+
+Enabled
+
+Order
+1232
+Pre-match · Goal in first 5 min. (00:00 - 04:59)
+Goals
+Matches
+
+Enabled
+
+Order
+1233
+Pre-match · Goals in both halves
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+1234
+Pre-match · Halftime/Fulltime
+Other
+Matches
+
+Enabled
+
+Order
+1235
+Pre-match · Halftime/Fulltime & 1st half total goals
+Totals · Combos · Goals
+Matches
+
+Enabled
+
+Order
+1236
+Pre-match · Halftime/fulltime & exact goals
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+1237
+Pre-match · Halftime/fulltime & total goals
+Totals · Combos · Goals
+Matches
+
+Enabled
+
+Order
+1238
+Pre-match · Halftime/Fulltime correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1239
+Pre-match · Handicap
+Other
+Matches
+
+Enabled
+
+Order
+1240
+Pre-match · Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+1241
+Pre-match · Highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+1242
+Pre-match · Highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+1243
+Pre-match · Highest scoring half in corners
+Corners
+Matches
+
+Enabled
+
+Order
+1244
+Pre-match · Highest scoring halve in cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1245
+Pre-match · Hometeam 1st goal
+Goals
+Matches
+
+Enabled
+
+Order
+1246
+Pre-match · Hometeam 1st player to score player
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1247
+Pre-match · Hometeam corner range
+Corners
+Matches
+
+Enabled
+
+Order
+1248
+Pre-match · Hometeam exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+1249
+Pre-match · Hometeam exact goals 3+
+Goals
+Matches
+
+Enabled
+
+Order
+1250
+Pre-match · Hometeam highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+1251
+Pre-match · Hometeam not to lose & total over
+Totals · Combos
+Matches
+
+Enabled
+
+Order
+1252
+Pre-match · Hometeam not to lose & total under
+Totals · Combos
+Matches
+
+Enabled
+
+Order
+1253
+Pre-match · Hometeam odd/even
+Other
+Matches
+
+Enabled
+
+Order
+1254
+Pre-match · Hometeam red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1255
+Pre-match · Hometeam shots on target
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1256
+Pre-match · Hometeam throw-in
+Other
+Matches
+
+Enabled
+
+Order
+1257
+Pre-match · Hometeam to win
+Other
+Matches
+
+Enabled
+
+Order
+1258
+Pre-match · Hometeam total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1259
+Pre-match · Hometeam total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1260
+Pre-match · Hometeam total fouls
+Totals · Fouls
+Hidden by: Fouls
+Matches
+
+Hidden
+
+Order
+1261
+Pre-match · Hometeam total goal kicks
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1262
+Pre-match · Hometeam total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1263
+Pre-match · Hometeam total offsides
+Totals
+Matches
+
+Enabled
+
+Order
+1264
+Pre-match · Hometeam total saves
+Totals
+Matches
+
+Enabled
+
+Order
+1265
+Pre-match · Hometeam total shots
+Totals · Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1266
+Pre-match · Hometeam win or both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1267
+Pre-match · Hometeam win or total over
+Totals
+Matches
+
+Enabled
+
+Order
+1268
+Pre-match · Hometeam wins any of the halves
+Other
+Matches
+
+Enabled
+
+Order
+1269
+Pre-match · Hometeam wins both halves
+Combos
+Matches
+
+Enabled
+
+Order
+1270
+Pre-match · Hometeam wins or any clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1271
+Pre-match · Hometeam wins or total under
+Totals
+Matches
+
+Enabled
+
+Order
+1272
+Pre-match · Hometeam wins to nil
+Goals
+Matches
+
+Enabled
+
+Order
+1273
+Pre-match · Last card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1274
+Pre-match · Last corner
+Corners
+Matches
+
+Enabled
+
+Order
+1275
+Pre-match · Last team to score
+Goals
+Matches
+
+Enabled
+
+Order
+1276
+Pre-match · Match result
+Results
+Matches
+
+Enabled
+
+Order
+1277
+Pre-match · Match result & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1278
+Pre-match · Match result + Total goals
+Totals · Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1279
+Pre-match · Most cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1280
+Pre-match · Most corners
+Corners
+Matches
+
+Enabled
+
+Order
+1281
+Pre-match · Most fouls
+Fouls
+Hidden by: Fouls
+Matches
+
+Hidden
+
+Order
+1282
+Pre-match · Most offsides
+Other
+Matches
+
+Enabled
+
+Order
+1283
+Pre-match · Most saves
+Other
+Matches
+
+Enabled
+
+Order
+1284
+Pre-match · Most shots
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1285
+Pre-match · Most shots on target
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1286
+Pre-match · Most throw-in
+Other
+Matches
+
+Enabled
+
+Order
+1287
+Pre-match · Multicorners
+Corners
+Matches
+
+Enabled
+
+Order
+1288
+Pre-match · Multigoals
+Goals
+Matches
+
+Enabled
+
+Order
+1289
+Pre-match · Multigoals awayteam
+Goals
+Matches
+
+Enabled
+
+Order
+1290
+Pre-match · Multigoals hometeam
+Goals
+Matches
+
+Enabled
+
+Order
+1291
+Pre-match · Multiscores
+Goals
+Matches
+
+Enabled
+
+Order
+1292
+Pre-match · Number of Goals 6+
+Goals
+Matches
+
+Enabled
+
+Order
+1293
+Pre-match · Number of Goals 7+
+Goals
+Matches
+
+Enabled
+
+Order
+1294
+Pre-match · Odd/Even goals
+Goals
+Matches
+
+Enabled
+
+Order
+1295
+Pre-match · Offsides handicap
+Other
+Matches
+
+Enabled
+
+Order
+1296
+Pre-match · Offsides odd/even
+Other
+Matches
+
+Enabled
+
+Order
+1297
+Pre-match · Race to 3 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1298
+Pre-match · Race to 5 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1299
+Pre-match · Race to 7 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1300
+Pre-match · Race to 9 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1301
+Pre-match · Red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1302
+Pre-match · Saves double chance
+Results
+Matches
+
+Enabled
+
+Order
+1303
+Pre-match · Saves handicap
+Other
+Matches
+
+Enabled
+
+Order
+1304
+Pre-match · scores № second value goal & correct score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1305
+Pre-match · Short term free text market
+Other
+Matches
+
+Enabled
+
+Order
+1306
+Pre-match · Shots odd/even
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1307
+Pre-match · Shots on target handicap
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1308
+Pre-match · Shots on target odd/even
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1309
+Pre-match · Shots on target total
+Totals · Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1310
+Pre-match · Throw-in handicap
+Other
+Matches
+
+Enabled
+
+Order
+1311
+Pre-match · Throw-in in first 10 min. (00:00 - 09:59)
+Other
+Matches
+
+Enabled
+
+Order
+1312
+Pre-match · Throw-in odd/even
+Other
+Matches
+
+Enabled
+
+Order
+1313
+Pre-match · To Qualify
+Other
+Matches
+
+Enabled
+
+Order
+1314
+Pre-match · To reach the final:
+Other
+Matches
+
+Enabled
+
+Order
+1315
+Pre-match · To reach the semifinal:
+Other
+Matches
+
+Enabled
+
+Order
+1316
+Pre-match · Total
+Totals
+Matches
+
+Enabled
+
+Order
+1317
+Pre-match · Total & both teams to score
+Totals · Combos · Goals
+Matches
+
+Enabled
+
+Order
+1318
+Pre-match · Total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1319
+Pre-match · Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1320
+Pre-match · Total fouls
+Totals · Fouls
+Hidden by: Fouls
+Matches
+
+Hidden
+
+Order
+1321
+Pre-match · Total goal kicks
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1322
+Pre-match · Total goal minutes
+Totals · Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1323
+Pre-match · Total goals:
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1324
+Pre-match · Total offsides
+Totals
+Matches
+
+Enabled
+
+Order
+1325
+Pre-match · Total saves
+Totals
+Matches
+
+Enabled
+
+Order
+1326
+Pre-match · Total shots
+Totals · Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1327
+Pre-match · Total throw-in
+Totals
+Matches
+
+Enabled
+
+Order
+1328
+Pre-match · Which team to score
+Goals
+Matches
+
+Enabled
+
+Order
+1329
+Pre-match · Which team will win the final
+Other
+Matches
+
+Enabled
+
+Order
+1330
+Pre-match · Will there be an extra time
+Other
+Matches
+
+Enabled
+
+Order
+1331
+Pre-match · Winner:
+Results
+Matches
+
+Enabled
+
+Order
+1332
+Pre-match · Winning margin
+Other
+Matches
+
+Enabled
+
+Order
+1333
+Pre-match · Winning method
+Other
+Matches
+
+Enabled
+
+Order
+1334
+00:00 - 09:59 min. - Result
+Results
+Matches
+
+Enabled
+
+Order
+1335
+00:00 - 14:59 min. - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1336
+15:00 - 29:59 min. - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1337
+1st / 2nd half both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1338
+1st half - Away team clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1339
+1st half - Away team exact corners
+Corners
+Matches
+
+Enabled
+
+Order
+1340
+1st half - Away team red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1341
+1st half - Away team total
+Totals
+Matches
+
+Enabled
+
+Order
+1342
+1st half - Away team total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1343
+1st half - Away team total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1344
+1st Half - Bookings Away team
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1345
+1st Half - Bookings Home team
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1346
+1st half - Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1347
+1st half - Corner handicap
+Corners
+Matches
+
+Enabled
+
+Order
+1348
+1st half - Corner range
+Corners
+Matches
+
+Enabled
+
+Order
+1349
+1st Half - Cornerbet
+Corners
+Matches
+
+Enabled
+
+Order
+1350
+1st Half - Corners Away team
+Corners
+Matches
+
+Enabled
+
+Order
+1351
+1st Half - Corners Home team
+Corners
+Matches
+
+Enabled
+
+Order
+1352
+1st half - Corners odd/even
+Corners
+Matches
+
+Enabled
+
+Order
+1353
+1st half - Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1354
+1st half - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+1355
+1st half - Double chance & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1356
+1st half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+1357
+1st half - exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+1358
+1st half - Exact goals 2+
+Goals
+Matches
+
+Enabled
+
+Order
+1359
+1st half - Exact Goals 3+
+Goals
+Matches
+
+Enabled
+
+Order
+1360
+1st half - First corner
+Corners
+Matches
+
+Enabled
+
+Order
+1361
+1st half - First team to score
+Goals
+Matches
+
+Enabled
+
+Order
+1362
+1st Half - Goals Away team
+Goals
+Matches
+
+Enabled
+
+Order
+1363
+1st Half - Goals Home team
+Goals
+Matches
+
+Enabled
+
+Order
+1364
+1st half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+1365
+1st half - Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+1366
+1st half - Home team clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1367
+1st half - Home team exact corners
+Corners
+Matches
+
+Enabled
+
+Order
+1368
+1st half - Home team red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1369
+1st half - Home team total
+Totals
+Matches
+
+Enabled
+
+Order
+1370
+1st half - Home team total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1371
+1st half - Home team total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1372
+1st half - Last corner
+Corners
+Matches
+
+Enabled
+
+Order
+1373
+1st Half - Matchbet and both teams to score
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+1374
+1st half - Most cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1375
+1st half - Most corners
+Corners
+Matches
+
+Enabled
+
+Order
+1376
+1st half - Multigoals
+Goals
+Matches
+
+Enabled
+
+Order
+1377
+1st half - Odd/Even goals
+Goals
+Matches
+
+Enabled
+
+Order
+1378
+1st half - Red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1379
+1st half - Result
+Results
+Matches
+
+Enabled
+
+Order
+1380
+1st half - Result & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1381
+1st half - Result & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+1382
+1st half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+1383
+1st Half - Total Bookings
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1384
+1st Half - Total Bookings (exactly)
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1385
+1st half - Total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1386
+1st half - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1387
+1st Half - Total Corners (aggregated)
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1388
+1st Half - Total Corners Away team
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1389
+1st Half - Total Corners Home team
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1390
+1st Half - Which team wins race to 3 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1391
+1st Half - Which team wins race to 5 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1392
+1st Half - Which team wins race to 7 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1393
+1X2
+Results
+Matches
+
+Enabled
+
+Order
+1394
+2nd Half - 3way
+Other
+Matches
+
+Enabled
+
+Order
+1395
+2nd half - Away team clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1396
+2nd half - Away team total
+Totals
+Matches
+
+Enabled
+
+Order
+1397
+2nd half - Away team total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1398
+2nd half - Away team total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1399
+2nd half - Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1400
+2nd half - Corners handicap
+Corners
+Matches
+
+Enabled
+
+Order
+1401
+2nd half - Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1402
+2nd half - Double chance
+Results
+Matches
+
+Enabled
+
+Order
+1403
+2nd Half - Double chance (1X - 12 - X2)
+Results
+Matches
+
+Enabled
+
+Order
+1404
+2nd half - Double chance & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1405
+2nd half - Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+1406
+2nd half - Exact goals 2+
+Goals
+Matches
+
+Enabled
+
+Order
+1407
+2nd half - First team to score
+Goals
+Matches
+
+Enabled
+
+Order
+1408
+2nd half - Handicap
+Other
+Matches
+
+Enabled
+
+Order
+1409
+2nd half - Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+1410
+2nd half - Home team clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1411
+2nd half - Home team total
+Totals
+Matches
+
+Enabled
+
+Order
+1412
+2nd half - Home team total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1413
+2nd half - Home team total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1414
+2nd Half - Matchbet and both teams to score
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+1415
+2nd Half - Matchbet and Totals
+Totals · Combos
+Matches
+
+Enabled
+
+Order
+1416
+2nd half - Most cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1417
+2nd half - Most corners
+Corners
+Matches
+
+Enabled
+
+Order
+1418
+2nd half - Multigoals
+Goals
+Matches
+
+Enabled
+
+Order
+1419
+2nd half - Odd/Even goals
+Goals
+Matches
+
+Enabled
+
+Order
+1420
+2nd half - Result
+Results
+Matches
+
+Enabled
+
+Order
+1421
+2nd half - Result & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1422
+2nd half - Result & total
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+1423
+2nd Half - Total
+Totals
+Matches
+
+Enabled
+
+Order
+1424
+2nd half - Total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1425
+2nd half - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1426
+3-way (OT only!)
+Other
+Matches
+
+Enabled
+
+Order
+1427
+30:00 - 45+ min. - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1428
+45:00 - 59:59 min. - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1429
+60:00 - 74:59 min. - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1430
+75:00 - 90+ min. - Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1431
+Any team to win
+Other
+Matches
+
+Enabled
+
+Order
+1432
+Anytime goalscorer
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1433
+Anytime goalscorer & 1x2
+Players · Combos · Results · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1434
+Anytime goalscorer & correct score
+Players · Combos · Results · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1435
+Asian Corner handicap -0.5 in 10 minutes interval 11-20
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1436
+Asian Corner handicap -0.5 in 10 minutes interval 21-30
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1437
+Asian Corner handicap -0.5 in 15 minutes interval 16-30
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1438
+Asian Corner handicap -0.5 in 15 minutes interval 31-45
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1439
+Asian Corner handicap -0.5 in 5 minutes interval 16-20
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1440
+Asian Corner handicap -0.5 in 5 minutes interval 21-25
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1441
+Asian Corner handicap -0.5 in 5 minutes interval 76-80
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1442
+Asian Corner handicap -0.5 in 5 minutes interval 81-85
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1443
+Asian Corner handicap 0.5 in 10 minutes interval 11-20
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1444
+Asian Corner handicap 0.5 in 10 minutes interval 21-30
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1445
+Asian Corner handicap 0.5 in 15 minutes interval 16-30
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1446
+Asian Corner handicap 0.5 in 15 minutes interval 31-45
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1447
+Asian Corner handicap 0.5 in 5 minutes interval 11-15
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1448
+Asian Corner handicap 0.5 in 5 minutes interval 6-10
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1449
+Asian Handicap
+Other
+Matches
+
+Enabled
+
+Order
+1450
+Asian handicap first half
+Other
+Matches
+
+Enabled
+
+Order
+1451
+Away team 1st player to score Player
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1452
+Away Team Clean Sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1453
+Away team corner range
+Corners
+Matches
+
+Enabled
+
+Order
+1454
+Away team exact goals 3+
+Goals
+Matches
+
+Enabled
+
+Order
+1455
+Away team highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+1456
+Away team odd/even
+Other
+Matches
+
+Enabled
+
+Order
+1457
+Away team red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1458
+Away team shots on target
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1459
+Away team throw-in
+Other
+Matches
+
+Enabled
+
+Order
+1460
+Away Team to Score 2nd Half
+Goals
+Matches
+
+Enabled
+
+Order
+1461
+Away team to win
+Other
+Matches
+
+Enabled
+
+Order
+1462
+Away team total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1463
+Away team total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1464
+Away team total fouls
+Totals · Fouls
+Hidden by: Fouls
+Matches
+
+Hidden
+
+Order
+1465
+Away team total goal kicks
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1466
+Away team total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1467
+Away team total offsides
+Totals
+Matches
+
+Enabled
+
+Order
+1468
+Away team total shots
+Totals · Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1469
+Away team win or any clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1470
+Away team wins any of the halves
+Other
+Matches
+
+Enabled
+
+Order
+1471
+Away team wins both halves
+Combos
+Matches
+
+Enabled
+
+Order
+1472
+Away team wins or both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1473
+Away team wins or total over
+Totals
+Matches
+
+Enabled
+
+Order
+1474
+Away team wins or total under
+Totals
+Matches
+
+Enabled
+
+Order
+1475
+Away team wins to nil
+Goals
+Matches
+
+Enabled
+
+Order
+1476
+Bookingbet
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1477
+Bookings Away team
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1478
+Bookings Home team
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1479
+Both half goals over 1.5
+Goals
+Matches
+
+Enabled
+
+Order
+1480
+Both half goals under 1.5
+Goals
+Matches
+
+Enabled
+
+Order
+1481
+Both teams to receive cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1482
+Both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1483
+Card in first 10 min. (00:00 - 09:59)
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1484
+Card shown in both halves
+Cards · Combos
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1485
+Cards handicap
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1486
+Clean sheet Away team
+Goals
+Matches
+
+Enabled
+
+Order
+1487
+Clean sheet Home team
+Goals
+Matches
+
+Enabled
+
+Order
+1488
+Corner handicap
+Corners
+Matches
+
+Enabled
+
+Order
+1489
+Corner in first 10 min. (00:00 - 09:59)
+Corners
+Matches
+
+Enabled
+
+Order
+1490
+Corner in first 5 min. (00:00 - 04:59)
+Corners
+Matches
+
+Enabled
+
+Order
+1491
+Corner range
+Corners
+Matches
+
+Enabled
+
+Order
+1492
+Cornerbet
+Corners
+Matches
+
+Enabled
+
+Order
+1493
+Corners Away team
+Corners
+Matches
+
+Enabled
+
+Order
+1494
+Corners Halftime/Fulltime
+Corners
+Matches
+
+Enabled
+
+Order
+1495
+Corners Home team
+Corners
+Matches
+
+Enabled
+
+Order
+1496
+Corners odd/even
+Corners
+Matches
+
+Enabled
+
+Order
+1497
+Correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1498
+Correct score rest of match (from score)
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1499
+Double chance
+Results
+Matches
+
+Enabled
+
+Order
+1500
+Double chance (1X - 12 - X2)
+Results
+Matches
+
+Enabled
+
+Order
+1501
+Double chance (1X - 12 - X2) and both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1502
+Double chance (1X - 12 - X2) and Totals
+Totals · Combos · Results
+Matches
+
+Enabled
+
+Order
+1503
+Double chance & 1st half both teams score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1504
+Double chance & 2nd half both teams score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1505
+Double chance & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1506
+Double chance & total goals
+Totals · Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1507
+Draw no bet
+Results
+Matches
+
+Enabled
+
+Order
+1508
+Draw No Bet first half
+Results
+Matches
+
+Enabled
+
+Order
+1509
+Draw or any clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1510
+Draw or both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1511
+Draw or total goals over
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1512
+Draw or total goals under
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1513
+Exact goals
+Goals
+Matches
+
+Enabled
+
+Order
+1514
+Exact goals 5+
+Goals
+Matches
+
+Enabled
+
+Order
+1515
+Exact goals 6+
+Goals
+Matches
+
+Enabled
+
+Order
+1516
+Exact goals 9+
+Goals
+Matches
+
+Enabled
+
+Order
+1517
+First card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1518
+First corner
+Corners
+Matches
+
+Enabled
+
+Order
+1519
+First goal & match result
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1520
+First goal interval
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1521
+First Half - Matchbet and Totals 1.5
+Totals · Combos
+Matches
+
+Enabled
+
+Order
+1522
+First offside
+Other
+Matches
+
+Enabled
+
+Order
+1523
+First team to score
+Goals
+Matches
+
+Enabled
+
+Order
+1524
+Fouls handicap
+Fouls
+Hidden by: Fouls
+Matches
+
+Hidden
+
+Order
+1525
+Fouls odd/even
+Fouls
+Hidden by: Fouls
+Matches
+
+Hidden
+
+Order
+1526
+Full Time 1UP
+Other
+Matches
+
+Enabled
+
+Order
+1527
+Full Time 2UP
+Other
+Matches
+
+Enabled
+
+Order
+1528
+Full Time 3UP
+Other
+Matches
+
+Enabled
+
+Order
+1529
+Goal in first 10 min. (00:00 - 09:59)
+Goals
+Matches
+
+Enabled
+
+Order
+1530
+Goal in first 5 min. (00:00 - 04:59)
+Goals
+Matches
+
+Enabled
+
+Order
+1531
+Goal/No goal
+Goals
+Matches
+
+Enabled
+
+Order
+1532
+Goals away team
+Goals
+Matches
+
+Enabled
+
+Order
+1533
+Goals home team
+Goals
+Matches
+
+Enabled
+
+Order
+1534
+Halftime - 3way
+Other
+Matches
+
+Enabled
+
+Order
+1535
+Halftime - Double chance (1X - 12 - X2)
+Results
+Matches
+
+Enabled
+
+Order
+1536
+Halftime - Total
+Totals
+Matches
+
+Enabled
+
+Order
+1537
+Halftime - Who wins the rest?
+Other
+Matches
+
+Enabled
+
+Order
+1538
+Halftime/Fulltime
+Other
+Matches
+
+Enabled
+
+Order
+1539
+Halftime/Fulltime & 1st half total goals
+Totals · Combos · Goals
+Matches
+
+Enabled
+
+Order
+1540
+Halftime/fulltime & exact goals
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+1541
+Halftime/fulltime & total goals
+Totals · Combos · Goals
+Matches
+
+Enabled
+
+Order
+1542
+Halftime/Fulltime correct score
+Results · Goals
+Matches
+
+Enabled
+
+Order
+1543
+Handicap
+Other
+Matches
+
+Enabled
+
+Order
+1544
+Handicap (1X2)
+Results
+Matches
+
+Enabled
+
+Order
+1545
+Handicap for first half
+Other
+Matches
+
+Enabled
+
+Order
+1546
+Highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+1547
+Highest scoring half in corners
+Corners
+Matches
+
+Enabled
+
+Order
+1548
+Highest scoring halve in cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1549
+Home team 1st player to score Player
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1550
+Home Team Clean Sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1551
+Home team corner range
+Corners
+Matches
+
+Enabled
+
+Order
+1552
+Home team exact goals 3+
+Goals
+Matches
+
+Enabled
+
+Order
+1553
+Home team highest scoring half
+Other
+Matches
+
+Enabled
+
+Order
+1554
+Home team odd/even
+Other
+Matches
+
+Enabled
+
+Order
+1555
+Home team red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1556
+Home team shots on target
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1557
+Home team throw-in
+Other
+Matches
+
+Enabled
+
+Order
+1558
+Home Team to Score 2nd Half
+Goals
+Matches
+
+Enabled
+
+Order
+1559
+Home team to win
+Other
+Matches
+
+Enabled
+
+Order
+1560
+Home team total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1561
+Home team total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1562
+Home team total fouls
+Totals · Fouls
+Hidden by: Fouls
+Matches
+
+Hidden
+
+Order
+1563
+Home team total goal kicks
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1564
+Home team total goals
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1565
+Home team total offsides
+Totals
+Matches
+
+Enabled
+
+Order
+1566
+Home team total shots
+Totals · Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1567
+Home team win or both teams to score
+Goals
+Matches
+
+Enabled
+
+Order
+1568
+Home team win or total over
+Totals
+Matches
+
+Enabled
+
+Order
+1569
+Home team wins any of the halves
+Other
+Matches
+
+Enabled
+
+Order
+1570
+Home team wins both halves
+Combos
+Matches
+
+Enabled
+
+Order
+1571
+Home team wins or any clean sheet
+Goals
+Matches
+
+Enabled
+
+Order
+1572
+Home team wins or total under
+Totals
+Matches
+
+Enabled
+
+Order
+1573
+Home team wins to nil
+Goals
+Matches
+
+Enabled
+
+Order
+1574
+Last card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1575
+Last corner
+Corners
+Matches
+
+Enabled
+
+Order
+1576
+Last team to score
+Goals
+Matches
+
+Enabled
+
+Order
+1577
+Match result & both teams to score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1578
+Match result + Total goals
+Totals · Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1579
+Matchbet and both teams to score
+Combos · Goals
+Matches
+
+Enabled
+
+Order
+1580
+Matchbet and Totals
+Totals · Combos
+Matches
+
+Enabled
+
+Order
+1581
+Most cards
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1582
+Most corners
+Corners
+Matches
+
+Enabled
+
+Order
+1583
+Most fouls
+Fouls
+Hidden by: Fouls
+Matches
+
+Hidden
+
+Order
+1584
+Most offsides
+Other
+Matches
+
+Enabled
+
+Order
+1585
+Most shots
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1586
+Most shots on target
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1587
+Multicorners
+Corners
+Matches
+
+Enabled
+
+Order
+1588
+Multigoals
+Goals
+Matches
+
+Enabled
+
+Order
+1589
+Multigoals Away team
+Goals
+Matches
+
+Enabled
+
+Order
+1590
+Multigoals Home team
+Goals
+Matches
+
+Enabled
+
+Order
+1591
+Multiscores
+Goals
+Matches
+
+Enabled
+
+Order
+1592
+Next goal
+Goals
+Matches
+
+Enabled
+
+Order
+1593
+Next goal (OT only!)
+Goals
+Matches
+
+Enabled
+
+Order
+1594
+Number of Goals 6+
+Goals
+Matches
+
+Enabled
+
+Order
+1595
+Number of Goals 7+
+Goals
+Matches
+
+Enabled
+
+Order
+1596
+Odd/Even
+Other
+Matches
+
+Enabled
+
+Order
+1597
+Odd/Even Corners in 10 minutes interval 11-20
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1598
+Odd/Even Corners in 10 minutes interval 21-30
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1599
+Odd/Even Corners in 15 minutes interval 16-30
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1600
+Odd/Even Corners in 15 minutes interval 31-45
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1601
+Odd/Even Corners in 5 minutes interval 11-15
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1602
+Odd/Even Corners in 5 minutes interval 16-20
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1603
+Odd/Even Corners in 5 minutes interval 21-25
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1604
+Odd/Even Corners in 5 minutes interval 6-10
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1605
+Odd/Even Corners in 5 minutes interval 76-80
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1606
+Odd/Even Corners in 5 minutes interval 81-85
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1607
+Odd/Even goals
+Goals
+Matches
+
+Enabled
+
+Order
+1608
+Offsides handicap
+Other
+Matches
+
+Enabled
+
+Order
+1609
+Offsides odd/even
+Other
+Matches
+
+Enabled
+
+Order
+1610
+Player Anytime goalscorer & result
+Players · Combos · Results · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1611
+Player offsides
+Players
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1612
+Player to score (sure sub)
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1613
+Player to score 2+
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1614
+Player to score 3+
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1615
+Player to score a free kick
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1616
+Player to score with left foot
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1617
+Player to score with right foot
+Players · Goals
+Hidden by: Players
+Matches
+
+Hidden
+
+Order
+1618
+Race to 3 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1619
+Race to 5 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1620
+Race to 7 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1621
+Race to 9 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1622
+Red card
+Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1623
+scores № 1 goal & correct score
+Combos · Results · Goals
+Matches
+
+Enabled
+
+Order
+1624
+Sending off?
+Other
+Matches
+
+Enabled
+
+Order
+1625
+Shots odd/even
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1626
+Shots on target handicap
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1627
+Shots on target odd/even
+Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1628
+Shots on target total
+Totals · Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1629
+Total
+Totals
+Matches
+
+Enabled
+
+Order
+1630
+Total (OT only!)
+Totals
+Matches
+
+Enabled
+
+Order
+1631
+Total & both teams to score
+Totals · Combos · Goals
+Matches
+
+Enabled
+
+Order
+1632
+Total 0.5 away team corners in minutes time range (10-minute interval)
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1633
+Total 0.5 away team corners in minutes time range (15-minute interval)
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1634
+Total 0.5 away team corners in minutes time range (5-minute interval)
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1635
+Total 0.5 bookings in 10 minutes interval 21-30
+Totals · Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1636
+Total 0.5 bookings in 15 minutes interval 16-30
+Totals · Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1637
+Total 0.5 bookings in 5 minutes interval 16-20
+Totals · Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1638
+Total 0.5 bookings in 5 minutes interval 21-25
+Totals · Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1639
+Total 0.5 home team corners in minutes time range (10-minute interval)
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1640
+Total 0.5 home team corners in minutes time range (15-minute interval)
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1641
+Total 0.5 home team corners in minutes time range (5-minute interval)
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1642
+Total 1.5 bookings in 10 minutes interval 21-30
+Totals · Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1643
+Total 1.5 bookings in 15 minutes interval 16-30
+Totals · Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1644
+Total 1.5 bookings in 5 minutes interval 21-25
+Totals · Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1645
+Total Away team
+Totals
+Matches
+
+Enabled
+
+Order
+1646
+Total Bookings
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1647
+Total Bookings (excactly)
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1648
+Total cards
+Totals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1649
+Total corners
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1650
+Total Corners (aggregated)
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1651
+Total Corners Away team
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1652
+Total Corners Home team
+Totals · Corners
+Matches
+
+Enabled
+
+Order
+1653
+Total corners in minutes time range (10-minute interval)
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1654
+Total corners in minutes time range (15-minute interval)
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1655
+Total corners in minutes time range (5-minute interval)
+Totals · Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1656
+Total fouls
+Totals · Fouls
+Hidden by: Fouls
+Matches
+
+Hidden
+
+Order
+1657
+Total goal kicks
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1658
+Total Goals (Bands)
+Totals · Goals
+Matches
+
+Enabled
+
+Order
+1659
+Total goals in minutes time range (10-minute interval)
+Totals · Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1660
+Total goals in minutes time range (15-minute interval)
+Totals · Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1661
+Total goals in minutes time range (5-minute interval)
+Totals · Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1662
+Total Home team
+Totals
+Matches
+
+Enabled
+
+Order
+1663
+Total offsides
+Totals
+Matches
+
+Enabled
+
+Order
+1664
+Total shots
+Totals · Shots
+Hidden by: Shots
+Matches
+
+Hidden
+
+Order
+1665
+Total throw-in
+Totals
+Matches
+
+Enabled
+
+Order
+1666
+When will goal number be scored (10-minute intervals)
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1667
+When will goal number be scored (15-minute intervals)
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1668
+Which team to score
+Goals
+Matches
+
+Enabled
+
+Order
+1669
+Which team wins race to 3 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1670
+Which team wins race to 5 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1671
+Which team wins race to 7 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1672
+Which team wins race to 9 corners
+Corners
+Matches
+
+Enabled
+
+Order
+1673
+Who receives most bookings in 10 minutes interval 21-30
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1674
+Who receives most bookings in 15 minutes interval 16-30
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1675
+Who receives most bookings in 5 minutes interval 16-20
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1676
+Who receives most bookings in 5 minutes interval 21-25
+Intervals · Cards
+Hidden by: Cards
+Matches
+
+Hidden
+
+Order
+1677
+Who scores goal number in minutes time range (10-minute interval)
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1678
+Who scores goal number in minutes time range (15-minute interval)
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1679
+Who scores goal number in minutes time range (5-minute interval)
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1680
+Who scores most goals in minutes time range (10-minute interval)
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1681
+Who scores most goals in minutes time range (15-minute interval)
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1682
+Who scores most goals in minutes time range (5-minute interval)
+Intervals · Goals
+Matches
+
+Enabled
+
+Order
+1683
+Who takes 1st Corner in 10 minutes interval 11-20
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1684
+Who takes 1st Corner in 10 minutes interval 21-30
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1685
+Who takes 1st Corner in 15 minutes interval 16-30
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1686
+Who takes 1st Corner in 15 minutes interval 31-45
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1687
+Who takes 1st Corner in 5 minutes interval 11-15
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1688
+Who takes 1st Corner in 5 minutes interval 16-20
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1689
+Who takes 1st Corner in 5 minutes interval 21-25
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1690
+Who takes 1st Corner in 5 minutes interval 6-10
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1691
+Who takes 1st Corner in 5 minutes interval 76-80
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1692
+Who takes 1st Corner in 5 minutes interval 81-85
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1693
+Who takes most corners in minutes time range (10-minute interval)
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1694
+Who takes most corners in minutes time range (15-minute interval)
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1695
+Who takes most corners in minutes time range (5-minute interval)
+Intervals · Corners
+Matches
+
+Enabled
+
+Order
+1696
+Who wins the rest of the match?
+Other
+Matches
+
+Enabled
+
+Order
+1697
+Winning margin
+Other
+Matches
+
+Enabled kjo eshte e gjithe lista e tregeve sa nga keto jane te bera dmth ne rregull dhe te tjerat qe nuk i kemi implementuart akoma pervec asian handicap mi listo ketu pervec foule tackles throwins shot on target substition over time penalty dhe shenon gol x lojtar 
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-16T13:51:15+01:00.
+</ADDITIONAL_METADATA>

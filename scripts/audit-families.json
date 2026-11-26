@@ -1,0 +1,2068 @@
+{
+  "intervals": [
+    {
+      "title": "* When will next goal be scored",
+      "orders": [
+        55
+      ]
+    },
+    {
+      "title": "* When will next goal be scored in 10 minutes interval",
+      "orders": [
+        56
+      ]
+    },
+    {
+      "title": "1 minute - Total cards from first value:00 to value min",
+      "orders": [
+        57
+      ]
+    },
+    {
+      "title": "1 minute - Total corners from first value:00 to value min",
+      "orders": [
+        58
+      ]
+    },
+    {
+      "title": "10 minutes - 1st corner from first value:00 - second value min",
+      "orders": [
+        62
+      ]
+    },
+    {
+      "title": "10 minutes - Awayteam red card from first value:00 - second value min",
+      "orders": [
+        63
+      ]
+    },
+    {
+      "title": "10 minutes - Awayteam total corners from first value - second value:00 min",
+      "orders": [
+        64
+      ]
+    },
+    {
+      "title": "10 minutes - Card result from first value to second value:00 min",
+      "orders": [
+        65
+      ]
+    },
+    {
+      "title": "10 minutes - Corner handicap from first value:00 - second value min",
+      "orders": [
+        66
+      ]
+    },
+    {
+      "title": "10 minutes - Corner result from first value - second value:00 min",
+      "orders": [
+        67
+      ]
+    },
+    {
+      "title": "10 minutes - Hometeam red card from first value - second value min",
+      "orders": [
+        68
+      ]
+    },
+    {
+      "title": "10 minutes - Hometeam total corners from first value - second value:00 min",
+      "orders": [
+        69
+      ]
+    },
+    {
+      "title": "10 minutes - № value goal from first value to second value:00",
+      "orders": [
+        70
+      ]
+    },
+    {
+      "title": "10 minutes - Red card from first value to second value:00 min",
+      "orders": [
+        72
+      ]
+    },
+    {
+      "title": "10 minutes - Result first value to second value:00 min",
+      "orders": [
+        73
+      ]
+    },
+    {
+      "title": "10 minutes - Total cards from first value - second value min",
+      "orders": [
+        74
+      ]
+    },
+    {
+      "title": "10 minutes - Total corners from first value - second value:00 min",
+      "orders": [
+        75
+      ]
+    },
+    {
+      "title": "15 minutes - 1st corner from first value:00 - second value min",
+      "orders": [
+        77
+      ]
+    },
+    {
+      "title": "15 minutes - Awayteam red card from first value - second value min",
+      "orders": [
+        78
+      ]
+    },
+    {
+      "title": "15 minutes - Awayteam total corners from first value - second value:00 min",
+      "orders": [
+        79
+      ]
+    },
+    {
+      "title": "15 minutes - Card result from first value to second value:00 min",
+      "orders": [
+        80
+      ]
+    },
+    {
+      "title": "15 minutes - Corner handicap from first value:00 - second value min",
+      "orders": [
+        81
+      ]
+    },
+    {
+      "title": "15 minutes - Corner result from first value to second value:00 min",
+      "orders": [
+        82
+      ]
+    },
+    {
+      "title": "15 minutes - Hometeam red card from first value:00 - second value min",
+      "orders": [
+        83
+      ]
+    },
+    {
+      "title": "15 minutes - Hometeam total corners from first value - second value:00 min",
+      "orders": [
+        84
+      ]
+    },
+    {
+      "title": "15 minutes - № value goal from first value - second value:00 min",
+      "orders": [
+        85
+      ]
+    },
+    {
+      "title": "15 minutes - Red card from first value to second value:00 min",
+      "orders": [
+        87
+      ]
+    },
+    {
+      "title": "15 minutes - Result from first value to second value:00 min",
+      "orders": [
+        88
+      ]
+    },
+    {
+      "title": "15 minutes - Total cards from first value - second value min",
+      "orders": [
+        90
+      ]
+    },
+    {
+      "title": "15 minutes - Total corners from first value - second value:00 min",
+      "orders": [
+        91
+      ]
+    },
+    {
+      "title": "5 minutes - 1st corner from first value:00 - second value min",
+      "orders": [
+        265
+      ]
+    },
+    {
+      "title": "5 minutes - Awayteam red card from first value:00- second value min",
+      "orders": [
+        266
+      ]
+    },
+    {
+      "title": "5 minutes - Awayteam total corners from first value - second value:00 min",
+      "orders": [
+        267
+      ]
+    },
+    {
+      "title": "5 minutes - Card result from first value to second value:00 min",
+      "orders": [
+        268
+      ]
+    },
+    {
+      "title": "5 minutes - Corner handicap from first value - second value min",
+      "orders": [
+        269
+      ]
+    },
+    {
+      "title": "5 minutes - Corner result from first value to second value:00 min",
+      "orders": [
+        270
+      ]
+    },
+    {
+      "title": "5 minutes - Hometeam red card from first value - second value:00 min",
+      "orders": [
+        271
+      ]
+    },
+    {
+      "title": "5 minutes - Hometeam total corners from first value - second value:00 min",
+      "orders": [
+        272
+      ]
+    },
+    {
+      "title": "5 minutes - № value goal from first value to second value:00",
+      "orders": [
+        273
+      ]
+    },
+    {
+      "title": "5 minutes - Red card from first value to second value:00 min",
+      "orders": [
+        275
+      ]
+    },
+    {
+      "title": "5 minutes - Result from first value to second value:00 min",
+      "orders": [
+        276
+      ]
+    },
+    {
+      "title": "5 minutes - Total cards from first value - second value:00 min",
+      "orders": [
+        277
+      ]
+    },
+    {
+      "title": "5 minutes - Total corners from first value - second value:00 min",
+      "orders": [
+        278
+      ]
+    },
+    {
+      "title": "When will the match be decided",
+      "orders": [
+        931,
+        932
+      ]
+    },
+    {
+      "title": "First goal interval",
+      "orders": [
+        1222,
+        1223,
+        1520
+      ]
+    },
+    {
+      "title": "Total 0.5 away team corners in minutes time range (10-minute interval)",
+      "orders": [
+        1632
+      ]
+    },
+    {
+      "title": "Total 0.5 away team corners in minutes time range (15-minute interval)",
+      "orders": [
+        1633
+      ]
+    },
+    {
+      "title": "Total 0.5 away team corners in minutes time range (5-minute interval)",
+      "orders": [
+        1634
+      ]
+    },
+    {
+      "title": "Total 0.5 bookings in 10 minutes interval 21-30",
+      "orders": [
+        1635
+      ]
+    },
+    {
+      "title": "Total 0.5 bookings in 15 minutes interval 16-30",
+      "orders": [
+        1636
+      ]
+    },
+    {
+      "title": "Total 0.5 bookings in 5 minutes interval 16-20",
+      "orders": [
+        1637
+      ]
+    },
+    {
+      "title": "Total 0.5 bookings in 5 minutes interval 21-25",
+      "orders": [
+        1638
+      ]
+    },
+    {
+      "title": "Total 0.5 home team corners in minutes time range (10-minute interval)",
+      "orders": [
+        1639
+      ]
+    },
+    {
+      "title": "Total 0.5 home team corners in minutes time range (15-minute interval)",
+      "orders": [
+        1640
+      ]
+    },
+    {
+      "title": "Total 0.5 home team corners in minutes time range (5-minute interval)",
+      "orders": [
+        1641
+      ]
+    },
+    {
+      "title": "Total 1.5 bookings in 10 minutes interval 21-30",
+      "orders": [
+        1642
+      ]
+    },
+    {
+      "title": "Total 1.5 bookings in 15 minutes interval 16-30",
+      "orders": [
+        1643
+      ]
+    },
+    {
+      "title": "Total 1.5 bookings in 5 minutes interval 21-25",
+      "orders": [
+        1644
+      ]
+    },
+    {
+      "title": "Total corners in minutes time range (10-minute interval)",
+      "orders": [
+        1653
+      ]
+    },
+    {
+      "title": "Total corners in minutes time range (15-minute interval)",
+      "orders": [
+        1654
+      ]
+    },
+    {
+      "title": "Total corners in minutes time range (5-minute interval)",
+      "orders": [
+        1655
+      ]
+    },
+    {
+      "title": "When will goal number be scored (10-minute intervals)",
+      "orders": [
+        1666
+      ]
+    },
+    {
+      "title": "When will goal number be scored (15-minute intervals)",
+      "orders": [
+        1667
+      ]
+    },
+    {
+      "title": "Who receives most bookings in 10 minutes interval 21-30",
+      "orders": [
+        1673
+      ]
+    },
+    {
+      "title": "Who receives most bookings in 15 minutes interval 16-30",
+      "orders": [
+        1674
+      ]
+    },
+    {
+      "title": "Who receives most bookings in 5 minutes interval 16-20",
+      "orders": [
+        1675
+      ]
+    },
+    {
+      "title": "Who receives most bookings in 5 minutes interval 21-25",
+      "orders": [
+        1676
+      ]
+    },
+    {
+      "title": "Who scores goal number in minutes time range (10-minute interval)",
+      "orders": [
+        1677
+      ]
+    },
+    {
+      "title": "Who scores goal number in minutes time range (15-minute interval)",
+      "orders": [
+        1678
+      ]
+    },
+    {
+      "title": "Who scores goal number in minutes time range (5-minute interval)",
+      "orders": [
+        1679
+      ]
+    },
+    {
+      "title": "Who takes 1st Corner in 10 minutes interval 11-20",
+      "orders": [
+        1683
+      ]
+    },
+    {
+      "title": "Who takes 1st Corner in 10 minutes interval 21-30",
+      "orders": [
+        1684
+      ]
+    },
+    {
+      "title": "Who takes 1st Corner in 15 minutes interval 16-30",
+      "orders": [
+        1685
+      ]
+    },
+    {
+      "title": "Who takes 1st Corner in 15 minutes interval 31-45",
+      "orders": [
+        1686
+      ]
+    },
+    {
+      "title": "Who takes 1st Corner in 5 minutes interval 11-15",
+      "orders": [
+        1687
+      ]
+    },
+    {
+      "title": "Who takes 1st Corner in 5 minutes interval 16-20",
+      "orders": [
+        1688
+      ]
+    },
+    {
+      "title": "Who takes 1st Corner in 5 minutes interval 21-25",
+      "orders": [
+        1689
+      ]
+    },
+    {
+      "title": "Who takes 1st Corner in 5 minutes interval 6-10",
+      "orders": [
+        1690
+      ]
+    },
+    {
+      "title": "Who takes 1st Corner in 5 minutes interval 76-80",
+      "orders": [
+        1691
+      ]
+    },
+    {
+      "title": "Who takes 1st Corner in 5 minutes interval 81-85",
+      "orders": [
+        1692
+      ]
+    },
+    {
+      "title": "Who takes most corners in minutes time range (10-minute interval)",
+      "orders": [
+        1693
+      ]
+    },
+    {
+      "title": "Who takes most corners in minutes time range (15-minute interval)",
+      "orders": [
+        1694
+      ]
+    },
+    {
+      "title": "Who takes most corners in minutes time range (5-minute interval)",
+      "orders": [
+        1695
+      ]
+    }
+  ],
+  "halfProps": [
+    {
+      "title": "1st half - Awayteam total corners",
+      "orders": [
+        102,
+        1077
+      ]
+    },
+    {
+      "title": "1st half - Corner handicap",
+      "orders": [
+        107,
+        1079,
+        1347
+      ]
+    },
+    {
+      "title": "1st half - Corner range",
+      "orders": [
+        108,
+        1080,
+        1348
+      ]
+    },
+    {
+      "title": "1st half - Hometeam total corners",
+      "orders": [
+        161,
+        1101
+      ]
+    },
+    {
+      "title": "1st half - Most corners",
+      "orders": [
+        164,
+        1104,
+        1375
+      ]
+    },
+    {
+      "title": "1st half - Race to value corners",
+      "orders": [
+        174
+      ]
+    },
+    {
+      "title": "1st half - Total corners",
+      "orders": [
+        201,
+        1113,
+        1386
+      ]
+    },
+    {
+      "title": "1st half - Who takes the value corner",
+      "orders": [
+        211
+      ]
+    },
+    {
+      "title": "Awayteam corner range",
+      "orders": [
+        309,
+        1157
+      ]
+    },
+    {
+      "title": "Awayteam total corners",
+      "orders": [
+        327,
+        1169
+      ]
+    },
+    {
+      "title": "Corner handicap",
+      "orders": [
+        364,
+        1194,
+        1488
+      ]
+    },
+    {
+      "title": "Corner handicap (1X2)",
+      "orders": [
+        365
+      ]
+    },
+    {
+      "title": "Corner range",
+      "orders": [
+        366,
+        1197,
+        1491
+      ]
+    },
+    {
+      "title": "Hometeam corner range",
+      "orders": [
+        587,
+        1247
+      ]
+    },
+    {
+      "title": "Hometeam total corners",
+      "orders": [
+        606,
+        1259
+      ]
+    },
+    {
+      "title": "Last corner",
+      "orders": [
+        640,
+        1274,
+        1575
+      ]
+    },
+    {
+      "title": "Most corners",
+      "orders": [
+        740,
+        1280,
+        1582
+      ]
+    },
+    {
+      "title": "Next corner value",
+      "orders": [
+        745,
+        746
+      ]
+    },
+    {
+      "title": "Race to value corners",
+      "orders": [
+        815
+      ]
+    },
+    {
+      "title": "Total corners (Over-Exactly-Under)",
+      "orders": [
+        865
+      ]
+    },
+    {
+      "title": "Who takes the value corner",
+      "orders": [
+        947
+      ]
+    },
+    {
+      "title": "00:00 - 14:59 min. - Total corners",
+      "orders": [
+        1055,
+        1335
+      ]
+    },
+    {
+      "title": "15:00 - 29:59 min. - Total corners",
+      "orders": [
+        1069,
+        1336
+      ]
+    },
+    {
+      "title": "1st half - First corner",
+      "orders": [
+        1090,
+        1360
+      ]
+    },
+    {
+      "title": "1st half - Last corner",
+      "orders": [
+        1102,
+        1372
+      ]
+    },
+    {
+      "title": "2nd half - Awayteam total corners",
+      "orders": [
+        1117
+      ]
+    },
+    {
+      "title": "2nd half - Corners handicap",
+      "orders": [
+        1119,
+        1400
+      ]
+    },
+    {
+      "title": "2nd half - Hometeam total corners",
+      "orders": [
+        1132
+      ]
+    },
+    {
+      "title": "2nd half - Most corners",
+      "orders": [
+        1134,
+        1417
+      ]
+    },
+    {
+      "title": "2nd half - Total corners",
+      "orders": [
+        1142,
+        1425
+      ]
+    },
+    {
+      "title": "30:00 - 45+ min. - Total corners",
+      "orders": [
+        1145,
+        1427
+      ]
+    },
+    {
+      "title": "45:00 - 59:59 min. - Total corners",
+      "orders": [
+        1147,
+        1428
+      ]
+    },
+    {
+      "title": "60:00 - 74:59 min. - Total corners",
+      "orders": [
+        1149,
+        1429
+      ]
+    },
+    {
+      "title": "75:00 - 90+ min. - Total corners",
+      "orders": [
+        1151,
+        1430
+      ]
+    },
+    {
+      "title": "Corner in first 10 min. (00:00 - 09:59)",
+      "orders": [
+        1195,
+        1489
+      ]
+    },
+    {
+      "title": "Corner in first 5 min. (00:00 - 04:59)",
+      "orders": [
+        1196,
+        1490
+      ]
+    },
+    {
+      "title": "Corners Halftime/Fulltime",
+      "orders": [
+        1198,
+        1494
+      ]
+    },
+    {
+      "title": "First corner",
+      "orders": [
+        1220,
+        1518
+      ]
+    },
+    {
+      "title": "Highest scoring half in corners",
+      "orders": [
+        1243,
+        1547
+      ]
+    },
+    {
+      "title": "Multicorners",
+      "orders": [
+        1287,
+        1587
+      ]
+    },
+    {
+      "title": "Race to 3 corners",
+      "orders": [
+        1297,
+        1618
+      ]
+    },
+    {
+      "title": "Race to 5 corners",
+      "orders": [
+        1298,
+        1619
+      ]
+    },
+    {
+      "title": "Race to 7 corners",
+      "orders": [
+        1299,
+        1620
+      ]
+    },
+    {
+      "title": "Race to 9 corners",
+      "orders": [
+        1300,
+        1621
+      ]
+    },
+    {
+      "title": "1st half - Away team total corners",
+      "orders": [
+        1343
+      ]
+    },
+    {
+      "title": "1st Half - Cornerbet",
+      "orders": [
+        1349
+      ]
+    },
+    {
+      "title": "1st Half - Corners Away team",
+      "orders": [
+        1350
+      ]
+    },
+    {
+      "title": "1st Half - Corners Home team",
+      "orders": [
+        1351
+      ]
+    },
+    {
+      "title": "1st half - Home team total corners",
+      "orders": [
+        1371
+      ]
+    },
+    {
+      "title": "1st Half - Total Corners (aggregated)",
+      "orders": [
+        1387
+      ]
+    },
+    {
+      "title": "1st Half - Total Corners Away team",
+      "orders": [
+        1388
+      ]
+    },
+    {
+      "title": "1st Half - Total Corners Home team",
+      "orders": [
+        1389
+      ]
+    },
+    {
+      "title": "1st Half - Which team wins race to 3 corners",
+      "orders": [
+        1390
+      ]
+    },
+    {
+      "title": "1st Half - Which team wins race to 5 corners",
+      "orders": [
+        1391
+      ]
+    },
+    {
+      "title": "1st Half - Which team wins race to 7 corners",
+      "orders": [
+        1392
+      ]
+    },
+    {
+      "title": "2nd half - Away team total corners",
+      "orders": [
+        1398
+      ]
+    },
+    {
+      "title": "2nd half - Home team total corners",
+      "orders": [
+        1413
+      ]
+    },
+    {
+      "title": "Away team corner range",
+      "orders": [
+        1453
+      ]
+    },
+    {
+      "title": "Cornerbet",
+      "orders": [
+        1492
+      ]
+    },
+    {
+      "title": "Home team corner range",
+      "orders": [
+        1551
+      ]
+    },
+    {
+      "title": "Total Corners (aggregated)",
+      "orders": [
+        1650
+      ]
+    },
+    {
+      "title": "Which team wins race to 3 corners",
+      "orders": [
+        1669
+      ]
+    },
+    {
+      "title": "Which team wins race to 5 corners",
+      "orders": [
+        1670
+      ]
+    },
+    {
+      "title": "Which team wins race to 7 corners",
+      "orders": [
+        1671
+      ]
+    },
+    {
+      "title": "Which team wins race to 9 corners",
+      "orders": [
+        1672
+      ]
+    }
+  ],
+  "combos": [
+    {
+      "title": "value goal & result",
+      "orders": [
+        3
+      ]
+    },
+    {
+      "title": "Winner & total",
+      "orders": [
+        998
+      ]
+    },
+    {
+      "title": "Awayteam not to lose & total over",
+      "orders": [
+        1161
+      ]
+    },
+    {
+      "title": "Awayteam not to lose & total under",
+      "orders": [
+        1162
+      ]
+    },
+    {
+      "title": "Double chance & 1st half both teams score",
+      "orders": [
+        1205,
+        1503
+      ]
+    },
+    {
+      "title": "Double chance & 2nd half both teams score",
+      "orders": [
+        1206,
+        1504
+      ]
+    },
+    {
+      "title": "First goal & match result",
+      "orders": [
+        1221,
+        1519
+      ]
+    },
+    {
+      "title": "Halftime/Fulltime & 1st half total goals",
+      "orders": [
+        1235,
+        1539
+      ]
+    },
+    {
+      "title": "Halftime/fulltime & exact goals",
+      "orders": [
+        1236,
+        1540
+      ]
+    },
+    {
+      "title": "Halftime/fulltime & total goals",
+      "orders": [
+        1237,
+        1541
+      ]
+    },
+    {
+      "title": "Hometeam not to lose & total over",
+      "orders": [
+        1251
+      ]
+    },
+    {
+      "title": "Hometeam not to lose & total under",
+      "orders": [
+        1252
+      ]
+    },
+    {
+      "title": "scores № second value goal & correct score",
+      "orders": [
+        1304
+      ]
+    },
+    {
+      "title": "scores № 1 goal & correct score",
+      "orders": [
+        1623
+      ]
+    }
+  ],
+  "handicaps": [
+    {
+      "title": "1st half - Handicap",
+      "orders": [
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        1093,
+        1364
+      ]
+    },
+    {
+      "title": "2nd half - Handicap",
+      "orders": [
+        233,
+        234,
+        235,
+        1127,
+        1408
+      ]
+    },
+    {
+      "title": "Handicap",
+      "orders": [
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        1239,
+        1543
+      ]
+    },
+    {
+      "title": "Handicap (1 X 2)",
+      "orders": [
+        539
+      ]
+    },
+    {
+      "title": "Handicap (1X2)",
+      "orders": [
+        540,
+        541,
+        542,
+        543,
+        544,
+        1240,
+        1544
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 04:59 min.",
+      "orders": [
+        552
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 09:59 min.",
+      "orders": [
+        553
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 14:59 min.",
+      "orders": [
+        554
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 19:59 min.",
+      "orders": [
+        555
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 24:59 min.",
+      "orders": [
+        556
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 29:59 min.",
+      "orders": [
+        557
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 34:59 min.",
+      "orders": [
+        558
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 39:59 min.",
+      "orders": [
+        559
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 49:59 min.",
+      "orders": [
+        560
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 54:59 min.",
+      "orders": [
+        561
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 59:59 min.",
+      "orders": [
+        562
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 64:59 min.",
+      "orders": [
+        563
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 69:59 min.",
+      "orders": [
+        564
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 74:59 min.",
+      "orders": [
+        565
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 79:59 min.",
+      "orders": [
+        566
+      ]
+    },
+    {
+      "title": "Handicap 00:00 - 84:59 min.",
+      "orders": [
+        567
+      ]
+    },
+    {
+      "title": "1 - 14:59 min. - Handicap",
+      "orders": [
+        1057
+      ]
+    },
+    {
+      "title": "1 - 29:59 min. - Handicap",
+      "orders": [
+        1059
+      ]
+    },
+    {
+      "title": "1 - 59:59 min. - Handicap",
+      "orders": [
+        1062
+      ]
+    },
+    {
+      "title": "1 - 74:59 min. - Handicap",
+      "orders": [
+        1065
+      ]
+    },
+    {
+      "title": "Offsides handicap",
+      "orders": [
+        1295,
+        1608
+      ]
+    },
+    {
+      "title": "Saves handicap",
+      "orders": [
+        1303
+      ]
+    },
+    {
+      "title": "Handicap for first half",
+      "orders": [
+        1545
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "title": "1st half - Awayteam total cards",
+      "orders": [
+        101,
+        1076
+      ]
+    },
+    {
+      "title": "1st half - Exact cards",
+      "orders": [
+        132,
+        1086
+      ]
+    },
+    {
+      "title": "1st half - Hometeam total cards",
+      "orders": [
+        160,
+        1100
+      ]
+    },
+    {
+      "title": "1st half - Total cards",
+      "orders": [
+        200,
+        1112,
+        1385
+      ]
+    },
+    {
+      "title": "Awayteam total cards",
+      "orders": [
+        326,
+        1168
+      ]
+    },
+    {
+      "title": "Cards handicap",
+      "orders": [
+        362,
+        1191,
+        1485
+      ]
+    },
+    {
+      "title": "Exact cards",
+      "orders": [
+        473,
+        1214
+      ]
+    },
+    {
+      "title": "Hometeam total cards",
+      "orders": [
+        605,
+        1258
+      ]
+    },
+    {
+      "title": "Most cards",
+      "orders": [
+        739,
+        1279,
+        1581
+      ]
+    },
+    {
+      "title": "Next card value",
+      "orders": [
+        744
+      ]
+    },
+    {
+      "title": "Red card",
+      "orders": [
+        820,
+        1301,
+        1622
+      ]
+    },
+    {
+      "title": "Total cards",
+      "orders": [
+        863,
+        1318,
+        1648
+      ]
+    },
+    {
+      "title": "1st half - Awayteam exact cards",
+      "orders": [
+        1072
+      ]
+    },
+    {
+      "title": "1st half - Awayteam red card",
+      "orders": [
+        1074
+      ]
+    },
+    {
+      "title": "1st half - First card",
+      "orders": [
+        1089
+      ]
+    },
+    {
+      "title": "1st half - Hometeam exact cards",
+      "orders": [
+        1096
+      ]
+    },
+    {
+      "title": "1st half - Hometeam red card",
+      "orders": [
+        1098
+      ]
+    },
+    {
+      "title": "1st half - Most cards",
+      "orders": [
+        1103,
+        1374
+      ]
+    },
+    {
+      "title": "1st half - Red card",
+      "orders": [
+        1107,
+        1378
+      ]
+    },
+    {
+      "title": "2nd half - Awayteam total cards",
+      "orders": [
+        1116
+      ]
+    },
+    {
+      "title": "2nd half - Hometeam total cards",
+      "orders": [
+        1131
+      ]
+    },
+    {
+      "title": "2nd half - Most cards",
+      "orders": [
+        1133,
+        1416
+      ]
+    },
+    {
+      "title": "2nd half - Total cards",
+      "orders": [
+        1141,
+        1424
+      ]
+    },
+    {
+      "title": "Awayteam red card",
+      "orders": [
+        1164
+      ]
+    },
+    {
+      "title": "Both teams to receive cards",
+      "orders": [
+        1185,
+        1481
+      ]
+    },
+    {
+      "title": "Card in first 10 min. (00:00 - 09:59)",
+      "orders": [
+        1189,
+        1483
+      ]
+    },
+    {
+      "title": "Card shown in both halves",
+      "orders": [
+        1190,
+        1484
+      ]
+    },
+    {
+      "title": "First card",
+      "orders": [
+        1219,
+        1517
+      ]
+    },
+    {
+      "title": "Highest scoring halve in cards",
+      "orders": [
+        1244,
+        1548
+      ]
+    },
+    {
+      "title": "Hometeam red card",
+      "orders": [
+        1254
+      ]
+    },
+    {
+      "title": "Last card",
+      "orders": [
+        1273,
+        1574
+      ]
+    },
+    {
+      "title": "1st half - Away team red card",
+      "orders": [
+        1340
+      ]
+    },
+    {
+      "title": "1st half - Away team total cards",
+      "orders": [
+        1342
+      ]
+    },
+    {
+      "title": "1st Half - Bookings Away team",
+      "orders": [
+        1344
+      ]
+    },
+    {
+      "title": "1st Half - Bookings Home team",
+      "orders": [
+        1345
+      ]
+    },
+    {
+      "title": "1st half - Home team red card",
+      "orders": [
+        1368
+      ]
+    },
+    {
+      "title": "1st half - Home team total cards",
+      "orders": [
+        1370
+      ]
+    },
+    {
+      "title": "1st Half - Total Bookings",
+      "orders": [
+        1383
+      ]
+    },
+    {
+      "title": "1st Half - Total Bookings (exactly)",
+      "orders": [
+        1384
+      ]
+    },
+    {
+      "title": "2nd half - Away team total cards",
+      "orders": [
+        1397
+      ]
+    },
+    {
+      "title": "2nd half - Home team total cards",
+      "orders": [
+        1412
+      ]
+    },
+    {
+      "title": "Away team red card",
+      "orders": [
+        1457
+      ]
+    },
+    {
+      "title": "Away team total cards",
+      "orders": [
+        1462
+      ]
+    },
+    {
+      "title": "Bookingbet",
+      "orders": [
+        1476
+      ]
+    },
+    {
+      "title": "Bookings Away team",
+      "orders": [
+        1477
+      ]
+    },
+    {
+      "title": "Bookings Home team",
+      "orders": [
+        1478
+      ]
+    },
+    {
+      "title": "Home team red card",
+      "orders": [
+        1555
+      ]
+    },
+    {
+      "title": "Home team total cards",
+      "orders": [
+        1560
+      ]
+    },
+    {
+      "title": "Total Bookings",
+      "orders": [
+        1646
+      ]
+    },
+    {
+      "title": "Total Bookings (excactly)",
+      "orders": [
+        1647
+      ]
+    }
+  ],
+  "other": [
+    {
+      "title": "1st half - Next goal value",
+      "orders": [
+        166,
+        167,
+        168
+      ]
+    },
+    {
+      "title": "1st half - Rest of the half value",
+      "orders": [
+        179
+      ]
+    },
+    {
+      "title": "1st half - Which team wins the rest value",
+      "orders": [
+        210
+      ]
+    },
+    {
+      "title": "1st half - Winning margin",
+      "orders": [
+        212,
+        213
+      ]
+    },
+    {
+      "title": "1st half - Winning margins",
+      "orders": [
+        214
+      ]
+    },
+    {
+      "title": "1st half- Rest of the half value",
+      "orders": [
+        216,
+        217
+      ]
+    },
+    {
+      "title": "Awayteam no bet",
+      "orders": [
+        316
+      ]
+    },
+    {
+      "title": "Awayteam to win",
+      "orders": [
+        319,
+        1167
+      ]
+    },
+    {
+      "title": "Awayteam wins to nil",
+      "orders": [
+        355,
+        1182
+      ]
+    },
+    {
+      "title": "Final Result",
+      "orders": [
+        505
+      ]
+    },
+    {
+      "title": "Full Time first valueUP",
+      "orders": [
+        506,
+        1230
+      ]
+    },
+    {
+      "title": "H2H - (teams) value",
+      "orders": [
+        511
+      ]
+    },
+    {
+      "title": "H2H - value",
+      "orders": [
+        512
+      ]
+    },
+    {
+      "title": "Highest scoring team in either half",
+      "orders": [
+        576
+      ]
+    },
+    {
+      "title": "Hometeam no bet",
+      "orders": [
+        594,
+        595
+      ]
+    },
+    {
+      "title": "Hometeam to win",
+      "orders": [
+        598,
+        1257
+      ]
+    },
+    {
+      "title": "Matchbet and 1st goal",
+      "orders": [
+        734
+      ]
+    },
+    {
+      "title": "Money Line (OT)",
+      "orders": [
+        738
+      ]
+    },
+    {
+      "title": "Next first value scoring play",
+      "orders": [
+        742
+      ]
+    },
+    {
+      "title": "Next Away Goal Time",
+      "orders": [
+        743
+      ]
+    },
+    {
+      "title": "Next goal value",
+      "orders": [
+        748,
+        749,
+        750,
+        752
+      ]
+    },
+    {
+      "title": "Next Home Goal Time",
+      "orders": [
+        753
+      ]
+    },
+    {
+      "title": "Over/Exactly/Under",
+      "orders": [
+        775
+      ]
+    },
+    {
+      "title": "Rest of the match value",
+      "orders": [
+        821,
+        822
+      ]
+    },
+    {
+      "title": "Result of range hit",
+      "orders": [
+        823,
+        824
+      ]
+    },
+    {
+      "title": "Round advantage",
+      "orders": [
+        827
+      ]
+    },
+    {
+      "title": "To Qualify",
+      "orders": [
+        844,
+        845,
+        1313
+      ]
+    },
+    {
+      "title": "Top second value",
+      "orders": [
+        846
+      ]
+    },
+    {
+      "title": "Top 3 (teams)",
+      "orders": [
+        847
+      ]
+    },
+    {
+      "title": "Which team wins the rest value",
+      "orders": [
+        940
+      ]
+    },
+    {
+      "title": "Which team wins the rest of the match value",
+      "orders": [
+        941,
+        942,
+        943,
+        944
+      ]
+    },
+    {
+      "title": "Who advances to the next round",
+      "orders": [
+        945
+      ]
+    },
+    {
+      "title": "Who wins the rest of the match value",
+      "orders": [
+        974
+      ]
+    },
+    {
+      "title": "Will the value penalty be scored",
+      "orders": [
+        976
+      ]
+    },
+    {
+      "title": "Will there be a tie",
+      "orders": [
+        978
+      ]
+    },
+    {
+      "title": "Winning margin",
+      "orders": [
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1332,
+        1697
+      ]
+    },
+    {
+      "title": "Winning margins",
+      "orders": [
+        1011
+      ]
+    },
+    {
+      "title": "Winning method",
+      "orders": [
+        1013,
+        1014,
+        1333
+      ]
+    },
+    {
+      "title": "-",
+      "orders": [
+        1016
+      ]
+    },
+    {
+      "title": "00:00 - 09:59 min. - Result",
+      "orders": [
+        1053,
+        1334
+      ]
+    },
+    {
+      "title": "00:00 - 14:59 min. - Result",
+      "orders": [
+        1054
+      ]
+    },
+    {
+      "title": "1 - 29:59 min. - Result",
+      "orders": [
+        1060
+      ]
+    },
+    {
+      "title": "1 - 59:59 min. - Result",
+      "orders": [
+        1063
+      ]
+    },
+    {
+      "title": "1 - 74:59 min. - Result",
+      "orders": [
+        1066
+      ]
+    },
+    {
+      "title": "1st / 2nd half both teams to score",
+      "orders": [
+        1070,
+        1337
+      ]
+    },
+    {
+      "title": "2nd place in the tournament:",
+      "orders": [
+        1143
+      ]
+    },
+    {
+      "title": "Awayteam wins any of the halves",
+      "orders": [
+        1177
+      ]
+    },
+    {
+      "title": "Awayteam wins both halves",
+      "orders": [
+        1178
+      ]
+    },
+    {
+      "title": "Both teams to score and total under",
+      "orders": [
+        1187
+      ]
+    },
+    {
+      "title": "Both teams to score and Тotal Over",
+      "orders": [
+        1188
+      ]
+    },
+    {
+      "title": "First offside",
+      "orders": [
+        1224,
+        1522
+      ]
+    },
+    {
+      "title": "Free text market",
+      "orders": [
+        1228
+      ]
+    },
+    {
+      "title": "Halftime/Fulltime correct score",
+      "orders": [
+        1238,
+        1542
+      ]
+    },
+    {
+      "title": "Hometeam wins any of the halves",
+      "orders": [
+        1268
+      ]
+    },
+    {
+      "title": "Hometeam wins both halves",
+      "orders": [
+        1269
+      ]
+    },
+    {
+      "title": "Hometeam wins to nil",
+      "orders": [
+        1272
+      ]
+    },
+    {
+      "title": "Most offsides",
+      "orders": [
+        1282,
+        1584
+      ]
+    },
+    {
+      "title": "Most saves",
+      "orders": [
+        1283
+      ]
+    },
+    {
+      "title": "Multiscores",
+      "orders": [
+        1291,
+        1591
+      ]
+    },
+    {
+      "title": "Short term free text market",
+      "orders": [
+        1305
+      ]
+    },
+    {
+      "title": "To reach the final:",
+      "orders": [
+        1314
+      ]
+    },
+    {
+      "title": "To reach the semifinal:",
+      "orders": [
+        1315
+      ]
+    },
+    {
+      "title": "Which team will win the final",
+      "orders": [
+        1329
+      ]
+    },
+    {
+      "title": "Away team to win",
+      "orders": [
+        1461
+      ]
+    },
+    {
+      "title": "Away team wins any of the halves",
+      "orders": [
+        1470
+      ]
+    },
+    {
+      "title": "Away team wins both halves",
+      "orders": [
+        1471
+      ]
+    },
+    {
+      "title": "Away team wins to nil",
+      "orders": [
+        1475
+      ]
+    },
+    {
+      "title": "Full Time 1UP",
+      "orders": [
+        1526
+      ]
+    },
+    {
+      "title": "Full Time 2UP",
+      "orders": [
+        1527
+      ]
+    },
+    {
+      "title": "Full Time 3UP",
+      "orders": [
+        1528
+      ]
+    },
+    {
+      "title": "Halftime - Who wins the rest?",
+      "orders": [
+        1537
+      ]
+    },
+    {
+      "title": "Home team to win",
+      "orders": [
+        1559
+      ]
+    },
+    {
+      "title": "Home team wins any of the halves",
+      "orders": [
+        1569
+      ]
+    },
+    {
+      "title": "Home team wins both halves",
+      "orders": [
+        1570
+      ]
+    },
+    {
+      "title": "Home team wins to nil",
+      "orders": [
+        1573
+      ]
+    },
+    {
+      "title": "Next goal",
+      "orders": [
+        1592
+      ]
+    },
+    {
+      "title": "Sending off?",
+      "orders": [
+        1624
+      ]
+    }
+  ]
+}

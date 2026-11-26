@@ -1,0 +1,5226 @@
+{
+  "generated_at": "2026-11-25T18:07:32.917Z",
+  "privacy_notice": "Anonymized structural & sportsbook reference only. Zero user accounts, password hashes, balances, wallet transactions, staff transfers, booking codes, API keys, or Telegram tokens.",
+  "tables": [
+    {
+      "table": "app_admin_audit",
+      "row_count": 277,
+      "columns": [
+        {
+          "column": "id",
+          "type": "bigint",
+          "nullable": false,
+          "default": "nextval('app_admin_audit_id_seq'::regclass)"
+        },
+        {
+          "column": "actor_id",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "actor_name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "actor_role",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "action",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "target_type",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "target_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "details",
+          "type": "jsonb",
+          "nullable": false,
+          "default": "'{}'::jsonb"
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_admin_audit_actor_idx",
+          "definition": "CREATE INDEX app_admin_audit_actor_idx ON public.app_admin_audit USING btree (actor_id, created_at DESC)"
+        },
+        {
+          "name": "app_admin_audit_created_idx",
+          "definition": "CREATE INDEX app_admin_audit_created_idx ON public.app_admin_audit USING btree (created_at DESC)"
+        },
+        {
+          "name": "app_admin_audit_pkey",
+          "definition": "CREATE UNIQUE INDEX app_admin_audit_pkey ON public.app_admin_audit USING btree (id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_bet_builder_template",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "id",
+          "type": "uuid",
+          "nullable": false,
+          "default": "gen_random_uuid()"
+        },
+        {
+          "column": "name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "legs",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "active",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_bet_builder_template_pkey",
+          "definition": "CREATE UNIQUE INDEX app_bet_builder_template_pkey ON public.app_bet_builder_template USING btree (id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_bet_rejection",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "id",
+          "type": "uuid",
+          "nullable": false,
+          "default": "gen_random_uuid()"
+        },
+        {
+          "column": "user_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "client_request_id",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "stake",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "selection_count",
+          "type": "integer",
+          "nullable": false,
+          "default": "0"
+        },
+        {
+          "column": "reason",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_bet_rejection_idempotency_idx",
+          "definition": "CREATE UNIQUE INDEX app_bet_rejection_idempotency_idx ON public.app_bet_rejection USING btree (user_id, client_request_id) WHERE (client_request_id IS NOT NULL)"
+        },
+        {
+          "name": "app_bet_rejection_pkey",
+          "definition": "CREATE UNIQUE INDEX app_bet_rejection_pkey ON public.app_bet_rejection USING btree (id)"
+        },
+        {
+          "name": "app_bet_rejection_user_date_idx",
+          "definition": "CREATE INDEX app_bet_rejection_user_date_idx ON public.app_bet_rejection USING btree (user_id, created_at DESC)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_board_settings",
+      "row_count": 1,
+      "columns": [
+        {
+          "column": "id",
+          "type": "smallint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "settings",
+          "type": "jsonb",
+          "nullable": false,
+          "default": "'{\"prematchLimit\": 0}'::jsonb"
+        },
+        {
+          "column": "updated_by",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_board_settings_pkey",
+          "definition": "CREATE UNIQUE INDEX app_board_settings_pkey ON public.app_board_settings USING btree (id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_casino_freespin_state",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "user_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "round_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "left_spins",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "done_spins",
+          "type": "integer",
+          "nullable": false,
+          "default": "0"
+        },
+        {
+          "column": "mud",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "bet",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "lines",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "math_profile",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "custom_round",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_casino_freespin_state_pkey",
+          "definition": "CREATE UNIQUE INDEX app_casino_freespin_state_pkey ON public.app_casino_freespin_state USING btree (user_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_casino_gamble_event",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "user_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "request_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "action",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "response",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_casino_gamble_event_date_idx",
+          "definition": "CREATE INDEX app_casino_gamble_event_date_idx ON public.app_casino_gamble_event USING btree (created_at DESC)"
+        },
+        {
+          "name": "app_casino_gamble_event_pkey",
+          "definition": "CREATE UNIQUE INDEX app_casino_gamble_event_pkey ON public.app_casino_gamble_event USING btree (user_id, request_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_casino_gamble_state",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "user_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "round_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "pending",
+          "type": "numeric",
+          "nullable": false,
+          "default": "0"
+        },
+        {
+          "column": "step",
+          "type": "integer",
+          "nullable": false,
+          "default": "0"
+        },
+        {
+          "column": "player_card",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_casino_gamble_state_pkey",
+          "definition": "CREATE UNIQUE INDEX app_casino_gamble_state_pkey ON public.app_casino_gamble_state USING btree (user_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_casino_original_event",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "user_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "session_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "request_id",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "fingerprint",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "response",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_casino_original_event_pkey",
+          "definition": "CREATE UNIQUE INDEX app_casino_original_event_pkey ON public.app_casino_original_event USING btree (user_id, session_id, request_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_casino_original_state",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "user_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "game_id",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "session_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "state",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_casino_original_state_pkey",
+          "definition": "CREATE UNIQUE INDEX app_casino_original_state_pkey ON public.app_casino_original_state USING btree (user_id, game_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_casino_round",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "id",
+          "type": "uuid",
+          "nullable": false,
+          "default": "gen_random_uuid()"
+        },
+        {
+          "column": "user_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "client_request_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "game_id",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "game_version",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "bet",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "denomination",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "lines",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "stake",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "payout",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "balance_after",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "result",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_casino_round_pkey",
+          "definition": "CREATE UNIQUE INDEX app_casino_round_pkey ON public.app_casino_round USING btree (id)"
+        },
+        {
+          "name": "app_casino_round_user_date_idx",
+          "definition": "CREATE INDEX app_casino_round_user_date_idx ON public.app_casino_round USING btree (user_id, created_at DESC)"
+        },
+        {
+          "name": "app_casino_round_user_id_client_request_id_key",
+          "definition": "CREATE UNIQUE INDEX app_casino_round_user_id_client_request_id_key ON public.app_casino_round USING btree (user_id, client_request_id)"
+        }
+      ],
+      "triggers": [
+        {
+          "trigger": "app_casino_commission_report",
+          "timing": "AFTER INSERT"
+        }
+      ]
+    },
+    {
+      "table": "app_casino_settings",
+      "row_count": 1,
+      "columns": [
+        {
+          "column": "id",
+          "type": "smallint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "enabled",
+          "type": "boolean",
+          "nullable": false,
+          "default": "true"
+        },
+        {
+          "column": "profile",
+          "type": "text",
+          "nullable": false,
+          "default": "'SIZZLING_STANDARD_V1'::text"
+        },
+        {
+          "column": "updated_by",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "wallet_rollout_applied",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "game_profiles",
+          "type": "jsonb",
+          "nullable": false,
+          "default": "'{}'::jsonb"
+        },
+        {
+          "column": "game_controls",
+          "type": "jsonb",
+          "nullable": false,
+          "default": "'{}'::jsonb"
+        },
+        {
+          "column": "hidden_games",
+          "type": "jsonb",
+          "nullable": false,
+          "default": "'[]'::jsonb"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_casino_settings_pkey",
+          "definition": "CREATE UNIQUE INDEX app_casino_settings_pkey ON public.app_casino_settings USING btree (id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_commission_config",
+      "row_count": 1,
+      "columns": [
+        {
+          "column": "id",
+          "type": "smallint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "single_pct",
+          "type": "numeric",
+          "nullable": false,
+          "default": "3"
+        },
+        {
+          "column": "double_pct",
+          "type": "numeric",
+          "nullable": false,
+          "default": "5"
+        },
+        {
+          "column": "multi_pct",
+          "type": "numeric",
+          "nullable": false,
+          "default": "7"
+        },
+        {
+          "column": "updated_by",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "casino_pct",
+          "type": "numeric",
+          "nullable": false,
+          "default": "0"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_commission_config_pkey",
+          "definition": "CREATE UNIQUE INDEX app_commission_config_pkey ON public.app_commission_config USING btree (id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_feed_override",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "kind",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "ref",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "suspended",
+          "type": "boolean",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "price",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "note",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "hidden",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_feed_override_pkey",
+          "definition": "CREATE UNIQUE INDEX app_feed_override_pkey ON public.app_feed_override USING btree (kind, ref)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_financial_reset",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "request_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "actor_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "response",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_financial_reset_pkey",
+          "definition": "CREATE UNIQUE INDEX app_financial_reset_pkey ON public.app_financial_reset USING btree (request_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_football_information_map",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "aiscore_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "thesports01_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "mapped_by",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "mapping_status",
+          "type": "text",
+          "nullable": false,
+          "default": "'ADMIN_SUPPLIED_UNVERIFIED'::text"
+        },
+        {
+          "column": "next_check_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "last_checked_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "last_error",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_football_information_map_pkey",
+          "definition": "CREATE UNIQUE INDEX app_football_information_map_pkey ON public.app_football_information_map USING btree (match_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_football_information_snapshot",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "id",
+          "type": "bigint",
+          "nullable": false,
+          "default": "nextval('app_football_information_snapshot_id_seq'::regclass)"
+        },
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "source",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "payload_hash",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "payload",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "observed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_football_information_snaps_match_id_source_payload_hash_key",
+          "definition": "CREATE UNIQUE INDEX app_football_information_snaps_match_id_source_payload_hash_key ON public.app_football_information_snapshot USING btree (match_id, source, payload_hash)"
+        },
+        {
+          "name": "app_football_information_snapshot_idx",
+          "definition": "CREATE INDEX app_football_information_snapshot_idx ON public.app_football_information_snapshot USING btree (match_id, observed_at DESC)"
+        },
+        {
+          "name": "app_football_information_snapshot_pkey",
+          "definition": "CREATE UNIQUE INDEX app_football_information_snapshot_pkey ON public.app_football_information_snapshot USING btree (id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_live_event_cursor",
+      "row_count": 4,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "last_seen_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_live_event_cursor_pkey",
+          "definition": "CREATE UNIQUE INDEX app_live_event_cursor_pkey ON public.app_live_event_cursor USING btree (match_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_live_event_frame",
+      "row_count": 443,
+      "columns": [
+        {
+          "column": "id",
+          "type": "bigint",
+          "nullable": false,
+          "default": "nextval('app_live_event_frame_id_seq'::regclass)"
+        },
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "fingerprint",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "payload",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "observed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_live_event_frame_latest_idx",
+          "definition": "CREATE INDEX app_live_event_frame_latest_idx ON public.app_live_event_frame USING btree (match_id, observed_at DESC)"
+        },
+        {
+          "name": "app_live_event_frame_pkey",
+          "definition": "CREATE UNIQUE INDEX app_live_event_frame_pkey ON public.app_live_event_frame USING btree (id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_live_event_recovery",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "id",
+          "type": "bigint",
+          "nullable": false,
+          "default": "nextval('app_live_event_recovery_id_seq'::regclass)"
+        },
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "gap_from",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "gap_to",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "line_ids",
+          "type": "ARRAY",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "event_types",
+          "type": "ARRAY",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "status",
+          "type": "text",
+          "nullable": false,
+          "default": "'AWAITING_BACKUP_API'::text"
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "resolved_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_live_event_recovery_match_id_gap_from_gap_to_key",
+          "definition": "CREATE UNIQUE INDEX app_live_event_recovery_match_id_gap_from_gap_to_key ON public.app_live_event_recovery USING btree (match_id, gap_from, gap_to)"
+        },
+        {
+          "name": "app_live_event_recovery_pending_idx",
+          "definition": "CREATE INDEX app_live_event_recovery_pending_idx ON public.app_live_event_recovery USING btree (status, created_at DESC)"
+        },
+        {
+          "name": "app_live_event_recovery_pkey",
+          "definition": "CREATE UNIQUE INDEX app_live_event_recovery_pkey ON public.app_live_event_recovery USING btree (id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_live_risk_settings",
+      "row_count": 1,
+      "columns": [
+        {
+          "column": "id",
+          "type": "smallint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "settings",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "updated_by",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_live_risk_settings_pkey",
+          "definition": "CREATE UNIQUE INDEX app_live_risk_settings_pkey ON public.app_live_risk_settings USING btree (id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_live_settlement_preview",
+      "row_count": 18,
+      "columns": [
+        {
+          "column": "line_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "proposed_status",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "payload",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_live_settlement_preview_pkey",
+          "definition": "CREATE UNIQUE INDEX app_live_settlement_preview_pkey ON public.app_live_settlement_preview USING btree (line_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_manager_casino_settings",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "manager_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "game_profiles",
+          "type": "jsonb",
+          "nullable": false,
+          "default": "'{}'::jsonb"
+        },
+        {
+          "column": "game_controls",
+          "type": "jsonb",
+          "nullable": false,
+          "default": "'{}'::jsonb"
+        },
+        {
+          "column": "commission_pct",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "updated_by",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_manager_casino_settings_pkey",
+          "definition": "CREATE UNIQUE INDEX app_manager_casino_settings_pkey ON public.app_manager_casino_settings USING btree (manager_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_manager_commission",
+      "row_count": 740,
+      "columns": [
+        {
+          "column": "id",
+          "type": "uuid",
+          "nullable": false,
+          "default": "gen_random_uuid()"
+        },
+        {
+          "column": "manager_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "player_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "kind",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "ticket_id",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "round_id",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "stake",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "selection_count",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "rate_pct",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "amount",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_manager_commission_owner_idx",
+          "definition": "CREATE INDEX app_manager_commission_owner_idx ON public.app_manager_commission USING btree (manager_id, kind, created_at)"
+        },
+        {
+          "name": "app_manager_commission_pkey",
+          "definition": "CREATE UNIQUE INDEX app_manager_commission_pkey ON public.app_manager_commission USING btree (id)"
+        },
+        {
+          "name": "app_manager_commission_player_idx",
+          "definition": "CREATE INDEX app_manager_commission_player_idx ON public.app_manager_commission USING btree (player_id, kind)"
+        },
+        {
+          "name": "app_manager_commission_round_id_key",
+          "definition": "CREATE UNIQUE INDEX app_manager_commission_round_id_key ON public.app_manager_commission USING btree (round_id)"
+        },
+        {
+          "name": "app_manager_commission_ticket_id_key",
+          "definition": "CREATE UNIQUE INDEX app_manager_commission_ticket_id_key ON public.app_manager_commission USING btree (ticket_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_manual_review_notice",
+      "row_count": 150,
+      "columns": [
+        {
+          "column": "line_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "first_seen_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_manual_review_notice_pkey",
+          "definition": "CREATE UNIQUE INDEX app_manual_review_notice_pkey ON public.app_manual_review_notice USING btree (line_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_market_catalog",
+      "row_count": 777,
+      "columns": [
+        {
+          "column": "key",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "enabled",
+          "type": "boolean",
+          "nullable": false,
+          "default": "true"
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "sort_order",
+          "type": "integer",
+          "nullable": false,
+          "default": "1000000"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_market_catalog_pkey",
+          "definition": "CREATE UNIQUE INDEX app_market_catalog_pkey ON public.app_market_catalog USING btree (key)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_market_category_policy",
+      "row_count": 11,
+      "columns": [
+        {
+          "column": "category",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "enabled",
+          "type": "boolean",
+          "nullable": false,
+          "default": "true"
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_market_category_policy_pkey",
+          "definition": "CREATE UNIQUE INDEX app_market_category_policy_pkey ON public.app_market_category_policy USING btree (category)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_market_scope_policy",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "id",
+          "type": "integer",
+          "nullable": false,
+          "default": "nextval('app_market_scope_policy_id_seq'::regclass)"
+        },
+        {
+          "column": "country",
+          "type": "text",
+          "nullable": false,
+          "default": "''::text"
+        },
+        {
+          "column": "league",
+          "type": "text",
+          "nullable": false,
+          "default": "''::text"
+        },
+        {
+          "column": "categories",
+          "type": "ARRAY",
+          "nullable": false,
+          "default": "'{}'::text[]"
+        },
+        {
+          "column": "families",
+          "type": "ARRAY",
+          "nullable": false,
+          "default": "'{}'::text[]"
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_market_scope_policy_pkey",
+          "definition": "CREATE UNIQUE INDEX app_market_scope_policy_pkey ON public.app_market_scope_policy USING btree (id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_match_event_coverage",
+      "row_count": 605,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "provider",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "kind",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "through_minute",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "count_home",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "count_away",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "complete",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "observed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "card_colors_verified",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "sample_signature",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "sample_first_seen_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "confirmed_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_match_event_coverage_pkey",
+          "definition": "CREATE UNIQUE INDEX app_match_event_coverage_pkey ON public.app_match_event_coverage USING btree (match_id, provider, kind)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_match_event_evidence",
+      "row_count": 4,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "payload",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "observed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_match_event_evidence_pkey",
+          "definition": "CREATE UNIQUE INDEX app_match_event_evidence_pkey ON public.app_match_event_evidence USING btree (match_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_match_event_fact",
+      "row_count": 1799,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "provider",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "provider_event_id",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "kind",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "team",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "minute",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "seconds",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "player_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "player_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "card_color",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "own_goal",
+          "type": "boolean",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "aiscore_player_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "aiscore_player_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "aiscore_verified",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "fotmob_player_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "fotmob_verified",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "supplemental_player_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "supplemental_actor_provider",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "supplemental_verified",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "phase",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "active",
+          "type": "boolean",
+          "nullable": false,
+          "default": "true"
+        },
+        {
+          "column": "observed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_match_event_fact_lookup",
+          "definition": "CREATE INDEX app_match_event_fact_lookup ON public.app_match_event_fact USING btree (match_id, provider, kind, active, minute, seconds)"
+        },
+        {
+          "name": "app_match_event_fact_pkey",
+          "definition": "CREATE UNIQUE INDEX app_match_event_fact_pkey ON public.app_match_event_fact USING btree (match_id, provider, provider_event_id, kind)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_match_half_result",
+      "row_count": 4,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "home_team",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "away_team",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "half_home_score",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "half_away_score",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "signature",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "first_seen_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "observed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "confirmed_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "correction_count",
+          "type": "integer",
+          "nullable": false,
+          "default": "0"
+        },
+        {
+          "column": "source",
+          "type": "text",
+          "nullable": false,
+          "default": "'UNVERIFIED_LEGACY'::text"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_match_half_result_pkey",
+          "definition": "CREATE UNIQUE INDEX app_match_half_result_pkey ON public.app_match_half_result USING btree (match_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_match_result",
+      "row_count": 4648,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "home_team",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "away_team",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "home_score",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "away_score",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "corners_home",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "corners_away",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "cards_home",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "cards_away",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "finished_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "settled_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "statistics",
+          "type": "jsonb",
+          "nullable": false,
+          "default": "'{}'::jsonb"
+        },
+        {
+          "column": "half_home_score",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "half_away_score",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "source",
+          "type": "text",
+          "nullable": false,
+          "default": "'UNVERIFIED_LEGACY'::text"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_match_result_pkey",
+          "definition": "CREATE UNIQUE INDEX app_match_result_pkey ON public.app_match_result USING btree (match_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_match_snapshot",
+      "row_count": 209,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "snapshot",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "observed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_match_snapshot_pkey",
+          "definition": "CREATE UNIQUE INDEX app_match_snapshot_pkey ON public.app_match_snapshot USING btree (match_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_player_controls",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "user_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "daily_limit",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "weekly_limit",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "monthly_limit",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "pending_limits",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "limits_effective_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "self_excluded_until",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_player_controls_exclusion_idx",
+          "definition": "CREATE INDEX app_player_controls_exclusion_idx ON public.app_player_controls USING btree (self_excluded_until)"
+        },
+        {
+          "name": "app_player_controls_pkey",
+          "definition": "CREATE UNIQUE INDEX app_player_controls_pkey ON public.app_player_controls USING btree (user_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_provider_market_definition",
+      "row_count": 380,
+      "columns": [
+        {
+          "column": "provider_id",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "sport_id",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "scope",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "native_market_id",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "native_market_name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "definition",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "first_seen_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "last_changed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_provider_market_definition_name_idx",
+          "definition": "CREATE INDEX app_provider_market_definition_name_idx ON public.app_provider_market_definition USING btree (provider_id, scope, sport_id)"
+        },
+        {
+          "name": "app_provider_market_definition_pkey",
+          "definition": "CREATE UNIQUE INDEX app_provider_market_definition_pkey ON public.app_provider_market_definition USING btree (provider_id, scope, native_market_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_provider_offer_change",
+      "row_count": 773013,
+      "columns": [
+        {
+          "column": "id",
+          "type": "bigint",
+          "nullable": false,
+          "default": "nextval('app_provider_offer_change_id_seq'::regclass)"
+        },
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "market_key",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "line",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "outcome_key",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "market_name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "outcome_name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "provider_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_market_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_outcome_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_market_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_outcome_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_parameters",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_quote",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "contract_hint",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "evidence_requirement",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "price",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "suspended",
+          "type": "boolean",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "period",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "recorded_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_provider_offer_change_match_idx",
+          "definition": "CREATE INDEX app_provider_offer_change_match_idx ON public.app_provider_offer_change USING btree (match_id, recorded_at DESC)"
+        },
+        {
+          "name": "app_provider_offer_change_pkey",
+          "definition": "CREATE UNIQUE INDEX app_provider_offer_change_pkey ON public.app_provider_offer_change USING btree (id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_provider_offer_current",
+      "row_count": 28183,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "market_key",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "line",
+          "type": "text",
+          "nullable": false,
+          "default": "''::text"
+        },
+        {
+          "column": "outcome_key",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "market_name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "outcome_name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "provider_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_market_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_outcome_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_market_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_outcome_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_parameters",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_quote",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "contract_hint",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "evidence_requirement",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "price",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "suspended",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "period",
+          "type": "integer",
+          "nullable": false,
+          "default": "0"
+        },
+        {
+          "column": "first_seen_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "last_changed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_provider_offer_current_match_idx",
+          "definition": "CREATE INDEX app_provider_offer_current_match_idx ON public.app_provider_offer_current USING btree (match_id, market_key)"
+        },
+        {
+          "name": "app_provider_offer_current_pkey",
+          "definition": "CREATE UNIQUE INDEX app_provider_offer_current_pkey ON public.app_provider_offer_current USING btree (match_id, market_key, line, outcome_key)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_settlement_override",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "line_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "status",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "actor_id",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "reason",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "source",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_settlement_override_pkey",
+          "definition": "CREATE UNIQUE INDEX app_settlement_override_pkey ON public.app_settlement_override USING btree (line_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_staff_transfer",
+      "row_count": 1,
+      "columns": [
+        {
+          "column": "actor_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "request_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "payload",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "response",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_staff_transfer_pkey",
+          "definition": "CREATE UNIQUE INDEX app_staff_transfer_pkey ON public.app_staff_transfer USING btree (actor_id, request_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_stat_review",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "payload",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_stat_review_pkey",
+          "definition": "CREATE UNIQUE INDEX app_stat_review_pkey ON public.app_stat_review USING btree (match_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_supplemental_match_incident",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "provider",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "provider_fixture_id",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "provider_event_id",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "kind",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "team",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "minute",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "added_minute",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "seconds",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "source_order",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "player_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "player_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "card_color",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "on_target",
+          "type": "boolean",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "raw",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "active",
+          "type": "boolean",
+          "nullable": false,
+          "default": "true"
+        },
+        {
+          "column": "observed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_supplemental_match_incident_lookup",
+          "definition": "CREATE INDEX app_supplemental_match_incident_lookup ON public.app_supplemental_match_incident USING btree (match_id, kind, minute, added_minute)"
+        },
+        {
+          "name": "app_supplemental_match_incident_pkey",
+          "definition": "CREATE UNIQUE INDEX app_supplemental_match_incident_pkey ON public.app_supplemental_match_incident USING btree (match_id, provider, provider_event_id, kind)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_supplemental_match_snapshot",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "provider",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "provider_fixture_id",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "payload_hash",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "payload",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "observed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_supplemental_match_snapshot_pkey",
+          "definition": "CREATE UNIQUE INDEX app_supplemental_match_snapshot_pkey ON public.app_supplemental_match_snapshot USING btree (match_id, provider, payload_hash)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_ticket",
+      "row_count": 740,
+      "columns": [
+        {
+          "column": "id",
+          "type": "uuid",
+          "nullable": false,
+          "default": "gen_random_uuid()"
+        },
+        {
+          "column": "booking_code",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "user_id",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "stake",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "total_odds",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "potential_payout",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "ticket_type",
+          "type": "text",
+          "nullable": false,
+          "default": "'SINGLE'::text"
+        },
+        {
+          "column": "system_type",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "status",
+          "type": "text",
+          "nullable": false,
+          "default": "'PENDING'::text"
+        },
+        {
+          "column": "placed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "settled_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "original_potential_payout",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "potential_quote_reconstructed",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "client_request_id",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "request_payload_hash",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_ticket_booking_code_key",
+          "definition": "CREATE UNIQUE INDEX app_ticket_booking_code_key ON public.app_ticket USING btree (booking_code)"
+        },
+        {
+          "name": "app_ticket_compact_id_idx",
+          "definition": "CREATE INDEX app_ticket_compact_id_idx ON public.app_ticket USING btree (replace((id)::text, '-'::text, ''::text) text_pattern_ops)"
+        },
+        {
+          "name": "app_ticket_pkey",
+          "definition": "CREATE UNIQUE INDEX app_ticket_pkey ON public.app_ticket USING btree (id)"
+        },
+        {
+          "name": "app_ticket_status_idx",
+          "definition": "CREATE INDEX app_ticket_status_idx ON public.app_ticket USING btree (status)"
+        },
+        {
+          "name": "app_ticket_user_idx",
+          "definition": "CREATE INDEX app_ticket_user_idx ON public.app_ticket USING btree (user_id, placed_at DESC)"
+        },
+        {
+          "name": "app_ticket_user_request_uidx",
+          "definition": "CREATE UNIQUE INDEX app_ticket_user_request_uidx ON public.app_ticket USING btree (user_id, client_request_id) WHERE (client_request_id IS NOT NULL)"
+        }
+      ],
+      "triggers": [
+        {
+          "trigger": "app_ticket_quote",
+          "timing": "BEFORE INSERT"
+        },
+        {
+          "trigger": "app_ticket_quote",
+          "timing": "BEFORE UPDATE"
+        }
+      ]
+    },
+    {
+      "table": "app_ticket_batch",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "user_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "client_request_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "request_payload_hash",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "ticket_ids",
+          "type": "ARRAY",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "id",
+          "type": "uuid",
+          "nullable": false,
+          "default": "gen_random_uuid()"
+        },
+        {
+          "column": "selection_order",
+          "type": "ARRAY",
+          "nullable": true,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_ticket_batch_compact_id_idx",
+          "definition": "CREATE INDEX app_ticket_batch_compact_id_idx ON public.app_ticket_batch USING btree (replace((id)::text, '-'::text, ''::text) text_pattern_ops)"
+        },
+        {
+          "name": "app_ticket_batch_id_uidx",
+          "definition": "CREATE UNIQUE INDEX app_ticket_batch_id_uidx ON public.app_ticket_batch USING btree (id)"
+        },
+        {
+          "name": "app_ticket_batch_members_idx",
+          "definition": "CREATE INDEX app_ticket_batch_members_idx ON public.app_ticket_batch USING gin (ticket_ids)"
+        },
+        {
+          "name": "app_ticket_batch_pkey",
+          "definition": "CREATE UNIQUE INDEX app_ticket_batch_pkey ON public.app_ticket_batch USING btree (user_id, client_request_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_ticket_line",
+      "row_count": 740,
+      "columns": [
+        {
+          "column": "id",
+          "type": "uuid",
+          "nullable": false,
+          "default": "gen_random_uuid()"
+        },
+        {
+          "column": "ticket_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "market_key",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "line",
+          "type": "text",
+          "nullable": false,
+          "default": "''::text"
+        },
+        {
+          "column": "outcome_key",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "outcome_name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "market_name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "match_name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "odds_at_placement",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "status",
+          "type": "text",
+          "nullable": false,
+          "default": "'PENDING'::text"
+        },
+        {
+          "column": "builder_legs",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "live_contract",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "accepted_contract",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "settlement_reason",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "settled_odds",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_ticket_line_match_idx",
+          "definition": "CREATE INDEX app_ticket_line_match_idx ON public.app_ticket_line USING btree (match_id)"
+        },
+        {
+          "name": "app_ticket_line_pkey",
+          "definition": "CREATE UNIQUE INDEX app_ticket_line_pkey ON public.app_ticket_line USING btree (id)"
+        },
+        {
+          "name": "app_ticket_line_ticket_idx",
+          "definition": "CREATE INDEX app_ticket_line_ticket_idx ON public.app_ticket_line USING btree (ticket_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_transaction",
+      "row_count": 923,
+      "columns": [
+        {
+          "column": "id",
+          "type": "uuid",
+          "nullable": false,
+          "default": "gen_random_uuid()"
+        },
+        {
+          "column": "user_id",
+          "type": "uuid",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "amount",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "type",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "reference_id",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "balance_after",
+          "type": "numeric",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "description",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_transaction_pkey",
+          "definition": "CREATE UNIQUE INDEX app_transaction_pkey ON public.app_transaction USING btree (id)"
+        },
+        {
+          "name": "app_transaction_ref_type_idx",
+          "definition": "CREATE INDEX app_transaction_ref_type_idx ON public.app_transaction USING btree (reference_id, type)"
+        },
+        {
+          "name": "app_transaction_user_idx",
+          "definition": "CREATE INDEX app_transaction_user_idx ON public.app_transaction USING btree (user_id, created_at DESC)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_user",
+      "row_count": 14,
+      "columns": [
+        {
+          "column": "id",
+          "type": "uuid",
+          "nullable": false,
+          "default": "gen_random_uuid()"
+        },
+        {
+          "column": "username",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "password_hash",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "role",
+          "type": "text",
+          "nullable": false,
+          "default": "'PLAYER'::text"
+        },
+        {
+          "column": "status",
+          "type": "text",
+          "nullable": false,
+          "default": "'ACTIVE'::text"
+        },
+        {
+          "column": "balance",
+          "type": "numeric",
+          "nullable": false,
+          "default": "0"
+        },
+        {
+          "column": "currency",
+          "type": "text",
+          "nullable": false,
+          "default": "'LEK'::text"
+        },
+        {
+          "column": "manager_id",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "created_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "deleted_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "deleted_by",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "agent_id",
+          "type": "uuid",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "financial_epoch",
+          "type": "bigint",
+          "nullable": false,
+          "default": "0"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_user_agent_idx",
+          "definition": "CREATE INDEX app_user_agent_idx ON public.app_user USING btree (agent_id)"
+        },
+        {
+          "name": "app_user_deleted_idx",
+          "definition": "CREATE INDEX app_user_deleted_idx ON public.app_user USING btree (deleted_at, id) WHERE (deleted_at IS NOT NULL)"
+        },
+        {
+          "name": "app_user_manager_idx",
+          "definition": "CREATE INDEX app_user_manager_idx ON public.app_user USING btree (manager_id)"
+        },
+        {
+          "name": "app_user_pkey",
+          "definition": "CREATE UNIQUE INDEX app_user_pkey ON public.app_user USING btree (id)"
+        },
+        {
+          "name": "app_user_role_idx",
+          "definition": "CREATE INDEX app_user_role_idx ON public.app_user USING btree (role)"
+        },
+        {
+          "name": "app_user_username_key",
+          "definition": "CREATE UNIQUE INDEX app_user_username_key ON public.app_user USING btree (username)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_zizobet_match_history",
+      "row_count": 209,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "details",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "timeline_signature",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "observed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "evidence_observed_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_zizobet_match_history_pkey",
+          "definition": "CREATE UNIQUE INDEX app_zizobet_match_history_pkey ON public.app_zizobet_match_history USING btree (match_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "app_zizobet_match_incident",
+      "row_count": 2109,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "kind",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "provider_event_id",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "team",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "minute",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "detail",
+          "type": "jsonb",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "active",
+          "type": "boolean",
+          "nullable": false,
+          "default": "true"
+        },
+        {
+          "column": "first_observed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "observed_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "app_zizobet_match_incident_lookup",
+          "definition": "CREATE INDEX app_zizobet_match_incident_lookup ON public.app_zizobet_match_incident USING btree (match_id, kind, active, minute)"
+        },
+        {
+          "name": "app_zizobet_match_incident_pkey",
+          "definition": "CREATE UNIQUE INDEX app_zizobet_match_incident_pkey ON public.app_zizobet_match_incident USING btree (match_id, kind, provider_event_id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "matches",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "sport_id",
+          "type": "integer",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "sport_tag",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "category_id",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "category_slug",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "category_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "tournament_id",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "tournament_slug",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "tournament_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "home",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "away",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "service",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "start_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "is_hot",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "is_real",
+          "type": "boolean",
+          "nullable": false,
+          "default": "true"
+        },
+        {
+          "column": "live_minute",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "phase",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "status",
+          "type": "text",
+          "nullable": false,
+          "default": "'scheduled'::text"
+        },
+        {
+          "column": "active",
+          "type": "boolean",
+          "nullable": false,
+          "default": "true"
+        },
+        {
+          "column": "raw",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "first_seen_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "last_seen_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "live_first_seen_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "prematch_first_seen_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "listing_stale",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "home_score",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "away_score",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "periods_score",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "odds_count",
+          "type": "integer",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "stats",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "match_time_ms",
+          "type": "bigint",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "feed_status",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "has_open_odds",
+          "type": "boolean",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "broadcast_url",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "clock_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "score_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "feed_status_at",
+          "type": "timestamp with time zone",
+          "nullable": true,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "name": "matches_active_idx",
+          "definition": "CREATE INDEX matches_active_idx ON public.matches USING btree (active)"
+        },
+        {
+          "name": "matches_category_idx",
+          "definition": "CREATE INDEX matches_category_idx ON public.matches USING btree (category_slug)"
+        },
+        {
+          "name": "matches_pkey",
+          "definition": "CREATE UNIQUE INDEX matches_pkey ON public.matches USING btree (match_id)"
+        },
+        {
+          "name": "matches_service_start_idx",
+          "definition": "CREATE INDEX matches_service_start_idx ON public.matches USING btree (service, start_at)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "odds_current",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "market_key",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "market_name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "line",
+          "type": "text",
+          "nullable": false,
+          "default": "''::text"
+        },
+        {
+          "column": "outcome_key",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "outcome_name",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "price",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "suspended",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "updated_at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        },
+        {
+          "column": "subgames",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "is_base",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "grp_order",
+          "type": "integer",
+          "nullable": false,
+          "default": "0"
+        },
+        {
+          "column": "render_type",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "period",
+          "type": "integer",
+          "nullable": false,
+          "default": "0"
+        },
+        {
+          "column": "board_column",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "provider_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_market_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_outcome_id",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_market_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_outcome_name",
+          "type": "text",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_parameters",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "native_quote",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        }
+      ],
+      "indexes": [
+        {
+          "name": "odds_current_match_idx",
+          "definition": "CREATE INDEX odds_current_match_idx ON public.odds_current USING btree (match_id)"
+        },
+        {
+          "name": "odds_current_pkey",
+          "definition": "CREATE UNIQUE INDEX odds_current_pkey ON public.odds_current USING btree (match_id, market_key, line, outcome_key)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "odds_history",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "id",
+          "type": "bigint",
+          "nullable": false,
+          "default": "nextval('odds_history_id_seq'::regclass)"
+        },
+        {
+          "column": "match_id",
+          "type": "bigint",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "market_key",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "line",
+          "type": "text",
+          "nullable": false,
+          "default": "''::text"
+        },
+        {
+          "column": "outcome_key",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "price",
+          "type": "numeric",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "suspended",
+          "type": "boolean",
+          "nullable": false,
+          "default": "false"
+        },
+        {
+          "column": "at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "odds_history_match_idx",
+          "definition": "CREATE INDEX odds_history_match_idx ON public.odds_history USING btree (match_id, at DESC)"
+        },
+        {
+          "name": "odds_history_pkey",
+          "definition": "CREATE UNIQUE INDEX odds_history_pkey ON public.odds_history USING btree (id)"
+        }
+      ],
+      "triggers": []
+    },
+    {
+      "table": "raw_frames",
+      "row_count": 0,
+      "columns": [
+        {
+          "column": "id",
+          "type": "bigint",
+          "nullable": false,
+          "default": "nextval('raw_frames_id_seq'::regclass)"
+        },
+        {
+          "column": "source",
+          "type": "text",
+          "nullable": false,
+          "default": null
+        },
+        {
+          "column": "payload",
+          "type": "jsonb",
+          "nullable": true,
+          "default": null
+        },
+        {
+          "column": "at",
+          "type": "timestamp with time zone",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "raw_frames_at_idx",
+          "definition": "CREATE INDEX raw_frames_at_idx ON public.raw_frames USING btree (at DESC)"
+        },
+        {
+          "name": "raw_frames_pkey",
+          "definition": "CREATE UNIQUE INDEX raw_frames_pkey ON public.raw_frames USING btree (id)"
+        }
+      ],
+      "triggers": []
+    }
+  ],
+  "samples_anonymized": {
+    "synthetic_app_ticket_example": {
+      "id": "00000000-0000-0000-0001-000000000001",
+      "booking_code": "DEMO-0001",
+      "user_id": "00000000-0000-0000-0000-000000000099",
+      "stake": 100,
+      "total_odds": 3.8025,
+      "potential_payout": 380.25,
+      "original_potential_payout": 380.25,
+      "potential_quote_reconstructed": false,
+      "ticket_type": "COMBO",
+      "status": "PENDING"
+    },
+    "app_ticket_line_contract_examples": [
+      {
+        "synthetic_line_id": "00000000-0000-0000-0000-000000000001",
+        "synthetic_ticket_id": "00000000-0000-0000-0001-000000000001",
+        "match_id": 8000078881462,
+        "market_key": "zz758@e30",
+        "market_name": "1st Half - Both teams to score",
+        "line": "",
+        "outcome_key": "No",
+        "outcome_name": "No",
+        "match_name": "Polonia Sroda Wielkopolska vs Sokol Kleczew",
+        "odds_at_placement": 1.95,
+        "status": "WON",
+        "settlement_reason": null,
+        "live_contract": null,
+        "accepted_contract": {
+          "line": "",
+          "version": 1,
+          "kickoffAt": "2026-11-25T11:00:00.000Z",
+          "liveTerms": null,
+          "builderLegs": null,
+          "acceptedOdds": 1.22,
+          "awayTeamName": "Sokol Kleczew",
+          "homeTeamName": "Polonia Sroda Wielkopolska",
+          "nativeMarketId": "758",
+          "providerPeriod": 1,
+          "settlementHold": null,
+          "nativeOutcomeId": "2964012180",
+          "offerObservedAt": "2026-11-25T11:33:00.443Z",
+          "nativeMarketName": "1st Half - Both teams to score",
+          "nativeParameters": {},
+          "sourceProviderId": "ZIZOBET",
+          "nativeOutcomeName": "No",
+          "providerMarketKey": "zz758@e30",
+          "providerMarketName": "1st Half - Both teams to score",
+          "providerOutcomeKey": "No",
+          "providerOutcomeName": "No",
+          "acceptedLiveSnapshot": {
+            "isLive": true,
+            "counters": {
+              "card": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-stats"
+              },
+              "foul": null,
+              "goal": {
+                "away": 0,
+                "home": 1,
+                "source": "zizobet-score"
+              },
+              "corner": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-stats"
+              }
+            },
+            "feedPhase": "First Half",
+            "scoreAway": 0,
+            "scoreHome": 1,
+            "capturedAt": "2026-11-25T11:33:01.169Z",
+            "statistics": {
+              "away": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 0,
+                "_observedAt": {
+                  "red": "2026-11-25T11:33:00.452Z",
+                  "yellow": "2026-11-25T11:33:00.452Z",
+                  "corners": "2026-11-25T11:33:00.452Z"
+                }
+              },
+              "home": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 0,
+                "_observedAt": {
+                  "red": "2026-11-25T11:33:00.452Z",
+                  "yellow": "2026-11-25T11:33:00.452Z",
+                  "corners": "2026-11-25T11:33:00.452Z"
+                }
+              }
+            },
+            "clockObservedAt": "2026-11-25T11:33:00.452Z",
+            "scoreObservedAt": "2026-11-25T11:33:00.452Z",
+            "clockMilliseconds": 1907000,
+            "feedPhaseObservedAt": "2026-11-25T11:33:00.452Z"
+          },
+          "nativeMarketOutcomes": null
+        }
+      },
+      {
+        "synthetic_line_id": "00000000-0000-0000-0000-000000000002",
+        "synthetic_ticket_id": "00000000-0000-0000-0001-000000000001",
+        "match_id": 8000078881462,
+        "market_key": "zz632@e30",
+        "market_name": "1st Half - Goals awayteam",
+        "line": "",
+        "outcome_key": "1",
+        "outcome_name": "1",
+        "match_name": "Polonia Sroda Wielkopolska vs Sokol Kleczew",
+        "odds_at_placement": 1.95,
+        "status": "LOST",
+        "settlement_reason": null,
+        "live_contract": {
+          "half": 1,
+          "kind": "period-goal-total",
+          "side": "away",
+          "event": "goal",
+          "target": 1,
+          "version": 1,
+          "threeWay": false,
+          "selection": "exact"
+        },
+        "accepted_contract": {
+          "line": "",
+          "version": 1,
+          "kickoffAt": "2026-11-25T11:00:00.000Z",
+          "liveTerms": {
+            "half": 1,
+            "kind": "period-goal-total",
+            "side": "away",
+            "event": "goal",
+            "target": 1,
+            "version": 1,
+            "threeWay": false,
+            "selection": "exact"
+          },
+          "builderLegs": null,
+          "acceptedOdds": 3.7,
+          "awayTeamName": "Sokol Kleczew",
+          "homeTeamName": "Polonia Sroda Wielkopolska",
+          "nativeMarketId": "632",
+          "providerPeriod": 1,
+          "settlementHold": null,
+          "nativeOutcomeId": "2964012176",
+          "offerObservedAt": "2026-11-25T11:33:00.443Z",
+          "nativeMarketName": "1st Half - Goals awayteam",
+          "nativeParameters": {},
+          "sourceProviderId": "ZIZOBET",
+          "nativeOutcomeName": "1",
+          "providerMarketKey": "zz632@e30",
+          "providerMarketName": "1st Half - Goals awayteam",
+          "providerOutcomeKey": "1",
+          "providerOutcomeName": "1",
+          "acceptedLiveSnapshot": {
+            "isLive": true,
+            "counters": {
+              "card": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-stats"
+              },
+              "foul": null,
+              "goal": {
+                "away": 0,
+                "home": 1,
+                "source": "zizobet-score"
+              },
+              "corner": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-stats"
+              }
+            },
+            "feedPhase": "First Half",
+            "scoreAway": 0,
+            "scoreHome": 1,
+            "capturedAt": "2026-11-25T11:33:03.555Z",
+            "statistics": {
+              "away": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 0,
+                "_observedAt": {
+                  "red": "2026-11-25T11:33:00.452Z",
+                  "yellow": "2026-11-25T11:33:00.452Z",
+                  "corners": "2026-11-25T11:33:00.452Z"
+                }
+              },
+              "home": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 0,
+                "_observedAt": {
+                  "red": "2026-11-25T11:33:00.452Z",
+                  "yellow": "2026-11-25T11:33:00.452Z",
+                  "corners": "2026-11-25T11:33:00.452Z"
+                }
+              }
+            },
+            "clockObservedAt": "2026-11-25T11:33:00.452Z",
+            "scoreObservedAt": "2026-11-25T11:33:00.452Z",
+            "clockMilliseconds": 1907000,
+            "feedPhaseObservedAt": "2026-11-25T11:33:00.452Z"
+          },
+          "nativeMarketOutcomes": null
+        }
+      },
+      {
+        "synthetic_line_id": "00000000-0000-0000-0000-000000000003",
+        "synthetic_ticket_id": "00000000-0000-0000-0001-000000000001",
+        "match_id": 8000078881460,
+        "market_key": "zz631@e30",
+        "market_name": "1st Half - Goals hometeam",
+        "line": "",
+        "outcome_key": "1",
+        "outcome_name": "1",
+        "match_name": "Dire Dawa vs Arba Minch Kenema",
+        "odds_at_placement": 1.95,
+        "status": "WON",
+        "settlement_reason": null,
+        "live_contract": {
+          "half": 1,
+          "kind": "period-goal-total",
+          "side": "home",
+          "event": "goal",
+          "target": 1,
+          "version": 1,
+          "threeWay": false,
+          "selection": "exact"
+        },
+        "accepted_contract": {
+          "line": "",
+          "version": 1,
+          "kickoffAt": "2026-11-25T11:00:00.000Z",
+          "liveTerms": {
+            "half": 1,
+            "kind": "period-goal-total",
+            "side": "home",
+            "event": "goal",
+            "target": 1,
+            "version": 1,
+            "threeWay": false,
+            "selection": "exact"
+          },
+          "builderLegs": null,
+          "acceptedOdds": 4.35,
+          "awayTeamName": "Arba Minch Kenema",
+          "homeTeamName": "Dire Dawa",
+          "nativeMarketId": "631",
+          "providerPeriod": 1,
+          "settlementHold": null,
+          "nativeOutcomeId": "2964012858",
+          "offerObservedAt": "2026-11-25T11:32:57.786Z",
+          "nativeMarketName": "1st Half - Goals hometeam",
+          "nativeParameters": {},
+          "sourceProviderId": "ZIZOBET",
+          "nativeOutcomeName": "1",
+          "providerMarketKey": "zz631@e30",
+          "providerMarketName": "1st Half - Goals hometeam",
+          "providerOutcomeKey": "1",
+          "providerOutcomeName": "1",
+          "acceptedLiveSnapshot": {
+            "isLive": true,
+            "counters": {
+              "card": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-stats"
+              },
+              "foul": null,
+              "goal": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-score"
+              },
+              "corner": {
+                "away": 3,
+                "home": 1,
+                "source": "zizobet-stats"
+              }
+            },
+            "feedPhase": "First Half",
+            "scoreAway": 0,
+            "scoreHome": 0,
+            "capturedAt": "2026-11-25T11:33:10.028Z",
+            "statistics": {
+              "away": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 3,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:57.834Z",
+                  "yellow": "2026-11-25T11:32:57.834Z",
+                  "corners": "2026-11-25T11:32:57.834Z"
+                }
+              },
+              "home": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 1,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:57.834Z",
+                  "yellow": "2026-11-25T11:32:57.834Z",
+                  "corners": "2026-11-25T11:32:57.834Z"
+                }
+              }
+            },
+            "clockObservedAt": "2026-11-25T11:33:00.297Z",
+            "scoreObservedAt": "2026-11-25T11:33:00.297Z",
+            "clockMilliseconds": 2040000,
+            "feedPhaseObservedAt": "2026-11-25T11:33:00.297Z"
+          },
+          "nativeMarketOutcomes": null
+        }
+      },
+      {
+        "synthetic_line_id": "00000000-0000-0000-0000-000000000004",
+        "synthetic_ticket_id": "00000000-0000-0000-0001-000000000001",
+        "match_id": 8000078881460,
+        "market_key": "zz763@e30",
+        "market_name": "1st Half - Matchbet and both teams to score",
+        "line": "",
+        "outcome_key": "z2964012872",
+        "outcome_name": "Home / No",
+        "match_name": "Dire Dawa vs Arba Minch Kenema",
+        "odds_at_placement": 1.95,
+        "status": "WON",
+        "settlement_reason": null,
+        "live_contract": {
+          "btts": false,
+          "half": 1,
+          "kind": "half-combo",
+          "choice": "1",
+          "family": "result-btts",
+          "version": 1
+        },
+        "accepted_contract": {
+          "line": "",
+          "version": 1,
+          "kickoffAt": "2026-11-25T11:00:00.000Z",
+          "liveTerms": {
+            "btts": false,
+            "half": 1,
+            "kind": "half-combo",
+            "choice": "1",
+            "family": "result-btts",
+            "version": 1
+          },
+          "builderLegs": null,
+          "acceptedOdds": 5.3,
+          "awayTeamName": "Arba Minch Kenema",
+          "homeTeamName": "Dire Dawa",
+          "nativeMarketId": "763",
+          "providerPeriod": 1,
+          "settlementHold": null,
+          "nativeOutcomeId": "2964012872",
+          "offerObservedAt": "2026-11-25T11:32:57.786Z",
+          "nativeMarketName": "1st Half - Matchbet and both teams to score",
+          "nativeParameters": {},
+          "sourceProviderId": "ZIZOBET",
+          "nativeOutcomeName": "Home / No",
+          "providerMarketKey": "zz763@e30",
+          "providerMarketName": "1st Half - Matchbet and both teams to score",
+          "providerOutcomeKey": "z2964012872",
+          "providerOutcomeName": "Home / No",
+          "acceptedLiveSnapshot": {
+            "isLive": true,
+            "counters": {
+              "card": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-stats"
+              },
+              "foul": null,
+              "goal": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-score"
+              },
+              "corner": {
+                "away": 3,
+                "home": 1,
+                "source": "zizobet-stats"
+              }
+            },
+            "feedPhase": "First Half",
+            "scoreAway": 0,
+            "scoreHome": 0,
+            "capturedAt": "2026-11-25T11:33:09.279Z",
+            "statistics": {
+              "away": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 3,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:57.834Z",
+                  "yellow": "2026-11-25T11:32:57.834Z",
+                  "corners": "2026-11-25T11:32:57.834Z"
+                }
+              },
+              "home": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 1,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:57.834Z",
+                  "yellow": "2026-11-25T11:32:57.834Z",
+                  "corners": "2026-11-25T11:32:57.834Z"
+                }
+              }
+            },
+            "clockObservedAt": "2026-11-25T11:33:00.297Z",
+            "scoreObservedAt": "2026-11-25T11:33:00.297Z",
+            "clockMilliseconds": 2040000,
+            "feedPhaseObservedAt": "2026-11-25T11:33:00.297Z"
+          },
+          "nativeMarketOutcomes": null
+        }
+      },
+      {
+        "synthetic_line_id": "00000000-0000-0000-0000-000000000005",
+        "synthetic_ticket_id": "00000000-0000-0000-0001-000000000001",
+        "match_id": 8000078881372,
+        "market_key": "zz17914@e30",
+        "market_name": "1st half - Antalyaspor AS U19 clean sheet",
+        "line": "",
+        "outcome_key": "No",
+        "outcome_name": "No",
+        "match_name": "Antalyaspor AS U19 vs Serik Spor Futbol AS U19",
+        "odds_at_placement": 1.95,
+        "status": "PENDING",
+        "settlement_reason": "NO_SETTLEMENT_RULE",
+        "live_contract": null,
+        "accepted_contract": {
+          "line": "",
+          "version": 1,
+          "kickoffAt": "2026-11-25T11:00:00.000Z",
+          "liveTerms": null,
+          "builderLegs": null,
+          "acceptedOdds": 3.85,
+          "awayTeamName": "Serik Spor Futbol AS U19",
+          "homeTeamName": "Antalyaspor AS U19",
+          "nativeMarketId": "17914",
+          "providerPeriod": 1,
+          "settlementHold": "NATIVE_PARAMETERS_UNMAPPED",
+          "nativeOutcomeId": "2964011107",
+          "offerObservedAt": "2026-11-25T11:32:17.748Z",
+          "nativeMarketName": "1st half - {$competitor1} clean sheet",
+          "nativeParameters": {},
+          "sourceProviderId": "ZIZOBET",
+          "nativeOutcomeName": "No",
+          "providerMarketKey": "zz17914@e30",
+          "providerMarketName": "1st half - Antalyaspor AS U19 clean sheet",
+          "providerOutcomeKey": "No",
+          "providerOutcomeName": "No",
+          "acceptedLiveSnapshot": {
+            "isLive": true,
+            "counters": {
+              "card": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-stats"
+              },
+              "foul": null,
+              "goal": {
+                "away": 0,
+                "home": 2,
+                "source": "zizobet-score"
+              },
+              "corner": {
+                "away": 0,
+                "home": 2,
+                "source": "zizobet-stats"
+              }
+            },
+            "feedPhase": "First Half",
+            "scoreAway": 0,
+            "scoreHome": 2,
+            "capturedAt": "2026-11-25T11:32:21.361Z",
+            "statistics": {
+              "away": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 0,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:17.753Z",
+                  "yellow": "2026-11-25T11:32:17.753Z",
+                  "corners": "2026-11-25T11:32:17.753Z"
+                }
+              },
+              "home": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 2,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:17.753Z",
+                  "yellow": "2026-11-25T11:32:17.753Z",
+                  "corners": "2026-11-25T11:32:17.753Z"
+                }
+              }
+            },
+            "clockObservedAt": "2026-11-25T11:32:17.753Z",
+            "scoreObservedAt": "2026-11-25T11:32:17.753Z",
+            "clockMilliseconds": 1469000,
+            "feedPhaseObservedAt": "2026-11-25T11:32:17.753Z"
+          },
+          "nativeMarketOutcomes": null
+        }
+      },
+      {
+        "synthetic_line_id": "00000000-0000-0000-0000-000000000006",
+        "synthetic_ticket_id": "00000000-0000-0000-0001-000000000001",
+        "match_id": 8000078881372,
+        "market_key": "zz17912@e30",
+        "market_name": "1st half - Antalyaspor AS U19 total",
+        "line": "2.5",
+        "outcome_key": "Over",
+        "outcome_name": "Over",
+        "match_name": "Antalyaspor AS U19 vs Serik Spor Futbol AS U19",
+        "odds_at_placement": 1.95,
+        "status": "PENDING",
+        "settlement_reason": "NO_SETTLEMENT_RULE",
+        "live_contract": null,
+        "accepted_contract": {
+          "line": "2.5",
+          "version": 1,
+          "kickoffAt": "2026-11-25T11:00:00.000Z",
+          "liveTerms": null,
+          "builderLegs": null,
+          "acceptedOdds": 2.25,
+          "awayTeamName": "Serik Spor Futbol AS U19",
+          "homeTeamName": "Antalyaspor AS U19",
+          "nativeMarketId": "17912",
+          "providerPeriod": 1,
+          "settlementHold": "NATIVE_PARAMETERS_UNMAPPED",
+          "nativeOutcomeId": "2964038211",
+          "offerObservedAt": "2026-11-25T11:32:17.748Z",
+          "nativeMarketName": "1st half - {$competitor1} total",
+          "nativeParameters": {},
+          "sourceProviderId": "ZIZOBET",
+          "nativeOutcomeName": "Over",
+          "providerMarketKey": "zz17912@e30",
+          "providerMarketName": "1st half - Antalyaspor AS U19 total",
+          "providerOutcomeKey": "Over",
+          "providerOutcomeName": "Over",
+          "acceptedLiveSnapshot": {
+            "isLive": true,
+            "counters": {
+              "card": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-stats"
+              },
+              "foul": null,
+              "goal": {
+                "away": 0,
+                "home": 2,
+                "source": "zizobet-score"
+              },
+              "corner": {
+                "away": 0,
+                "home": 2,
+                "source": "zizobet-stats"
+              }
+            },
+            "feedPhase": "First Half",
+            "scoreAway": 0,
+            "scoreHome": 2,
+            "capturedAt": "2026-11-25T11:32:21.391Z",
+            "statistics": {
+              "away": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 0,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:17.753Z",
+                  "yellow": "2026-11-25T11:32:17.753Z",
+                  "corners": "2026-11-25T11:32:17.753Z"
+                }
+              },
+              "home": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 2,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:17.753Z",
+                  "yellow": "2026-11-25T11:32:17.753Z",
+                  "corners": "2026-11-25T11:32:17.753Z"
+                }
+              }
+            },
+            "clockObservedAt": "2026-11-25T11:32:17.753Z",
+            "scoreObservedAt": "2026-11-25T11:32:17.753Z",
+            "clockMilliseconds": 1469000,
+            "feedPhaseObservedAt": "2026-11-25T11:32:17.753Z"
+          },
+          "nativeMarketOutcomes": null
+        }
+      },
+      {
+        "synthetic_line_id": "00000000-0000-0000-0000-000000000007",
+        "synthetic_ticket_id": "00000000-0000-0000-0001-000000000001",
+        "match_id": 8000078881460,
+        "market_key": "zz17915@e30",
+        "market_name": "1st half - Arba Minch Kenema clean sheet",
+        "line": "",
+        "outcome_key": "Yes",
+        "outcome_name": "Yes",
+        "match_name": "Dire Dawa vs Arba Minch Kenema",
+        "odds_at_placement": 1.95,
+        "status": "PENDING",
+        "settlement_reason": "NO_SETTLEMENT_RULE",
+        "live_contract": null,
+        "accepted_contract": {
+          "line": "",
+          "version": 1,
+          "kickoffAt": "2026-11-25T11:00:00.000Z",
+          "liveTerms": null,
+          "builderLegs": null,
+          "acceptedOdds": 1.15,
+          "awayTeamName": "Arba Minch Kenema",
+          "homeTeamName": "Dire Dawa",
+          "nativeMarketId": "17915",
+          "providerPeriod": 1,
+          "settlementHold": "NATIVE_PARAMETERS_UNMAPPED",
+          "nativeOutcomeId": "2964012869",
+          "offerObservedAt": "2026-11-25T11:32:57.786Z",
+          "nativeMarketName": "1st half - {$competitor2} clean sheet",
+          "nativeParameters": {},
+          "sourceProviderId": "ZIZOBET",
+          "nativeOutcomeName": "Yes",
+          "providerMarketKey": "zz17915@e30",
+          "providerMarketName": "1st half - Arba Minch Kenema clean sheet",
+          "providerOutcomeKey": "Yes",
+          "providerOutcomeName": "Yes",
+          "acceptedLiveSnapshot": {
+            "isLive": true,
+            "counters": {
+              "card": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-stats"
+              },
+              "foul": null,
+              "goal": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-score"
+              },
+              "corner": {
+                "away": 3,
+                "home": 1,
+                "source": "zizobet-stats"
+              }
+            },
+            "feedPhase": "First Half",
+            "scoreAway": 0,
+            "scoreHome": 0,
+            "capturedAt": "2026-11-25T11:33:08.895Z",
+            "statistics": {
+              "away": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 3,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:57.834Z",
+                  "yellow": "2026-11-25T11:32:57.834Z",
+                  "corners": "2026-11-25T11:32:57.834Z"
+                }
+              },
+              "home": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 1,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:57.834Z",
+                  "yellow": "2026-11-25T11:32:57.834Z",
+                  "corners": "2026-11-25T11:32:57.834Z"
+                }
+              }
+            },
+            "clockObservedAt": "2026-11-25T11:33:00.297Z",
+            "scoreObservedAt": "2026-11-25T11:33:00.297Z",
+            "clockMilliseconds": 2040000,
+            "feedPhaseObservedAt": "2026-11-25T11:33:00.297Z"
+          },
+          "nativeMarketOutcomes": null
+        }
+      },
+      {
+        "synthetic_line_id": "00000000-0000-0000-0000-000000000008",
+        "synthetic_ticket_id": "00000000-0000-0000-0001-000000000001",
+        "match_id": 8000078881460,
+        "market_key": "zz17913@e30",
+        "market_name": "1st half - Arba Minch Kenema total",
+        "line": "0.5",
+        "outcome_key": "Over",
+        "outcome_name": "Over",
+        "match_name": "Dire Dawa vs Arba Minch Kenema",
+        "odds_at_placement": 1.95,
+        "status": "PENDING",
+        "settlement_reason": "NO_SETTLEMENT_RULE",
+        "live_contract": null,
+        "accepted_contract": {
+          "line": "0.5",
+          "version": 1,
+          "kickoffAt": "2026-11-25T11:00:00.000Z",
+          "liveTerms": null,
+          "builderLegs": null,
+          "acceptedOdds": 5.6,
+          "awayTeamName": "Arba Minch Kenema",
+          "homeTeamName": "Dire Dawa",
+          "nativeMarketId": "17913",
+          "providerPeriod": 1,
+          "settlementHold": "NATIVE_PARAMETERS_UNMAPPED",
+          "nativeOutcomeId": "2964012852",
+          "offerObservedAt": "2026-11-25T11:32:57.786Z",
+          "nativeMarketName": "1st half - {$competitor2} total",
+          "nativeParameters": {},
+          "sourceProviderId": "ZIZOBET",
+          "nativeOutcomeName": "Over",
+          "providerMarketKey": "zz17913@e30",
+          "providerMarketName": "1st half - Arba Minch Kenema total",
+          "providerOutcomeKey": "Over",
+          "providerOutcomeName": "Over",
+          "acceptedLiveSnapshot": {
+            "isLive": true,
+            "counters": {
+              "card": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-stats"
+              },
+              "foul": null,
+              "goal": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-score"
+              },
+              "corner": {
+                "away": 3,
+                "home": 1,
+                "source": "zizobet-stats"
+              }
+            },
+            "feedPhase": "First Half",
+            "scoreAway": 0,
+            "scoreHome": 0,
+            "capturedAt": "2026-11-25T11:33:09.019Z",
+            "statistics": {
+              "away": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 3,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:57.834Z",
+                  "yellow": "2026-11-25T11:32:57.834Z",
+                  "corners": "2026-11-25T11:32:57.834Z"
+                }
+              },
+              "home": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 1,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:57.834Z",
+                  "yellow": "2026-11-25T11:32:57.834Z",
+                  "corners": "2026-11-25T11:32:57.834Z"
+                }
+              }
+            },
+            "clockObservedAt": "2026-11-25T11:33:00.297Z",
+            "scoreObservedAt": "2026-11-25T11:33:00.297Z",
+            "clockMilliseconds": 2040000,
+            "feedPhaseObservedAt": "2026-11-25T11:33:00.297Z"
+          },
+          "nativeMarketOutcomes": null
+        }
+      },
+      {
+        "synthetic_line_id": "00000000-0000-0000-0000-000000000009",
+        "synthetic_ticket_id": "00000000-0000-0000-0001-000000000001",
+        "match_id": 8000078881460,
+        "market_key": "zz17914@e30",
+        "market_name": "1st half - Dire Dawa clean sheet",
+        "line": "",
+        "outcome_key": "Yes",
+        "outcome_name": "Yes",
+        "match_name": "Dire Dawa vs Arba Minch Kenema",
+        "odds_at_placement": 1.95,
+        "status": "PENDING",
+        "settlement_reason": "NO_SETTLEMENT_RULE",
+        "live_contract": null,
+        "accepted_contract": {
+          "line": "",
+          "version": 1,
+          "kickoffAt": "2026-11-25T11:00:00.000Z",
+          "liveTerms": null,
+          "builderLegs": null,
+          "acceptedOdds": 1.1,
+          "awayTeamName": "Arba Minch Kenema",
+          "homeTeamName": "Dire Dawa",
+          "nativeMarketId": "17914",
+          "providerPeriod": 1,
+          "settlementHold": "NATIVE_PARAMETERS_UNMAPPED",
+          "nativeOutcomeId": "2964012867",
+          "offerObservedAt": "2026-11-25T11:32:57.786Z",
+          "nativeMarketName": "1st half - {$competitor1} clean sheet",
+          "nativeParameters": {},
+          "sourceProviderId": "ZIZOBET",
+          "nativeOutcomeName": "Yes",
+          "providerMarketKey": "zz17914@e30",
+          "providerMarketName": "1st half - Dire Dawa clean sheet",
+          "providerOutcomeKey": "Yes",
+          "providerOutcomeName": "Yes",
+          "acceptedLiveSnapshot": {
+            "isLive": true,
+            "counters": {
+              "card": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-stats"
+              },
+              "foul": null,
+              "goal": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-score"
+              },
+              "corner": {
+                "away": 3,
+                "home": 1,
+                "source": "zizobet-stats"
+              }
+            },
+            "feedPhase": "First Half",
+            "scoreAway": 0,
+            "scoreHome": 0,
+            "capturedAt": "2026-11-25T11:33:08.845Z",
+            "statistics": {
+              "away": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 3,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:57.834Z",
+                  "yellow": "2026-11-25T11:32:57.834Z",
+                  "corners": "2026-11-25T11:32:57.834Z"
+                }
+              },
+              "home": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 1,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:57.834Z",
+                  "yellow": "2026-11-25T11:32:57.834Z",
+                  "corners": "2026-11-25T11:32:57.834Z"
+                }
+              }
+            },
+            "clockObservedAt": "2026-11-25T11:33:00.297Z",
+            "scoreObservedAt": "2026-11-25T11:33:00.297Z",
+            "clockMilliseconds": 2040000,
+            "feedPhaseObservedAt": "2026-11-25T11:33:00.297Z"
+          },
+          "nativeMarketOutcomes": null
+        }
+      },
+      {
+        "synthetic_line_id": "00000000-0000-0000-0000-000000000010",
+        "synthetic_ticket_id": "00000000-0000-0000-0001-000000000001",
+        "match_id": 8000078881460,
+        "market_key": "zz17912@e30",
+        "market_name": "1st half - Dire Dawa total",
+        "line": "0.5",
+        "outcome_key": "Under",
+        "outcome_name": "Under",
+        "match_name": "Dire Dawa vs Arba Minch Kenema",
+        "odds_at_placement": 1.95,
+        "status": "PENDING",
+        "settlement_reason": "NO_SETTLEMENT_RULE",
+        "live_contract": null,
+        "accepted_contract": {
+          "line": "0.5",
+          "version": 1,
+          "kickoffAt": "2026-11-25T11:00:00.000Z",
+          "liveTerms": null,
+          "builderLegs": null,
+          "acceptedOdds": 1.15,
+          "awayTeamName": "Arba Minch Kenema",
+          "homeTeamName": "Dire Dawa",
+          "nativeMarketId": "17912",
+          "providerPeriod": 1,
+          "settlementHold": "NATIVE_PARAMETERS_UNMAPPED",
+          "nativeOutcomeId": "2964012846",
+          "offerObservedAt": "2026-11-25T11:32:57.786Z",
+          "nativeMarketName": "1st half - {$competitor1} total",
+          "nativeParameters": {},
+          "sourceProviderId": "ZIZOBET",
+          "nativeOutcomeName": "Under",
+          "providerMarketKey": "zz17912@e30",
+          "providerMarketName": "1st half - Dire Dawa total",
+          "providerOutcomeKey": "Under",
+          "providerOutcomeName": "Under",
+          "acceptedLiveSnapshot": {
+            "isLive": true,
+            "counters": {
+              "card": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-stats"
+              },
+              "foul": null,
+              "goal": {
+                "away": 0,
+                "home": 0,
+                "source": "zizobet-score"
+              },
+              "corner": {
+                "away": 3,
+                "home": 1,
+                "source": "zizobet-stats"
+              }
+            },
+            "feedPhase": "First Half",
+            "scoreAway": 0,
+            "scoreHome": 0,
+            "capturedAt": "2026-11-25T11:33:08.993Z",
+            "statistics": {
+              "away": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 3,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:57.834Z",
+                  "yellow": "2026-11-25T11:32:57.834Z",
+                  "corners": "2026-11-25T11:32:57.834Z"
+                }
+              },
+              "home": {
+                "red": 0,
+                "yellow": 0,
+                "corners": 1,
+                "_observedAt": {
+                  "red": "2026-11-25T11:32:57.834Z",
+                  "yellow": "2026-11-25T11:32:57.834Z",
+                  "corners": "2026-11-25T11:32:57.834Z"
+                }
+              }
+            },
+            "clockObservedAt": "2026-11-25T11:33:00.297Z",
+            "scoreObservedAt": "2026-11-25T11:33:00.297Z",
+            "clockMilliseconds": 2040000,
+            "feedPhaseObservedAt": "2026-11-25T11:33:00.297Z"
+          },
+          "nativeMarketOutcomes": null
+        }
+      }
+    ],
+    "app_match_result": [
+      {
+        "match_id": 8000078881487,
+        "home_team": "Kabwe Warriors",
+        "away_team": "Nkwazi",
+        "home_score": 1,
+        "away_score": 1,
+        "half_home_score": 0,
+        "half_away_score": 1,
+        "corners_home": 4,
+        "corners_away": 2,
+        "cards_home": 2,
+        "cards_away": 2,
+        "source": "ZIZOBET",
+        "statistics": {
+          "fouls": {},
+          "shots": {},
+          "cornerPeriods": null,
+          "shotsOnTarget": {}
+        },
+        "finished_at": "2026-11-25T15:05:19.362Z",
+        "settled_at": null
+      },
+      {
+        "match_id": 8000078916180,
+        "home_team": "Switzerland (Kai)",
+        "away_team": "Spain (Alexander)",
+        "home_score": 1,
+        "away_score": 3,
+        "half_home_score": 1,
+        "half_away_score": 1,
+        "corners_home": 5,
+        "corners_away": 5,
+        "cards_home": 0,
+        "cards_away": 0,
+        "source": "ZIZOBET",
+        "statistics": {
+          "fouls": {},
+          "shots": {},
+          "cornerPeriods": null,
+          "shotsOnTarget": {}
+        },
+        "finished_at": "2026-11-25T15:02:26.760Z",
+        "settled_at": null
+      },
+      {
+        "match_id": 8000078916182,
+        "home_team": "Croatia (Lorenzo)",
+        "away_team": "France (Haidan)",
+        "home_score": 4,
+        "away_score": 2,
+        "half_home_score": 3,
+        "half_away_score": 0,
+        "corners_home": 1,
+        "corners_away": 3,
+        "cards_home": 0,
+        "cards_away": 1,
+        "source": "ZIZOBET",
+        "statistics": {
+          "fouls": {},
+          "shots": {},
+          "cornerPeriods": null,
+          "shotsOnTarget": {}
+        },
+        "finished_at": "2026-11-25T15:01:25.751Z",
+        "settled_at": null
+      }
+    ],
+    "app_match_half_result": [
+      {
+        "match_id": 8000078881460,
+        "home_team": "Dire Dawa",
+        "away_team": "Arba Minch Kenema",
+        "half_home_score": 1,
+        "half_away_score": 0,
+        "signature": "[\"Dire Dawa\",\"Arba Minch Kenema\",1,0]",
+        "source": "ZIZOBET",
+        "confirmed_at": "2026-11-25T12:04:32.973Z"
+      },
+      {
+        "match_id": 8000078881372,
+        "home_team": "Antalyaspor AS U19",
+        "away_team": "Serik Spor Futbol AS U19",
+        "half_home_score": 2,
+        "half_away_score": 0,
+        "signature": "[\"Antalyaspor AS U19\",\"Serik Spor Futbol AS U19\",2,0]",
+        "source": "ZIZOBET",
+        "confirmed_at": "2026-11-25T12:14:35.022Z"
+      }
+    ],
+    "app_match_event_fact": [
+      {
+        "match_id": 8000078881437,
+        "provider": "zizobet",
+        "kind": "corner",
+        "provider_event_id": "anonymous:aa4020a959f081bf99091705abb4e3ce",
+        "team": "away",
+        "minute": 18,
+        "seconds": 1031,
+        "phase": null,
+        "active": true,
+        "observed_at": "2026-11-25T15:08:32.937Z",
+        "aiscore_verified": false,
+        "fotmob_verified": false,
+        "has_aiscore_player": false,
+        "has_fotmob_player": false
+      },
+      {
+        "match_id": 8000078881437,
+        "provider": "zizobet",
+        "kind": "corner",
+        "provider_event_id": "anonymous:55938f4966acc630037c1f480c623f13",
+        "team": "home",
+        "minute": 27,
+        "seconds": 1604,
+        "phase": null,
+        "active": true,
+        "observed_at": "2026-11-25T15:08:32.937Z",
+        "aiscore_verified": false,
+        "fotmob_verified": false,
+        "has_aiscore_player": false,
+        "has_fotmob_player": false
+      },
+      {
+        "match_id": 8000078881437,
+        "provider": "zizobet",
+        "kind": "corner",
+        "provider_event_id": "anonymous:683be63274f2da69a83bb0aaad106466",
+        "team": "away",
+        "minute": 12,
+        "seconds": 708,
+        "phase": null,
+        "active": true,
+        "observed_at": "2026-11-25T15:08:32.937Z",
+        "aiscore_verified": false,
+        "fotmob_verified": false,
+        "has_aiscore_player": false,
+        "has_fotmob_player": false
+      },
+      {
+        "match_id": 8000078881437,
+        "provider": "zizobet",
+        "kind": "corner",
+        "provider_event_id": "anonymous:66049647be453943246066997af34dc2",
+        "team": "home",
+        "minute": 8,
+        "seconds": 437,
+        "phase": null,
+        "active": true,
+        "observed_at": "2026-11-25T15:08:32.937Z",
+        "aiscore_verified": false,
+        "fotmob_verified": false,
+        "has_aiscore_player": false,
+        "has_fotmob_player": false
+      },
+      {
+        "match_id": 8000078881437,
+        "provider": "zizobet",
+        "kind": "corner",
+        "provider_event_id": "anonymous:91431338836b87dec418bac311734423",
+        "team": "away",
+        "minute": 7,
+        "seconds": 362,
+        "phase": null,
+        "active": true,
+        "observed_at": "2026-11-25T15:08:32.937Z",
+        "aiscore_verified": false,
+        "fotmob_verified": false,
+        "has_aiscore_player": false,
+        "has_fotmob_player": false
+      },
+      {
+        "match_id": 8000078881437,
+        "provider": "zizobet",
+        "kind": "corner",
+        "provider_event_id": "anonymous:9ac3381b0ca22e6991a29aa66003fe48",
+        "team": "home",
+        "minute": 31,
+        "seconds": 1819,
+        "phase": null,
+        "active": true,
+        "observed_at": "2026-11-25T15:08:32.937Z",
+        "aiscore_verified": false,
+        "fotmob_verified": false,
+        "has_aiscore_player": false,
+        "has_fotmob_player": false
+      }
+    ],
+    "app_match_event_coverage": [
+      {
+        "match_id": 8000075761325,
+        "provider": "zizobet",
+        "kind": "corner",
+        "through_minute": 130,
+        "count_home": 11,
+        "count_away": 2,
+        "complete": true,
+        "observed_at": "2026-11-25T12:34:22.285Z",
+        "card_colors_verified": false,
+        "sample_signature": "af0d53cf1e3fcca705b2d4e31130b8e9dffd381a501530002449e62a295abaf6",
+        "sample_first_seen_at": "2026-11-25T11:52:53.284Z",
+        "confirmed_at": "2026-11-25T11:52:59.879Z"
+      },
+      {
+        "match_id": 8000075761339,
+        "provider": "zizobet",
+        "kind": "goal",
+        "through_minute": 130,
+        "count_home": 0,
+        "count_away": 1,
+        "complete": true,
+        "observed_at": "2026-11-25T12:37:18.673Z",
+        "card_colors_verified": false,
+        "sample_signature": "bddfaa818b57f705498f5bdb0dda9835fa99607bc85990383cabf7855257b630",
+        "sample_first_seen_at": "2026-11-25T11:53:42.948Z",
+        "confirmed_at": "2026-11-25T11:54:43.832Z"
+      },
+      {
+        "match_id": 8000075761321,
+        "provider": "zizobet",
+        "kind": "goal",
+        "through_minute": 130,
+        "count_home": 1,
+        "count_away": 2,
+        "complete": true,
+        "observed_at": "2026-11-25T12:47:37.256Z",
+        "card_colors_verified": false,
+        "sample_signature": "68e7f89e56cedb8fb4b0360bd88a5638d7a03dc0ba24102287b97be867271d60",
+        "sample_first_seen_at": "2026-11-25T11:58:54.897Z",
+        "confirmed_at": "2026-11-25T12:00:01.330Z"
+      },
+      {
+        "match_id": 8000075761321,
+        "provider": "zizobet",
+        "kind": "corner",
+        "through_minute": 130,
+        "count_home": 7,
+        "count_away": 2,
+        "complete": true,
+        "observed_at": "2026-11-25T12:47:37.256Z",
+        "card_colors_verified": false,
+        "sample_signature": "f029910879fdb00079f7a9730cd221d73fca1cf8aeab2fadd3776b3ea7a8f58b",
+        "sample_first_seen_at": "2026-11-25T11:58:54.897Z",
+        "confirmed_at": "2026-11-25T12:00:01.330Z"
+      }
+    ],
+    "app_zizobet_match_history": [
+      {
+        "match_id": 8000078457637,
+        "timeline_signature": "88eed31c6e4645c3e13af7a53679ffefba24bac4ed53f0c2a7cc8aa71a3fcf88",
+        "observed_at": "2026-11-25T15:08:33.079Z",
+        "details_summary": {
+          "keys": [
+            "away",
+            "home",
+            "goals",
+            "phase",
+            "corners",
+            "matchId",
+            "provider",
+            "redCards",
+            "kickoffAt",
+            "clockMinute",
+            "yellowCards",
+            "periodScores"
+          ],
+          "awayScore": null,
+          "homeScore": null,
+          "eventStatus": null,
+          "halfAwayScore": null,
+          "halfHomeScore": null
+        }
+      },
+      {
+        "match_id": 8000078881430,
+        "timeline_signature": "1be111484582545868f2af64a7d9a1ce300ddff8bc4c31d70bb8f1f02730e287",
+        "observed_at": "2026-11-25T15:08:33.049Z",
+        "details_summary": {
+          "keys": [
+            "away",
+            "home",
+            "goals",
+            "phase",
+            "corners",
+            "matchId",
+            "provider",
+            "redCards",
+            "kickoffAt",
+            "clockMinute",
+            "yellowCards",
+            "periodScores"
+          ],
+          "awayScore": null,
+          "homeScore": null,
+          "eventStatus": null,
+          "halfAwayScore": null,
+          "halfHomeScore": null
+        }
+      }
+    ],
+    "app_zizobet_match_incident": [
+      {
+        "match_id": 8000078881437,
+        "kind": "goal",
+        "provider_event_id": "anonymous:22e75e1a844a28aa0379dca5fe258713",
+        "team": "away",
+        "minute": 12,
+        "detail": {
+          "id": "anonymous:22e75e1a844a28aa0379dca5fe258713",
+          "kind": "goal",
+          "team": "away",
+          "minute": 12,
+          "seconds": 710,
+          "minuteLabel": "12"
+        },
+        "active": true,
+        "first_observed_at": "2026-11-25T13:42:59.492Z",
+        "observed_at": "2026-11-25T15:08:32.933Z"
+      },
+      {
+        "match_id": 8000078881437,
+        "kind": "corner",
+        "provider_event_id": "anonymous:66049647be453943246066997af34dc2",
+        "team": "home",
+        "minute": 8,
+        "detail": {
+          "id": "anonymous:66049647be453943246066997af34dc2",
+          "kind": "corner",
+          "team": "home",
+          "minute": 8,
+          "seconds": 437,
+          "minuteLabel": "8"
+        },
+        "active": true,
+        "first_observed_at": "2026-11-25T13:40:02.500Z",
+        "observed_at": "2026-11-25T15:08:32.933Z"
+      },
+      {
+        "match_id": 8000078881437,
+        "kind": "corner",
+        "provider_event_id": "anonymous:91431338836b87dec418bac311734423",
+        "team": "away",
+        "minute": 7,
+        "detail": {
+          "id": "anonymous:91431338836b87dec418bac311734423",
+          "kind": "corner",
+          "team": "away",
+          "minute": 7,
+          "seconds": 362,
+          "minuteLabel": "7"
+        },
+        "active": true,
+        "first_observed_at": "2026-11-25T13:36:29.523Z",
+        "observed_at": "2026-11-25T15:08:32.933Z"
+      },
+      {
+        "match_id": 8000078881437,
+        "kind": "corner",
+        "provider_event_id": "anonymous:683be63274f2da69a83bb0aaad106466",
+        "team": "away",
+        "minute": 12,
+        "detail": {
+          "id": "anonymous:683be63274f2da69a83bb0aaad106466",
+          "kind": "corner",
+          "team": "away",
+          "minute": 12,
+          "seconds": 708,
+          "minuteLabel": "12"
+        },
+        "active": true,
+        "first_observed_at": "2026-11-25T13:42:59.492Z",
+        "observed_at": "2026-11-25T15:08:32.933Z"
+      },
+      {
+        "match_id": 8000078881437,
+        "kind": "corner",
+        "provider_event_id": "anonymous:aa4020a959f081bf99091705abb4e3ce",
+        "team": "away",
+        "minute": 18,
+        "detail": {
+          "id": "anonymous:aa4020a959f081bf99091705abb4e3ce",
+          "kind": "corner",
+          "team": "away",
+          "minute": 18,
+          "seconds": 1031,
+          "minuteLabel": "18"
+        },
+        "active": true,
+        "first_observed_at": "2026-11-25T13:49:02.761Z",
+        "observed_at": "2026-11-25T15:08:32.933Z"
+      }
+    ],
+    "app_provider_market_definition": [
+      {
+        "provider_id": "ZIZOBET",
+        "sport_id": 1,
+        "scope": "LIVE",
+        "native_market_id": "629",
+        "native_market_name": "Halftime - Next goal",
+        "definition": {
+          "N": 17,
+          "ID": 629,
+          "cs": [
+            27
+          ],
+          "Name": "Halftime - Next goal",
+          "Sport": 1,
+          "LinkID": 0,
+          "LinkIDs": [
+            "1"
+          ],
+          "hasdesc": true,
+          "Category": 27,
+          "IsHandicap": false,
+          "ColumnCount": 3,
+          "IsOverUnder": false,
+          "ThreeWayHandicap": false,
+          "IsDefaultResultMarket": false
+        }
+      },
+      {
+        "provider_id": "ZIZOBET",
+        "sport_id": 1,
+        "scope": "LIVE",
+        "native_market_id": "18640",
+        "native_market_name": "1st half - correct score [{score}]",
+        "definition": {
+          "N": 39,
+          "ID": 18640,
+          "cs": [
+            29,
+            27
+          ],
+          "Name": "1st half - correct score [{score}]",
+          "Sport": 1,
+          "LinkID": 0,
+          "LinkIDs": [
+            "1"
+          ],
+          "hasdesc": true,
+          "Category": 0,
+          "IsHandicap": false,
+          "ColumnCount": 2,
+          "IsOverUnder": false,
+          "ThreeWayHandicap": false,
+          "IsDefaultResultMarket": false
+        }
+      },
+      {
+        "provider_id": "ZIZOBET",
+        "sport_id": 1,
+        "scope": "LIVE",
+        "native_market_id": "648",
+        "native_market_name": "Who advances to next round?",
+        "definition": {
+          "N": 1,
+          "ID": 648,
+          "cs": [],
+          "Name": "Who advances to next round?",
+          "Sport": 1,
+          "LinkID": 0,
+          "LinkIDs": [
+            "1"
+          ],
+          "hasdesc": true,
+          "Category": 0,
+          "IsHandicap": false,
+          "ColumnCount": 2,
+          "IsOverUnder": false,
+          "ThreeWayHandicap": false,
+          "IsDefaultResultMarket": false
+        }
+      },
+      {
+        "provider_id": "ZIZOBET",
+        "sport_id": 1,
+        "scope": "LIVE",
+        "native_market_id": "651",
+        "native_market_name": "Winning Method",
+        "definition": {
+          "N": 20,
+          "ID": 651,
+          "cs": [],
+          "Name": "Winning Method",
+          "Sport": 1,
+          "LinkID": 0,
+          "LinkIDs": [
+            "1"
+          ],
+          "hasdesc": true,
+          "Category": 0,
+          "IsHandicap": false,
+          "ColumnCount": 2,
+          "IsOverUnder": false,
+          "ThreeWayHandicap": false,
+          "IsDefaultResultMarket": false
+        }
+      }
+    ],
+    "app_board_settings": [
+      {
+        "id": 1,
+        "settings": {
+          "prematchLimit": 200
+        },
+        "updated_at": "2026-11-25T11:31:34.557Z"
+      }
+    ],
+    "app_football_information_map_redacted": [],
+    "matches": [],
+    "odds_current": []
+  }
+}

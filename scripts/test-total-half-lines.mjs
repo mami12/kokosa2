@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import { isAllowedTotalLine } from '../web/src/utils/marketCatalog.ts';
+const total = (line, extra = {}) => ({ id:String(line), name:'Total Goals', marketType:'over_under', line:String(line), ...extra });
+for (const line of ['0.5','1.5','2.5','3.5','4.5','10.5']) assert.equal(isAllowedTotalLine(total(line)), true, `allow ${line}`);
+for (const line of ['0.25','0.75','1.25','2.25','3.25','3.75','4','5']) assert.equal(isAllowedTotalLine(total(line)), false, `hide ${line}`);
+assert.equal(isAllowedTotalLine(total('2.25', {name:'Total Corners'})), false);
+assert.equal(isAllowedTotalLine(total('3.75', {name:'Total Cards'})), false);
+assert.equal(isAllowedTotalLine(total('2.25', {name:'Total Fouls'})), false);
+assert.equal(isAllowedTotalLine({id:'cs',name:'Correct Score',marketType:'other',line:'2.25'}), true);
+assert.equal(isAllowedTotalLine({id:'dc',name:'Double Chance',marketType:'other',line:'2.25'}), true);
+assert.equal(isAllowedTotalLine({id:'unknown',name:'Total Goals',marketType:'over_under',line:''}), true);
+assert.equal(isAllowedTotalLine({id:'native',name:'Over/Under',nativeMarketName:'Total Goals',marketType:'over_under',line:'2.25'}), false);
+console.log('PASS: Total markets display only .5 lines.');
